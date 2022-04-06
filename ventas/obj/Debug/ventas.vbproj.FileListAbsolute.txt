@@ -1,0 +1,572 @@
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\SGA.exe.config
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\ventas.vbproj.ResolveComReference.cache
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\SGA.exe
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\SGA.xml
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\SGA.pdb
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.a_AcercaDe.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.base.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.baseReporte.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.c_articulo_x_grupo.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.c_historialCompras_x_articulo.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.c_inventarios.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.c_kardex.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.c_movimientos.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.c_nivelesAbastecimiento.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.c_recetas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.c_ventas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.e_precios.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.e_Transferencias.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.e_ventas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.Login.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_almacen.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_catalogo.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_catalogo2.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_cliente.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_conductor.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_empTransporte.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_familia.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_maximos.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_motivo.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_planCuentas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_precios.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_proveedor.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_rendimiento.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_subGrupo.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_tipo_articulo.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_tipo_cliente.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_tipo_proveedor.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_unidad.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.m_vendedor.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.principal.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_actualizaRecetas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_botellas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_cargaArticulos.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_conteoFisico.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_cuenta_cobrar.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_ingresos.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_inventario.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_inventarioDiario.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_inventarioMensual.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_mermas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_notaCredito.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_pedido.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_produccion.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_receta.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_salidas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_transferencia.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_transformaciones.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.p_ventas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.repComisiones.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.repCuentasCobrar.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.repIngresos.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.repNivelesAbastecimiento.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.repPedidos.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.repSaldos.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.repTransferencias.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.rptForm.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.repVentas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_actLotes.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_codigosExt.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_envioCompras.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_envioVentas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_importaMicros.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_importaVentas.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_tipoCambio.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_usuarios.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_variables.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.Resources.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\cefe.u_importaVentas_dbf.resources
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\SGA.exe.licenses
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\SGA.exe.manifest
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\SGA.application
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\SGA.exe
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\SGA.pdb
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\SGA.xml
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\libreriaClases.dll
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\mControles.dll
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\dotnetCHARTING.WinForms.dll
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\libreriaClases.pdb
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\libreriaClases.xml
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\mControles.pdb
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\bin\Debug\mControles.xml
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\SGA.exe.manifest
+C:\Users\Administrador\Desktop\migrarx\fuentes\ventas\obj\Debug\SGA.application
+D:\sga_vb2010\ventas\bin\Debug\SGA.exe.config
+D:\sga_vb2010\ventas\obj\Debug\ventas.vbproj.ResolveComReference.cache
+D:\sga_vb2010\ventas\bin\Debug\SGA.exe.manifest
+D:\sga_vb2010\ventas\bin\Debug\SGA.application
+D:\sga_vb2010\ventas\bin\Debug\SGA.exe
+D:\sga_vb2010\ventas\bin\Debug\SGA.pdb
+D:\sga_vb2010\ventas\bin\Debug\libreriaClases.dll
+D:\sga_vb2010\ventas\bin\Debug\mControles.dll
+D:\sga_vb2010\ventas\bin\Debug\dotnetCHARTING.WinForms.dll
+D:\sga_vb2010\ventas\bin\Debug\libreriaClases.pdb
+D:\sga_vb2010\ventas\bin\Debug\libreriaClases.xml
+D:\sga_vb2010\ventas\bin\Debug\mControles.pdb
+D:\sga_vb2010\ventas\bin\Debug\mControles.xml
+D:\sga_vb2010\ventas\obj\Debug\ResolveAssemblyReference.cache
+D:\sga_vb2010\ventas\obj\Debug\cefe.a_AcercaDe.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.base.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.baseReporte.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.c_articulo_x_grupo.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.c_historialCompras_x_articulo.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.c_inventarios.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.c_kardex.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.c_movimientos.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.c_nivelesAbastecimiento.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.c_recetas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.c_ventas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_enviarEmail.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.e_precios.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.e_Transferencias.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.e_ventas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.Login.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_almacen.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_catalogo.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_catalogo2.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_cliente.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_conductor.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_empTransporte.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_familia.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_maximos.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_motivo.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_planCuentas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_precios.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_proveedor.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_rendimiento.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_subGrupo.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_tipo_articulo.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_tipo_cliente.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_tipo_proveedor.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_unidad.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.m_vendedor.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.principal.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_actualizaRecetas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_botellas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_cargaArticulos.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_conteoFisico.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_cuenta_cobrar.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_ingresos.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_inventario.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_inventarioDiario.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_inventarioMensual.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_mermas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_notaCredito.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_pedido.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_produccion.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_receta.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_salidas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_transferencia.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_transformaciones.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.p_ventas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.repComisiones.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.repCuentasCobrar.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.repIngresos.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.repNivelesAbastecimiento.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.repPedidos.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.repSaldos.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.repTransferencias.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.rptForm.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.repVentas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_actLotes.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_codigosExt.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_envioCompras.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_envioVentas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_importaMicros.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_importaVentas.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_tipoCambio.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_usuarios.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_variables.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.Resources.resources
+D:\sga_vb2010\ventas\obj\Debug\cefe.u_importaVentas_dbf.resources
+D:\sga_vb2010\ventas\obj\Debug\GenerateResource.read.1.tlog
+D:\sga_vb2010\ventas\obj\Debug\GenerateResource.write.1.tlog
+D:\sga_vb2010\ventas\obj\Debug\SGA.exe.licenses
+D:\sga_vb2010\ventas\obj\Debug\SGA.exe.manifest
+D:\sga_vb2010\ventas\obj\Debug\SGA.application
+D:\sga_vb2010\ventas\obj\Debug\SGA.exe
+D:\sga_vb2010\ventas\obj\Debug\SGA.pdb
+E:\sga_vb2010\ventas\bin\Debug\SGA.exe.config
+E:\sga_vb2010\ventas\obj\Debug\ventas.vbproj.ResolveComReference.cache
+E:\sga_vb2010\ventas\bin\Debug\SGA.exe.manifest
+E:\sga_vb2010\ventas\bin\Debug\SGA.application
+E:\sga_vb2010\ventas\bin\Debug\SGA.exe
+E:\sga_vb2010\ventas\bin\Debug\SGA.pdb
+E:\sga_vb2010\ventas\bin\Debug\libreriaClases.dll
+E:\sga_vb2010\ventas\bin\Debug\mControles.dll
+E:\sga_vb2010\ventas\bin\Debug\dotnetCHARTING.WinForms.dll
+E:\sga_vb2010\ventas\bin\Debug\libreriaClases.pdb
+E:\sga_vb2010\ventas\bin\Debug\libreriaClases.xml
+E:\sga_vb2010\ventas\bin\Debug\mControles.pdb
+E:\sga_vb2010\ventas\bin\Debug\mControles.xml
+E:\sga_vb2010\ventas\obj\Debug\ResolveAssemblyReference.cache
+E:\sga_vb2010\ventas\obj\Debug\cefe.a_AcercaDe.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.base.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.baseReporte.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.c_articulo_x_grupo.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.c_historialCompras_x_articulo.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.c_inventarios.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.c_kardex.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.c_movimientos.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.c_nivelesAbastecimiento.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.c_recetas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.c_ventas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_enviarEmail.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.e_precios.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.e_Transferencias.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.e_ventas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.Login.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_almacen.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_catalogo.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_catalogo2.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_cliente.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_conductor.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_empTransporte.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_familia.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_maximos.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_motivo.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_planCuentas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_precios.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_proveedor.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_rendimiento.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_subGrupo.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_tipo_articulo.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_tipo_cliente.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_tipo_proveedor.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_unidad.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.m_vendedor.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.principal.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_actualizaRecetas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_botellas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_cargaArticulos.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_conteoFisico.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_cuenta_cobrar.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_ingresos.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_inventario.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_inventarioDiario.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_inventarioMensual.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_mermas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_notaCredito.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_notas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_pedido.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_produccion.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_receta.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_salidas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_transferencia.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_transformaciones.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.p_ventas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.repComisiones.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.repCuentasCobrar.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.repIngresos.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.repNivelesAbastecimiento.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.repPedidos.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.repSaldos.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.repTransferencias.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.rptForm.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.repVentas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_actLotes.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_codigosExt.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_envioCompras.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_envioVentas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_importaMicros.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_importaVentas.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_tipoCambio.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_usuarios.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_variables.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.Resources.resources
+E:\sga_vb2010\ventas\obj\Debug\cefe.u_importaVentas_dbf.resources
+E:\sga_vb2010\ventas\obj\Debug\GenerateResource.read.1.tlog
+E:\sga_vb2010\ventas\obj\Debug\GenerateResource.write.1.tlog
+E:\sga_vb2010\ventas\obj\Debug\SGA.exe.licenses
+E:\sga_vb2010\ventas\obj\Debug\SGA.exe.manifest
+E:\sga_vb2010\ventas\obj\Debug\SGA.application
+E:\sga_vb2010\ventas\obj\Debug\SGA.exe
+E:\sga_vb2010\ventas\obj\Debug\SGA.pdb
+C:\SGA_Almacen\ventas\bin\Debug\SGA.exe.config
+C:\SGA_Almacen\ventas\obj\Debug\ventas.vbproj.ResolveComReference.cache
+C:\SGA_Almacen\ventas\obj\Debug\SGA.exe
+C:\SGA_Almacen\ventas\obj\Debug\SGA.pdb
+C:\SGA_Almacen\ventas\bin\Debug\SGA.exe.manifest
+C:\SGA_Almacen\ventas\bin\Debug\SGA.application
+C:\SGA_Almacen\ventas\bin\Debug\SGA.exe
+C:\SGA_Almacen\ventas\bin\Debug\SGA.pdb
+C:\SGA_Almacen\ventas\bin\Debug\libreriaClases.dll
+C:\SGA_Almacen\ventas\bin\Debug\mControles.dll
+C:\SGA_Almacen\ventas\bin\Debug\dotnetCHARTING.WinForms.dll
+C:\SGA_Almacen\ventas\bin\Debug\libreriaClases.pdb
+C:\SGA_Almacen\ventas\bin\Debug\libreriaClases.xml
+C:\SGA_Almacen\ventas\bin\Debug\mControles.pdb
+C:\SGA_Almacen\ventas\bin\Debug\mControles.xml
+C:\SGA_Almacen\ventas\obj\Debug\ventas.vbprojResolveAssemblyReference.cache
+C:\SGA_Almacen\ventas\obj\Debug\cefe.a_AcercaDe.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.base.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.baseReporte.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.c_articulo_x_grupo.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.c_historialCompras_x_articulo.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.c_inventarios.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.c_kardex.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.c_movimientos.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.c_nivelesAbastecimiento.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.c_recetas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.c_ventas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_enviarEmail.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.e_precios.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.e_Transferencias.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.e_ventas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.Login.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_almacen.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_catalogo.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_catalogo2.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_cliente.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_conductor.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_empTransporte.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_familia.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_maximos.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_motivo.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_planCuentas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_precios.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_proveedor.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_rendimiento.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_subGrupo.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_tipo_articulo.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_tipo_cliente.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_tipo_proveedor.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_unidad.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.m_vendedor.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.principal.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_actualizaRecetas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_botellas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_cargaArticulos.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_conteoFisico.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_cuenta_cobrar.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_ingresos.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_inventario.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_inventarioDiario.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_inventarioMensual.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_mermas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_notaCredito.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_notas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_pedido.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_produccion.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_receta.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_salidas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_transferencia.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_transformaciones.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.p_ventas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.repComisiones.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.repCuentasCobrar.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.repIngresos.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.repNivelesAbastecimiento.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.repPedidos.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.repSaldos.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.repTransferencias.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.rptForm.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.repVentas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_actLotes.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_codigosExt.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_envioCompras.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_envioVentas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_importaMicros.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_importaVentas.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_tipoCambio.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_usuarios.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_variables.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.Resources.resources
+C:\SGA_Almacen\ventas\obj\Debug\cefe.u_importaVentas_dbf.resources
+C:\SGA_Almacen\ventas\obj\Debug\ventas.vbproj.GenerateResource.Cache
+C:\SGA_Almacen\ventas\obj\Debug\SGA.exe.licenses
+C:\SGA_Almacen\ventas\obj\Debug\SGA.exe.manifest
+C:\SGA_Almacen\ventas\obj\Debug\SGA.application
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\SGA.exe.config
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\ventas.vbproj.ResolveComReference.cache
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\SGA.exe
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\SGA.pdb
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\SGA.exe.manifest
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\SGA.application
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\SGA.exe
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\SGA.pdb
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\libreriaClases.dll
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\mControles.dll
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\libreriaClases.pdb
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\libreriaClases.xml
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\mControles.pdb
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\mControles.xml
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\ventas.vbprojResolveAssemblyReference.cache
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.a_AcercaDe.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.base.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.baseReporte.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.c_articulo_x_grupo.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.c_historialCompras_x_articulo.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.c_inventarios.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.c_kardex.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.c_movimientos.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.c_nivelesAbastecimiento.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.c_recetas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.c_ventas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_enviarEmail.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.e_precios.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.e_Transferencias.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.e_ventas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.Login.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_almacen.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_catalogo.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_catalogo2.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_cliente.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_conductor.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_empTransporte.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_familia.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_maximos.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_motivo.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_planCuentas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_precios.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_proveedor.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_rendimiento.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_subGrupo.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_tipo_articulo.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_tipo_cliente.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_tipo_proveedor.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_unidad.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.m_vendedor.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.principal.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_actualizaRecetas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_botellas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_cargaArticulos.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_conteoFisico.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_cuenta_cobrar.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_ingresos.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_inventario.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_inventarioDiario.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_inventarioMensual.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_mermas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_notaCredito.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_notas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_pedido.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_produccion.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_receta.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_salidas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_transferencia.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_transformaciones.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.p_ventas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.repComisiones.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.repCuentasCobrar.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.repIngresos.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.repNivelesAbastecimiento.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.repPedidos.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.repSaldos.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.repTransferencias.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.rptForm.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.repVentas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_actLotes.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_codigosExt.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_envioCompras.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_envioVentas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_importaMicros.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_importaVentas.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_tipoCambio.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_usuarios.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_variables.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.Resources.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\cefe.u_importaVentas_dbf.resources
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\ventas.vbproj.GenerateResource.Cache
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\SGA.exe.licenses
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\SGA.exe.manifest
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\obj\Debug\SGA.application
+D:\mtaco\Visual Studio 2012\SGA_Almacen\ventas\bin\Debug\dotnetCHARTING.WinForms.dll
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\SGA.exe.config
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\ventas.vbproj.ResolveComReference.cache
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\SGA.exe
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\SGA.pdb
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\SGA.exe.manifest
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\SGA.application
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\SGA.exe
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\SGA.pdb
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\libreriaClases.dll
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\mControles.dll
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\dotnetCHARTING.WinForms.dll
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\libreriaClases.pdb
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\libreriaClases.xml
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\mControles.pdb
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\bin\Debug\mControles.xml
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\ventas.vbprojResolveAssemblyReference.cache
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.a_AcercaDe.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.base.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.baseReporte.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.c_articulo_x_grupo.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.c_historialCompras_x_articulo.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.c_inventarios.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.c_kardex.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.c_movimientos.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.c_nivelesAbastecimiento.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.c_recetas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.c_ventas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_enviarEmail.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.e_precios.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.e_Transferencias.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.e_ventas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.Login.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_almacen.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_catalogo.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_catalogo2.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_cliente.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_conductor.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_empTransporte.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_familia.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_maximos.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_motivo.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_planCuentas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_precios.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_proveedor.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_rendimiento.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_subGrupo.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_tipo_articulo.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_tipo_cliente.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_tipo_proveedor.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_unidad.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.m_vendedor.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.principal.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_actualizaRecetas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_botellas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_cargaArticulos.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_conteoFisico.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_cuenta_cobrar.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_ingresos.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_inventario.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_inventarioDiario.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_inventarioMensual.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_mermas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_notaCredito.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_notas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_pedido.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_produccion.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_receta.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_salidas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_transferencia.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_transformaciones.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.p_ventas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.repComisiones.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.repCuentasCobrar.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.repIngresos.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.repNivelesAbastecimiento.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.repPedidos.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.repSaldos.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.repTransferencias.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.rptForm.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.repVentas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_actLotes.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_codigosExt.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_envioCompras.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_envioVentas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_importaMicros.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_importaVentas.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_tipoCambio.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_usuarios.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_variables.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.Resources.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\cefe.u_importaVentas_dbf.resources
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\ventas.vbproj.GenerateResource.Cache
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\SGA.exe.licenses
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\SGA.exe.manifest
+D:\mtaco\Visual Studio 2013\SGA_Almacen\ventas\obj\Debug\SGA.application

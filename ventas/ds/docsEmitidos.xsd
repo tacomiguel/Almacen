@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="docsEmitidos" targetNamespace="http://tempuri.org/docsEmitidos.xsd" xmlns:mstns="http://tempuri.org/docsEmitidos.xsd" xmlns="http://tempuri.org/docsEmitidos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="docsEmitidos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="docsEmitidos" msprop:Generator_DataSetName="docsEmitidos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="documentos" msprop:Generator_UserTableName="documentos" msprop:Generator_RowDeletedName="documentosRowDeleted" msprop:Generator_TableClassName="documentosDataTable" msprop:Generator_RowChangedName="documentosRowChanged" msprop:Generator_RowClassName="documentosRow" msprop:Generator_RowChangingName="documentosRowChanging" msprop:Generator_RowEvArgName="documentosRowChangeEvent" msprop:Generator_RowEvHandlerName="documentosRowChangeEventHandler" msprop:Generator_TablePropName="documentos" msprop:Generator_TableVarName="tabledocumentos" msprop:Generator_RowDeletingName="documentosRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_cod" msprop:Generator_UserColumnName="cod_cod" msprop:Generator_ColumnPropNameInRow="cod_cod" msprop:Generator_ColumnVarNameInTable="columncod_cod" msprop:Generator_ColumnPropNameInTable="cod_codColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nom_doc" msprop:Generator_UserColumnName="nom_doc" msprop:Generator_ColumnPropNameInRow="nom_doc" msprop:Generator_ColumnVarNameInTable="columnnom_doc" msprop:Generator_ColumnPropNameInTable="nom_docColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha_doc" msprop:Generator_UserColumnName="fecha_doc" msprop:Generator_ColumnPropNameInRow="fecha_doc" msprop:Generator_ColumnVarNameInTable="columnfecha_doc" msprop:Generator_ColumnPropNameInTable="fecha_docColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="monto" msprop:Generator_UserColumnName="monto" msprop:Generator_ColumnPropNameInRow="monto" msprop:Generator_ColumnVarNameInTable="columnmonto" msprop:Generator_ColumnPropNameInTable="montoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="estado" msprop:Generator_UserColumnName="estado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInTable="estadoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

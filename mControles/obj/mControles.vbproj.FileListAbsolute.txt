@@ -1,0 +1,334 @@
+G:\System2010\cefe\mControles\bin\Debug\mControles.dll
+G:\System2010\cefe\mControles\bin\Debug\mControles.pdb
+G:\System2010\cefe\mControles\bin\Debug\mControles.xml
+G:\System2010\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+G:\System2010\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+G:\System2010\cefe\mControles\obj\Debug\mControles.Resources.resources
+G:\System2010\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+G:\System2010\cefe\mControles\obj\Debug\mControles.dll
+G:\System2010\cefe\mControles\obj\Debug\mControles.xml
+G:\System2010\cefe\mControles\obj\Debug\mControles.pdb
+G:\System2010\cefe\mControles\bin\Release\mControles.dll
+G:\System2010\cefe\mControles\bin\Release\mControles.pdb
+G:\System2010\cefe\mControles\bin\Release\mControles.xml
+G:\System2010\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+G:\System2010\cefe\mControles\obj\Release\mControles.etiqueta.resources
+G:\System2010\cefe\mControles\obj\Release\mControles.Resources.resources
+G:\System2010\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+G:\System2010\cefe\mControles\obj\Release\mControles.dll
+G:\System2010\cefe\mControles\obj\Release\mControles.xml
+G:\System2010\cefe\mControles\obj\Release\mControles.pdb
+E:\Systems\cefe\mControles\bin\Release\mControles.dll
+E:\Systems\cefe\mControles\bin\Release\mControles.pdb
+E:\Systems\cefe\mControles\bin\Release\mControles.xml
+E:\Systems\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+E:\Systems\cefe\mControles\obj\Release\mControles.etiqueta.resources
+E:\Systems\cefe\mControles\obj\Release\mControles.Resources.resources
+E:\Systems\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+E:\Systems\cefe\mControles\obj\Release\mControles.dll
+E:\Systems\cefe\mControles\obj\Release\mControles.xml
+E:\Systems\cefe\mControles\obj\Release\mControles.pdb
+D:\cefe\mControles\bin\Debug\mControles.dll
+D:\cefe\mControles\bin\Debug\mControles.pdb
+D:\cefe\mControles\bin\Debug\mControles.xml
+D:\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+D:\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+D:\cefe\mControles\obj\Debug\mControles.Resources.resources
+D:\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+D:\cefe\mControles\obj\Debug\mControles.dll
+D:\cefe\mControles\obj\Debug\mControles.xml
+D:\cefe\mControles\obj\Debug\mControles.pdb
+D:\cefe\mControles\bin\Release\mControles.dll
+D:\cefe\mControles\bin\Release\mControles.pdb
+D:\cefe\mControles\bin\Release\mControles.xml
+D:\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+D:\cefe\mControles\obj\Release\mControles.etiqueta.resources
+D:\cefe\mControles\obj\Release\mControles.Resources.resources
+D:\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+D:\cefe\mControles\obj\Release\mControles.dll
+D:\cefe\mControles\obj\Release\mControles.xml
+D:\cefe\mControles\obj\Release\mControles.pdb
+E:\Systems\cefe\mControles\bin\Debug\mControles.dll
+E:\Systems\cefe\mControles\bin\Debug\mControles.pdb
+E:\Systems\cefe\mControles\bin\Debug\mControles.xml
+E:\Systems\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+E:\Systems\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+E:\Systems\cefe\mControles\obj\Debug\mControles.Resources.resources
+E:\Systems\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+E:\Systems\cefe\mControles\obj\Debug\mControles.dll
+E:\Systems\cefe\mControles\obj\Debug\mControles.xml
+E:\Systems\cefe\mControles\obj\Debug\mControles.pdb
+F:\System\cefe\mControles\bin\Debug\mControles.dll
+F:\System\cefe\mControles\bin\Debug\mControles.pdb
+F:\System\cefe\mControles\bin\Debug\mControles.xml
+F:\System\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+F:\System\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+F:\System\cefe\mControles\obj\Debug\mControles.Resources.resources
+F:\System\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+F:\System\cefe\mControles\obj\Debug\mControles.dll
+F:\System\cefe\mControles\obj\Debug\mControles.xml
+F:\System\cefe\mControles\obj\Debug\mControles.pdb
+F:\Utilitarios\cefe\mControles\bin\Debug\mControles.dll
+F:\Utilitarios\cefe\mControles\bin\Debug\mControles.pdb
+F:\Utilitarios\cefe\mControles\bin\Debug\mControles.xml
+F:\Utilitarios\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+F:\Utilitarios\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+F:\Utilitarios\cefe\mControles\obj\Debug\mControles.Resources.resources
+F:\Utilitarios\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+F:\Utilitarios\cefe\mControles\obj\Debug\mControles.dll
+F:\Utilitarios\cefe\mControles\obj\Debug\mControles.xml
+F:\Utilitarios\cefe\mControles\obj\Debug\mControles.pdb
+D:\Program Files\cefe\mControles\bin\Debug\mControles.dll
+D:\Program Files\cefe\mControles\bin\Debug\mControles.pdb
+D:\Program Files\cefe\mControles\bin\Debug\mControles.xml
+D:\Program Files\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+D:\Program Files\cefe\mControles\obj\Debug\mControles.Resources.resources
+D:\Program Files\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+D:\Program Files\cefe\mControles\obj\Debug\mControles.dll
+D:\Program Files\cefe\mControles\obj\Debug\mControles.xml
+D:\Program Files\cefe\mControles\obj\Debug\mControles.pdb
+D:\Program Files\cefe\mControles\bin\Release\mControles.dll
+D:\Program Files\cefe\mControles\bin\Release\mControles.pdb
+D:\Program Files\cefe\mControles\bin\Release\mControles.xml
+D:\Program Files\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+D:\Program Files\cefe\mControles\obj\Release\mControles.etiqueta.resources
+D:\Program Files\cefe\mControles\obj\Release\mControles.Resources.resources
+D:\Program Files\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+D:\Program Files\cefe\mControles\obj\Release\mControles.dll
+D:\Program Files\cefe\mControles\obj\Release\mControles.xml
+D:\Program Files\cefe\mControles\obj\Release\mControles.pdb
+E:\System\cefe\mControles\bin\Debug\mControles.dll
+E:\System\cefe\mControles\bin\Debug\mControles.pdb
+E:\System\cefe\mControles\bin\Debug\mControles.xml
+E:\System\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+E:\System\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+E:\System\cefe\mControles\obj\Debug\mControles.Resources.resources
+E:\System\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+E:\System\cefe\mControles\obj\Debug\mControles.dll
+E:\System\cefe\mControles\obj\Debug\mControles.xml
+E:\System\cefe\mControles\obj\Debug\mControles.pdb
+E:\System\cefe\mControles\bin\Release\mControles.dll
+E:\System\cefe\mControles\bin\Release\mControles.pdb
+E:\System\cefe\mControles\bin\Release\mControles.xml
+E:\System\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+E:\System\cefe\mControles\obj\Release\mControles.etiqueta.resources
+E:\System\cefe\mControles\obj\Release\mControles.Resources.resources
+E:\System\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+E:\System\cefe\mControles\obj\Release\mControles.dll
+E:\System\cefe\mControles\obj\Release\mControles.xml
+E:\System\cefe\mControles\obj\Release\mControles.pdb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\bin\Debug\mControles.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\bin\Debug\mControles.pdb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\bin\Debug\mControles.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Debug\mControles.Resources.resources
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Debug\mControles.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Debug\mControles.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Debug\mControles.pdb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\bin\Release\mControles.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\bin\Release\mControles.pdb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\bin\Release\mControles.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Release\mControles.etiqueta.resources
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Release\mControles.Resources.resources
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Release\mControles.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Release\mControles.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\mControles\obj\Release\mControles.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\bin\Debug\mControles.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\bin\Debug\mControles.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\bin\Debug\mControles.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Debug\mControles.Resources.resources
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Debug\mControles.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Debug\mControles.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Debug\mControles.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\bin\Release\mControles.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\bin\Release\mControles.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\bin\Release\mControles.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Release\mControles.etiqueta.resources
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Release\mControles.Resources.resources
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Release\mControles.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Release\mControles.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\mControles\obj\Release\mControles.pdb
+F:\System\cefe\mControles\bin\Release\mControles.dll
+F:\System\cefe\mControles\bin\Release\mControles.pdb
+F:\System\cefe\mControles\bin\Release\mControles.xml
+F:\System\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+F:\System\cefe\mControles\obj\Release\mControles.etiqueta.resources
+F:\System\cefe\mControles\obj\Release\mControles.Resources.resources
+F:\System\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+F:\System\cefe\mControles\obj\Release\mControles.dll
+F:\System\cefe\mControles\obj\Release\mControles.xml
+F:\System\cefe\mControles\obj\Release\mControles.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\bin\Debug\mControles.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\bin\Debug\mControles.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\bin\Debug\mControles.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\obj\Debug\mControles.etiqueta.resources
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\obj\Debug\mControles.Resources.resources
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\obj\Debug\mControles.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\obj\Debug\mControles.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\mControles\obj\Debug\mControles.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\bin\Debug\mControles.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\bin\Debug\mControles.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\bin\Debug\mControles.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Debug\mControles.Resources.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Debug\mControles.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Debug\mControles.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Debug\mControles.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\bin\Release\mControles.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\bin\Release\mControles.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\bin\Release\mControles.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Release\mControles.etiqueta.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Release\mControles.Resources.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Release\mControles.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Release\mControles.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\mControles\obj\Release\mControles.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\bin\Debug\mControles.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\bin\Debug\mControles.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\bin\Debug\mControles.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Debug\mControles.etiqueta.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Debug\mControles.Resources.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Debug\mControles.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Debug\mControles.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Debug\mControles.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\bin\Release\mControles.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\bin\Release\mControles.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\bin\Release\mControles.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Release\ResolveAssemblyReference.cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Release\mControles.etiqueta.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Release\mControles.Resources.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Release\mControles.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Release\mControles.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\mControles\obj\Release\mControles.pdb
+D:\System\cefe\mControles\bin\Debug\mControles.dll
+D:\System\cefe\mControles\bin\Debug\mControles.pdb
+D:\System\cefe\mControles\bin\Debug\mControles.xml
+D:\System\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+D:\System\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+D:\System\cefe\mControles\obj\Debug\mControles.Resources.resources
+D:\System\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+D:\System\cefe\mControles\obj\Debug\mControles.dll
+D:\System\cefe\mControles\obj\Debug\mControles.xml
+D:\System\cefe\mControles\obj\Debug\mControles.pdb
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\bin\Debug\mControles.dll
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\bin\Debug\mControles.pdb
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\bin\Debug\mControles.xml
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\obj\Debug\mControles.etiqueta.resources
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\obj\Debug\mControles.Resources.resources
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\obj\Debug\mControles.dll
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\obj\Debug\mControles.xml
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\mControles\obj\Debug\mControles.pdb
+D:\System\cefe\mControles\bin\Release\mControles.dll
+D:\System\cefe\mControles\bin\Release\mControles.pdb
+D:\System\cefe\mControles\bin\Release\mControles.xml
+D:\System\cefe\mControles\obj\Release\ResolveAssemblyReference.cache
+D:\System\cefe\mControles\obj\Release\mControles.etiqueta.resources
+D:\System\cefe\mControles\obj\Release\mControles.Resources.resources
+D:\System\cefe\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+D:\System\cefe\mControles\obj\Release\mControles.dll
+D:\System\cefe\mControles\obj\Release\mControles.xml
+D:\System\cefe\mControles\obj\Release\mControles.pdb
+F:\System\cefeFinal-RN\mControles\bin\Debug\mControles.dll
+F:\System\cefeFinal-RN\mControles\bin\Debug\mControles.pdb
+F:\System\cefeFinal-RN\mControles\bin\Debug\mControles.xml
+F:\System\cefeFinal-RN\mControles\obj\Debug\ResolveAssemblyReference.cache
+F:\System\cefeFinal-RN\mControles\obj\Debug\mControles.etiqueta.resources
+F:\System\cefeFinal-RN\mControles\obj\Debug\mControles.Resources.resources
+F:\System\cefeFinal-RN\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+F:\System\cefeFinal-RN\mControles\obj\Debug\mControles.dll
+F:\System\cefeFinal-RN\mControles\obj\Debug\mControles.xml
+F:\System\cefeFinal-RN\mControles\obj\Debug\mControles.pdb
+F:\System\cefeFinal-RN\mControles\bin\Release\mControles.dll
+F:\System\cefeFinal-RN\mControles\bin\Release\mControles.pdb
+F:\System\cefeFinal-RN\mControles\bin\Release\mControles.xml
+F:\System\cefeFinal-RN\mControles\obj\Release\ResolveAssemblyReference.cache
+F:\System\cefeFinal-RN\mControles\obj\Release\mControles.etiqueta.resources
+F:\System\cefeFinal-RN\mControles\obj\Release\mControles.Resources.resources
+F:\System\cefeFinal-RN\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+F:\System\cefeFinal-RN\mControles\obj\Release\mControles.dll
+F:\System\cefeFinal-RN\mControles\obj\Release\mControles.xml
+F:\System\cefeFinal-RN\mControles\obj\Release\mControles.pdb
+E:\System\sga\mControles\bin\Debug\mControles.dll
+E:\System\sga\mControles\bin\Debug\mControles.pdb
+E:\System\sga\mControles\bin\Debug\mControles.xml
+E:\System\sga\mControles\obj\Debug\ResolveAssemblyReference.cache
+E:\System\sga\mControles\obj\Debug\mControles.etiqueta.resources
+E:\System\sga\mControles\obj\Debug\mControles.Resources.resources
+E:\System\sga\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+E:\System\sga\mControles\obj\Debug\mControles.dll
+E:\System\sga\mControles\obj\Debug\mControles.xml
+E:\System\sga\mControles\obj\Debug\mControles.pdb
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\bin\Debug\mControles.dll
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\bin\Debug\mControles.pdb
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\bin\Debug\mControles.xml
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\obj\Debug\ResolveAssemblyReference.cache
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\obj\Debug\mControles.etiqueta.resources
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\obj\Debug\mControles.Resources.resources
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\obj\Debug\mControles.dll
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\obj\Debug\mControles.xml
+\\12.100.10.1\file\ARCHIVOS\backup nominas\System\sga\mControles\obj\Debug\mControles.pdb
+F:\System\sga\mControles\bin\Debug\mControles.dll
+F:\System\sga\mControles\bin\Debug\mControles.pdb
+F:\System\sga\mControles\bin\Debug\mControles.xml
+F:\System\sga\mControles\obj\Debug\ResolveAssemblyReference.cache
+F:\System\sga\mControles\obj\Debug\mControles.etiqueta.resources
+F:\System\sga\mControles\obj\Debug\mControles.Resources.resources
+F:\System\sga\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+F:\System\sga\mControles\obj\Debug\mControles.dll
+F:\System\sga\mControles\obj\Debug\mControles.xml
+F:\System\sga\mControles\obj\Debug\mControles.pdb
+F:\System\sga\mControles\bin\Debug\mControles.dll.config
+F:\System\sga\mControles\bin\Release\mControles.dll.config
+F:\System\sga\mControles\bin\Release\mControles.dll
+F:\System\sga\mControles\bin\Release\mControles.pdb
+F:\System\sga\mControles\bin\Release\mControles.xml
+F:\System\sga\mControles\obj\Release\ResolveAssemblyReference.cache
+F:\System\sga\mControles\obj\Release\mControles.etiqueta.resources
+F:\System\sga\mControles\obj\Release\mControles.Resources.resources
+F:\System\sga\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+F:\System\sga\mControles\obj\Release\mControles.dll
+F:\System\sga\mControles\obj\Release\mControles.xml
+F:\System\sga\mControles\obj\Release\mControles.pdb
+E:\sga\mControles\bin\Debug\mControles.dll.config
+E:\sga\mControles\bin\Debug\mControles.dll
+E:\sga\mControles\bin\Debug\mControles.pdb
+E:\sga\mControles\bin\Debug\mControles.xml
+E:\sga\mControles\obj\Debug\ResolveAssemblyReference.cache
+E:\sga\mControles\obj\Debug\mControles.etiqueta.resources
+E:\sga\mControles\obj\Debug\mControles.Resources.resources
+E:\sga\mControles\obj\Debug\mControles.vbproj.GenerateResource.Cache
+E:\sga\mControles\obj\Debug\mControles.dll
+E:\sga\mControles\obj\Debug\mControles.xml
+E:\sga\mControles\obj\Debug\mControles.pdb
+E:\sga\mControles\bin\Release\mControles.dll.config
+E:\sga\mControles\bin\Release\mControles.dll
+E:\sga\mControles\bin\Release\mControles.pdb
+E:\sga\mControles\bin\Release\mControles.xml
+E:\sga\mControles\obj\Release\ResolveAssemblyReference.cache
+E:\sga\mControles\obj\Release\mControles.etiqueta.resources
+E:\sga\mControles\obj\Release\mControles.Resources.resources
+E:\sga\mControles\obj\Release\mControles.vbproj.GenerateResource.Cache
+E:\sga\mControles\obj\Release\mControles.dll
+E:\sga\mControles\obj\Release\mControles.xml
+E:\sga\mControles\obj\Release\mControles.pdb

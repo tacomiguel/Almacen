@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <ingreso>
+    <fec_doc>2015-01-28T00:00:00-05:00</fec_doc>
+    <ser_doc>000001</ser_doc>
+    <nro_doc>00047616</nro_doc>
+    <raz_soc>DISTRIBUIDORA EKAMA S.A.</raz_soc>
+    <cod_prov>20123110367</cod_prov>
+    <dir_prov>-</dir_prov>
+    <monto_doc>341.280</monto_doc>
+    <monto_igv>52.060</monto_igv>
+    <pre_inc_igv>true</pre_inc_igv>
+    <nom_art>Escorihuela Gascon Viogner</nom_art>
+    <cant>3.0000</cant>
+    <precio>49.503333</precio>
+    <neto>148.5099990000</neto>
+    <igv>0.180</igv>
+    <nom_fpago>CREDITO 30 DIAS</nom_fpago>
+    <nom_alma>Almacen General</nom_alma>
+    <tm>S</tm>
+    <tc>0.000</tc>
+    <obs />
+    <nro_guia>007-00014120</nro_guia>
+    <documento>000001-00047616</documento>
+    <nom_doc>FACTURA</nom_doc>
+    <pre_inc_igv1>true</pre_inc_igv1>
+  </ingreso>
+  <ingreso>
+    <fec_doc>2015-01-28T00:00:00-05:00</fec_doc>
+    <ser_doc>000001</ser_doc>
+    <nro_doc>00047616</nro_doc>
+    <raz_soc>DISTRIBUIDORA EKAMA S.A.</raz_soc>
+    <cod_prov>20123110367</cod_prov>
+    <dir_prov>-</dir_prov>
+    <monto_doc>341.280</monto_doc>
+    <monto_igv>52.060</monto_igv>
+    <pre_inc_igv>true</pre_inc_igv>
+    <nom_art>Pisco Viñas de oro Acholado</nom_art>
+    <cant>4.0000</cant>
+    <precio>48.192500</precio>
+    <neto>192.7700000000</neto>
+    <igv>0.180</igv>
+    <nom_fpago>CREDITO 30 DIAS</nom_fpago>
+    <nom_alma>Almacen General</nom_alma>
+    <tm>S</tm>
+    <tc>0.000</tc>
+    <obs />
+    <nro_guia>007-00014120</nro_guia>
+    <documento>000001-00047616</documento>
+    <nom_doc>FACTURA</nom_doc>
+    <pre_inc_igv1>true</pre_inc_igv1>
+  </ingreso>
+</NewDataSet>

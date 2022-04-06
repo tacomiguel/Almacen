@@ -1,0 +1,387 @@
+G:\System2010\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+G:\System2010\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+G:\System2010\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+G:\System2010\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+G:\System2010\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+G:\System2010\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+G:\System2010\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+G:\System2010\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+G:\System2010\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+G:\System2010\cefe\libreriaClases\bin\Release\libreriaClases.dll
+G:\System2010\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+G:\System2010\cefe\libreriaClases\bin\Release\libreriaClases.xml
+G:\System2010\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+G:\System2010\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+G:\System2010\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+G:\System2010\cefe\libreriaClases\obj\Release\libreriaClases.dll
+G:\System2010\cefe\libreriaClases\obj\Release\libreriaClases.xml
+G:\System2010\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+G:\System2010\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+G:\System2010\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+E:\Systems\cefe\libreriaClases\bin\Release\libreriaClases.dll
+E:\Systems\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+E:\Systems\cefe\libreriaClases\bin\Release\libreriaClases.xml
+E:\Systems\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+E:\Systems\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+E:\Systems\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+E:\Systems\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+E:\Systems\cefe\libreriaClases\obj\Release\libreriaClases.dll
+E:\Systems\cefe\libreriaClases\obj\Release\libreriaClases.xml
+E:\Systems\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+D:\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+D:\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+D:\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+D:\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+D:\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+D:\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+D:\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+D:\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+D:\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+D:\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+D:\cefe\libreriaClases\bin\Release\libreriaClases.dll
+D:\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+D:\cefe\libreriaClases\bin\Release\libreriaClases.xml
+D:\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+D:\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+D:\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+D:\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+D:\cefe\libreriaClases\obj\Release\libreriaClases.dll
+D:\cefe\libreriaClases\obj\Release\libreriaClases.xml
+D:\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+G:\System2010\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+G:\System2010\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+G:\System2010\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+G:\System2010\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+E:\Systems\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+E:\Systems\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+E:\Systems\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+E:\Systems\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+E:\Systems\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+E:\Systems\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+E:\Systems\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+E:\Systems\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+E:\Systems\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+E:\Systems\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+E:\Systems\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+E:\Systems\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+E:\Systems\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+E:\Systems\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+F:\System\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+F:\System\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+F:\System\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+F:\System\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+F:\System\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+F:\System\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+F:\System\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+F:\System\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+F:\System\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+F:\System\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+F:\System\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+F:\System\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+F:\Utilitarios\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+F:\Utilitarios\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+F:\Utilitarios\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+F:\Utilitarios\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+F:\Utilitarios\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+F:\Utilitarios\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+F:\Utilitarios\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+F:\Utilitarios\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+F:\Utilitarios\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+F:\Utilitarios\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+F:\Utilitarios\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+F:\Utilitarios\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+D:\Program Files\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+D:\Program Files\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+D:\Program Files\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+D:\Program Files\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+D:\Program Files\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+D:\Program Files\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+D:\Program Files\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+D:\Program Files\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+D:\Program Files\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+D:\Program Files\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+D:\Program Files\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+D:\Program Files\cefe\libreriaClases\bin\Release\libreriaClases.dll
+D:\Program Files\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+D:\Program Files\cefe\libreriaClases\bin\Release\libreriaClases.xml
+D:\Program Files\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+D:\Program Files\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+D:\Program Files\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+D:\Program Files\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+D:\Program Files\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+D:\Program Files\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+D:\Program Files\cefe\libreriaClases\obj\Release\libreriaClases.dll
+D:\Program Files\cefe\libreriaClases\obj\Release\libreriaClases.xml
+D:\Program Files\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+D:\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+D:\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+D:\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+D:\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+E:\System\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+E:\System\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+E:\System\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+E:\System\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+E:\System\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+E:\System\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+E:\System\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+E:\System\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+E:\System\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+E:\System\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+E:\System\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+E:\System\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+E:\System\cefe\libreriaClases\bin\Release\libreriaClases.dll
+E:\System\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+E:\System\cefe\libreriaClases\bin\Release\libreriaClases.xml
+E:\System\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+E:\System\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+E:\System\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+E:\System\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+E:\System\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+E:\System\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+E:\System\cefe\libreriaClases\obj\Release\libreriaClases.dll
+E:\System\cefe\libreriaClases\obj\Release\libreriaClases.xml
+E:\System\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Release\libreriaClases.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Release\libreriaClases.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Release\libreriaClases.dll
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Release\libreriaClases.xml
+D:\Program Files\Adobe\Reader 9.0\writer\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Release\libreriaClases.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Release\libreriaClases.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Release\libreriaClases.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Release\libreriaClases.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+F:\System\cefe\libreriaClases\bin\Release\libreriaClases.dll
+F:\System\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+F:\System\cefe\libreriaClases\bin\Release\libreriaClases.xml
+F:\System\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+F:\System\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+F:\System\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+F:\System\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+F:\System\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+F:\System\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+F:\System\cefe\libreriaClases\obj\Release\libreriaClases.dll
+F:\System\cefe\libreriaClases\obj\Release\libreriaClases.xml
+F:\System\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\bin\Debug\libreriaClases.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\bin\Debug\libreriaClases.pdb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\bin\Debug\libreriaClases.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\bin\Debug\libreriaClases.tlb
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\obj\Debug\libreriaClases.dll
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\obj\Debug\libreriaClases.xml
+C:\Archivos de programa\Adobe\Adobe Bridge CS3\AMT\ar_AE\writer\reader\libreriaClases\obj\Debug\libreriaClases.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Release\libreriaClases.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Release\libreriaClases.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Release\libreriaClases.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Release\libreriaClases.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Debug\libreriaClases.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Debug\libreriaClases.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Debug\libreriaClases.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Debug\libreriaClases.tlb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Debug\libreriaClases.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Debug\libreriaClases.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Debug\libreriaClases.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Release\libreriaClases.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Release\libreriaClases.pdb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Release\libreriaClases.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Release\libreriaClases.tlb
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Release\libreriaClases.Resources.resources
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Release\libreriaClases.dll
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Release\libreriaClases.xml
+C:\Archivos de programa\Amond Software\Amond AVI MPEG MOV RM FLV DIVX WMV SWF Converter\audiences\abcd\libreriaClases\obj\Release\libreriaClases.pdb
+D:\System\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+D:\System\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+D:\System\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+D:\System\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+D:\System\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+D:\System\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+D:\System\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+D:\System\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+D:\System\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+D:\System\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+D:\System\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+D:\System\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+C:\Archivos de programa\Apache Software Foundation\Apache Tomcat 6.0.26\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+D:\System\cefe\libreriaClases\bin\Release\libreriaClases.dll
+D:\System\cefe\libreriaClases\bin\Release\libreriaClases.pdb
+D:\System\cefe\libreriaClases\bin\Release\libreriaClases.xml
+D:\System\cefe\libreriaClases\bin\Release\libreriaClases.tlb
+D:\System\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.dll
+D:\System\cefe\libreriaClases\bin\Release\dotnetCharting.WinForms.xml
+D:\System\cefe\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+D:\System\cefe\libreriaClases\obj\Release\libreriaClases.Resources.resources
+D:\System\cefe\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+D:\System\cefe\libreriaClases\obj\Release\libreriaClases.dll
+D:\System\cefe\libreriaClases\obj\Release\libreriaClases.xml
+D:\System\cefe\libreriaClases\obj\Release\libreriaClases.pdb
+F:\System2010\empanaderia\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+F:\System2010\empanaderia\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+F:\System2010\empanaderia\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+F:\System2010\empanaderia\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+F:\System2010\empanaderia\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+F:\System2010\empanaderia\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+F:\System2010\empanaderia\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+F:\System2010\empanaderia\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+F:\System2010\empanaderia\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+F:\System2010\empanaderia\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+F:\System2010\empanaderia\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+F:\System2010\empanaderia\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+D:\System2011\cefe\libreriaClases\bin\Debug\libreriaClases.dll
+D:\System2011\cefe\libreriaClases\bin\Debug\libreriaClases.pdb
+D:\System2011\cefe\libreriaClases\bin\Debug\libreriaClases.xml
+D:\System2011\cefe\libreriaClases\bin\Debug\libreriaClases.tlb
+D:\System2011\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.dll
+D:\System2011\cefe\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+D:\System2011\cefe\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+D:\System2011\cefe\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+D:\System2011\cefe\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+D:\System2011\cefe\libreriaClases\obj\Debug\libreriaClases.dll
+D:\System2011\cefe\libreriaClases\obj\Debug\libreriaClases.xml
+D:\System2011\cefe\libreriaClases\obj\Debug\libreriaClases.pdb
+F:\System\sga\libreriaClases\bin\Debug\libreriaClases.dll
+F:\System\sga\libreriaClases\bin\Debug\libreriaClases.pdb
+F:\System\sga\libreriaClases\bin\Debug\libreriaClases.xml
+F:\System\sga\libreriaClases\bin\Debug\libreriaClases.tlb
+F:\System\sga\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+F:\System\sga\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+F:\System\sga\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+F:\System\sga\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+F:\System\sga\libreriaClases\obj\Debug\libreriaClases.dll
+F:\System\sga\libreriaClases\obj\Debug\libreriaClases.xml
+F:\System\sga\libreriaClases\obj\Debug\libreriaClases.pdb
+F:\System\sga\libreriaClases\bin\Release\libreriaClases.dll
+F:\System\sga\libreriaClases\bin\Release\libreriaClases.pdb
+F:\System\sga\libreriaClases\bin\Release\libreriaClases.xml
+F:\System\sga\libreriaClases\bin\Release\libreriaClases.tlb
+F:\System\sga\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+F:\System\sga\libreriaClases\obj\Release\libreriaClases.Resources.resources
+F:\System\sga\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+F:\System\sga\libreriaClases\obj\Release\libreriaClases.dll
+F:\System\sga\libreriaClases\obj\Release\libreriaClases.xml
+F:\System\sga\libreriaClases\obj\Release\libreriaClases.pdb
+E:\sga\libreriaClases\bin\Debug\libreriaClases.dll
+E:\sga\libreriaClases\bin\Debug\libreriaClases.pdb
+E:\sga\libreriaClases\bin\Debug\libreriaClases.xml
+E:\sga\libreriaClases\bin\Debug\libreriaClases.tlb
+E:\sga\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+E:\sga\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+E:\sga\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+E:\sga\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+E:\sga\libreriaClases\obj\Debug\libreriaClases.dll
+E:\sga\libreriaClases\obj\Debug\libreriaClases.xml
+E:\sga\libreriaClases\obj\Debug\libreriaClases.pdb
+E:\sga\libreriaClases\bin\Release\libreriaClases.dll
+E:\sga\libreriaClases\bin\Release\libreriaClases.pdb
+E:\sga\libreriaClases\bin\Release\libreriaClases.xml
+E:\sga\libreriaClases\bin\Release\libreriaClases.tlb
+E:\sga\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+E:\sga\libreriaClases\obj\Release\libreriaClases.Resources.resources
+E:\sga\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+E:\sga\libreriaClases\obj\Release\libreriaClases.dll
+E:\sga\libreriaClases\obj\Release\libreriaClases.xml
+E:\sga\libreriaClases\obj\Release\libreriaClases.pdb
+D:\SGA\fuentes\libreriaClases\bin\Debug\libreriaClases.dll
+D:\SGA\fuentes\libreriaClases\bin\Debug\libreriaClases.pdb
+D:\SGA\fuentes\libreriaClases\bin\Debug\libreriaClases.xml
+D:\SGA\fuentes\libreriaClases\bin\Debug\libreriaClases.tlb
+D:\SGA\fuentes\libreriaClases\bin\Debug\dotnetCharting.WinForms.xml
+D:\SGA\fuentes\libreriaClases\obj\Debug\ResolveAssemblyReference.cache
+D:\SGA\fuentes\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+D:\SGA\fuentes\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+D:\SGA\fuentes\libreriaClases\obj\Debug\libreriaClases.dll
+D:\SGA\fuentes\libreriaClases\obj\Debug\libreriaClases.xml
+D:\SGA\fuentes\libreriaClases\obj\Debug\libreriaClases.pdb
+D:\SGA\fuentes\libreriaClases\bin\Release\libreriaClases.dll
+D:\SGA\fuentes\libreriaClases\bin\Release\libreriaClases.pdb
+D:\SGA\fuentes\libreriaClases\bin\Release\libreriaClases.xml
+D:\SGA\fuentes\libreriaClases\bin\Release\libreriaClases.tlb
+D:\SGA\fuentes\libreriaClases\obj\Release\ResolveAssemblyReference.cache
+D:\SGA\fuentes\libreriaClases\obj\Release\libreriaClases.Resources.resources
+D:\SGA\fuentes\libreriaClases\obj\Release\libreriaClases.vbproj.GenerateResource.Cache
+D:\SGA\fuentes\libreriaClases\obj\Release\libreriaClases.dll
+D:\SGA\fuentes\libreriaClases\obj\Release\libreriaClases.xml
+D:\SGA\fuentes\libreriaClases\obj\Release\libreriaClases.pdb

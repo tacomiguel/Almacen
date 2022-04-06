@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsVentas" targetNamespace="http://tempuri.org/dsVentas.xsd" xmlns:mstns="http://tempuri.org/dsVentas.xsd" xmlns="http://tempuri.org/dsVentas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsVentas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsVentas" msprop:Generator_DataSetName="dsVentas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ventas" msprop:Generator_UserTableName="ventas" msprop:Generator_RowDeletedName="ventasRowDeleted" msprop:Generator_RowChangedName="ventasRowChanged" msprop:Generator_RowClassName="ventasRow" msprop:Generator_RowChangingName="ventasRowChanging" msprop:Generator_RowEvArgName="ventasRowChangeEvent" msprop:Generator_RowEvHandlerName="ventasRowChangeEventHandler" msprop:Generator_TableClassName="ventasDataTable" msprop:Generator_TableVarName="tableventas" msprop:Generator_RowDeletingName="ventasRowDeleting" msprop:Generator_TablePropName="ventas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fec_doc" msprop:Generator_UserColumnName="fec_doc" msprop:Generator_ColumnPropNameInRow="fec_doc" msprop:Generator_ColumnVarNameInTable="columnfec_doc" msprop:Generator_ColumnPropNameInTable="fec_docColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tipo_doc" msprop:Generator_UserColumnName="tipo_doc" msprop:Generator_ColumnPropNameInRow="tipo_doc" msprop:Generator_ColumnVarNameInTable="columntipo_doc" msprop:Generator_ColumnPropNameInTable="tipo_docColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nro_doc" msprop:Generator_UserColumnName="nro_doc" msprop:Generator_ColumnPropNameInRow="nro_doc" msprop:Generator_ColumnVarNameInTable="columnnro_doc" msprop:Generator_ColumnPropNameInTable="nro_docColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="monto" msprop:Generator_UserColumnName="monto" msprop:Generator_ColumnPropNameInRow="monto" msprop:Generator_ColumnVarNameInTable="columnmonto" msprop:Generator_ColumnPropNameInTable="montoColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="raz_soc" msprop:Generator_UserColumnName="raz_soc" msprop:Generator_ColumnPropNameInRow="raz_soc" msprop:Generator_ColumnVarNameInTable="columnraz_soc" msprop:Generator_ColumnPropNameInTable="raz_socColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fec_pago" msprop:Generator_UserColumnName="fec_pago" msprop:Generator_ColumnPropNameInRow="fec_pago" msprop:Generator_ColumnVarNameInTable="columnfec_pago" msprop:Generator_ColumnPropNameInTable="fec_pagoColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="fec_prog" msprop:Generator_UserColumnName="fec_prog" msprop:Generator_ColumnPropNameInRow="fec_prog" msprop:Generator_ColumnVarNameInTable="columnfec_prog" msprop:Generator_ColumnPropNameInTable="fec_progColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="cod_clie" msprop:Generator_UserColumnName="cod_clie" msprop:Generator_ColumnVarNameInTable="columncod_clie" msprop:Generator_ColumnPropNameInRow="cod_clie" msprop:Generator_ColumnPropNameInTable="cod_clieColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nom_clie" msprop:Generator_UserColumnName="nom_clie" msprop:Generator_ColumnVarNameInTable="columnnom_clie" msprop:Generator_ColumnPropNameInRow="nom_clie" msprop:Generator_ColumnPropNameInTable="nom_clieColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="cod_vend" msprop:Generator_UserColumnName="cod_vend" msprop:Generator_ColumnVarNameInTable="columncod_vend" msprop:Generator_ColumnPropNameInRow="cod_vend" msprop:Generator_ColumnPropNameInTable="cod_vendColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nom_vend" msprop:Generator_UserColumnName="nom_vend" msprop:Generator_ColumnVarNameInTable="columnnom_vend" msprop:Generator_ColumnPropNameInRow="nom_vend" msprop:Generator_ColumnPropNameInTable="nom_vendColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="formaPago" msprop:Generator_UserColumnName="formaPago" msprop:Generator_ColumnVarNameInTable="columnformaPago" msprop:Generator_ColumnPropNameInRow="formaPago" msprop:Generator_ColumnPropNameInTable="formaPagoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="cancelado" msprop:Generator_UserColumnName="cancelado" msprop:Generator_ColumnPropNameInRow="cancelado" msprop:Generator_ColumnVarNameInTable="columncancelado" msprop:Generator_ColumnPropNameInTable="canceladoColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="monto_doc" msprop:Generator_UserColumnName="monto_doc" msprop:Generator_ColumnPropNameInRow="monto_doc" msprop:Generator_ColumnVarNameInTable="columnmonto_doc" msprop:Generator_ColumnPropNameInTable="monto_docColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="monto_igv" msprop:Generator_UserColumnName="monto_igv" msprop:Generator_ColumnPropNameInRow="monto_igv" msprop:Generator_ColumnVarNameInTable="columnmonto_igv" msprop:Generator_ColumnPropNameInTable="monto_igvColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="pre_inc_igv" msprop:Generator_UserColumnName="pre_inc_igv" msprop:Generator_ColumnPropNameInRow="pre_inc_igv" msprop:Generator_ColumnVarNameInTable="columnpre_inc_igv" msprop:Generator_ColumnPropNameInTable="pre_inc_igvColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="anul" msprop:Generator_UserColumnName="anul" msprop:Generator_ColumnPropNameInRow="anul" msprop:Generator_ColumnVarNameInTable="columnanul" msprop:Generator_ColumnPropNameInTable="anulColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="grupo" msprop:Generator_UserColumnName="grupo" msprop:Generator_ColumnPropNameInRow="grupo" msprop:Generator_ColumnVarNameInTable="columngrupo" msprop:Generator_ColumnPropNameInTable="grupoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

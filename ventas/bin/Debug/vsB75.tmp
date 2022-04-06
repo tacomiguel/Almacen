@@ -1,0 +1,484 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SGA
+</name>
+</assembly>
+<members>
+<member name="T:cefe.dsSalida.salidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsSalida.salidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsSalida.salidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsSalida">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsPedido.pedidoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsPedido.productos_pedidosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsPedido.pedidoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsPedido.productos_pedidosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsPedido.pedidoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsPedido.productos_pedidosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsPedido">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsVentas.ventasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsVentas.ventasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsVentas.ventasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsVentas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsComisiones.comisionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsComisiones.comisionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsComisiones.comisionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsComisiones">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsConsProductosIPS.dsConsProductosIPSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsConsProductosIPS.dsConsProductosIPSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsConsProductosIPS.dsConsProductosIPSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsConsProductosIPS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsMermas.mermasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsMermas.mermasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsMermas.mermasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsMermas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsTransferencia.transferenciaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsTransferencia.transferenciaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsTransferencia.transferenciaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsTransferencia">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsAnual.anualDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsAnual.anualRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsAnual.anualRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsAnual">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsCliente.clienteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsCliente.clienteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsCliente.clienteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsCliente">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsCatalogo.articuloDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsCatalogo.articuloPrecioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsCatalogo.maximosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsCatalogo.articuloRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsCatalogo.articuloPrecioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsCatalogo.maximosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsCatalogo.articuloRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsCatalogo.articuloPrecioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsCatalogo.maximosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsCatalogo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsMensual.mesesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsMensual.mesesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsMensual.mesesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsMensual">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsPlanCuentas.articuloDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsPlanCuentas.articuloRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsPlanCuentas.articuloRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsPlanCuentas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:cefe.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:cefe.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:cefe.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:cefe.dsCuentaCobrar.cuentaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsCuentaCobrar.cuentaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsCuentaCobrar.cuentaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsCuentaCobrar">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsMovimientos.movimientosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsMovimientos.movimientosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsMovimientos.movimientosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsMovimientos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsNiveles.nivelesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsNiveles.nivelesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsNiveles.nivelesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsNiveles">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsSaldo.saldoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsSaldo.saldoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsSaldo.saldoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsSaldo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.docsEmitidos.documentosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.docsEmitidos.documentosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.docsEmitidos.documentosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.docsEmitidos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsEstadisticas.margenesOperacionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsEstadisticas.fluctuacionPreciosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsEstadisticas.margenOperacionAnualDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsEstadisticas.margenesOperacionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsEstadisticas.fluctuacionPreciosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsEstadisticas.margenOperacionAnualRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsEstadisticas.margenesOperacionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsEstadisticas.fluctuacionPreciosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsEstadisticas.margenOperacionAnualRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsEstadisticas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsIngreso.ingresoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsIngreso.productos_ingresadosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsIngreso.ingresoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsIngreso.productos_ingresadosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsIngreso.ingresoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsIngreso.productos_ingresadosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsIngreso">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsKardex.kardexDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsKardex.kardexRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsKardex.kardexRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsKardex">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsMicros.ventasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsMicros.ventasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsMicros.ventasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsMicros">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsReceta.recetaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsReceta.recetaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsReceta.recetaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsReceta">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsGuiaRemision.guia_remisionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsGuiaRemision.guia_remisionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsGuiaRemision.guia_remisionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsGuiaRemision">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:cefe.dsInventario.inventarioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:cefe.dsInventario.inventarioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:cefe.dsInventario.inventarioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:cefe.dsInventario">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

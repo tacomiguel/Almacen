@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsConsProductosIPS" targetNamespace="http://tempuri.org/dsConsProductosIPS.xsd" xmlns:mstns="http://tempuri.org/dsConsProductosIPS.xsd" xmlns="http://tempuri.org/dsConsProductosIPS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsConsProductosIPS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsConsProductosIPS" msprop:Generator_DataSetName="dsConsProductosIPS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsConsProductosIPS" msprop:Generator_UserTableName="dsConsProductosIPS" msprop:Generator_RowDeletedName="dsConsProductosIPSRowDeleted" msprop:Generator_TableClassName="dsConsProductosIPSDataTable" msprop:Generator_RowChangedName="dsConsProductosIPSRowChanged" msprop:Generator_RowClassName="dsConsProductosIPSRow" msprop:Generator_RowChangingName="dsConsProductosIPSRowChanging" msprop:Generator_RowEvArgName="dsConsProductosIPSRowChangeEvent" msprop:Generator_RowEvHandlerName="dsConsProductosIPSRowChangeEventHandler" msprop:Generator_TablePropName="_dsConsProductosIPS" msprop:Generator_TableVarName="tabledsConsProductosIPS" msprop:Generator_RowDeletingName="dsConsProductosIPSRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_art" msprop:Generator_UserColumnName="cod_art" msprop:Generator_ColumnPropNameInRow="cod_art" msprop:Generator_ColumnVarNameInTable="columncod_art" msprop:Generator_ColumnPropNameInTable="cod_artColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nom_art" msprop:Generator_UserColumnName="nom_art" msprop:Generator_ColumnPropNameInRow="nom_art" msprop:Generator_ColumnVarNameInTable="columnnom_art" msprop:Generator_ColumnPropNameInTable="nom_artColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nom_uni" msprop:Generator_UserColumnName="nom_uni" msprop:Generator_ColumnPropNameInRow="nom_uni" msprop:Generator_ColumnVarNameInTable="columnnom_uni" msprop:Generator_ColumnPropNameInTable="nom_uniColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="cant" msprop:Generator_UserColumnName="cant" msprop:Generator_ColumnPropNameInRow="cant" msprop:Generator_ColumnVarNameInTable="columncant" msprop:Generator_ColumnPropNameInTable="cantColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

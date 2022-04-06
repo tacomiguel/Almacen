@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+libreriaClases
+</name>
+</assembly>
+<members>
+<member name="P:libreriaClases.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:libreriaClases.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:libreriaClases.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:libreriaClases.clsGenerarExcel.datoResp">
+	<summary>
+ Enumerador de los Tipos de de datos devueltos por la función Generar Excel.
+ </summary>
+	<remarks>Permite determinar el tipo de información que contiene el Diccionario de Respuesta.</remarks>
+</member><member name="T:libreriaClases.clsGenerarExcel.VersionExcel">
+	<summary>
+ Enumerador de las Versiones que soporta el Exportar (v2000=Excel 2000 : v10=Excel XP : v11=Excel 2003 : v12=Excel 2007 : v14=Excel 2010).
+ </summary>
+	<remarks>Permite determinar el tipo de Archivo a Generar, y las propiedades del mismo según la versión.</remarks>
+</member><member name="M:libreriaClases.clsGenerarExcel.GenerarExcel(System.String,System.Data.DataTable,System.Collections.ArrayList,System.Collections.ArrayList,System.Collections.ArrayList,System.Collections.ArrayList,System.Collections.ArrayList,libreriaClases.clsGenerarExcel.VersionExcel)">
+	<summary>
+ Función que Genera un Archivo Excel a partir de un objeto DataTable.
+ </summary>
+	<param name="nombreArch">El nombre y la dirección del archivo a generar, sin la extensión.</param>
+	<param name="dt">Objeto de tipo DataTable con los datos del informe.</param>
+	<param name="titulosColumnas">ArrayList con los Títulos para las Columnas de la Hoja de Datos.</param>
+	<param name="datosFilas">ArrayList con los Títulos de los datos a ser mostrador en las Filas.</param>
+	<param name="datosColumnas">ArrayList con los Títulos de los datos a ser mostrador en las Columnas.</param>
+	<param name="datosFiltros">ArrayList con los Títulos de los datos a ser mostrador en los Filtros.</param>
+	<param name="datosDatoCalculado">ArrayList con los Títulos de los datos a ser mostrador en las la sección de Datos.</param>
+	<param name="version">Versión del archivo generado (v12[Excel2007] : v14[Excel2010]).</param>
+	<returns>Diccionario con la información para determinar si se pudo Generar el archivo o no.</returns>
+	<remarks>Permite generar un archivo Excel con una Tabla Dinámica con los datos Solicitados.</remarks>
+</member><member name="M:libreriaClases.clsGenerarExcel.liberarRecursos(System.Object)">
+	<summary>
+ Función que liberar los recursos utilizados para generar el archivo.
+ </summary>
+	<param name="obj">El objeto a ser anulado y liberado de memoria.</param>
+	<remarks>Permite cerrar completamente los Procesos de Excel.</remarks>
+</member><member name="T:libreriaClases.clsGenerarExcel">
+	<summary>
+ Clase que contiene Funciones que permiten Generar Archivos en formato Excel con Tablas Dinámicas.
+ </summary>
+	<remarks>Perimte generar documentos Excel con Tablas Dinámicas incluídas.</remarks>
+</member>
+</members>
+</doc>
