@@ -10,6 +10,7 @@ Public Class c_recetas
     Private dsRecetaRc As New DataSet
     Private dsRecetaRd As New DataSet
     Private dsCatalogo As New DataSet
+    Private dsCatalogo1 As New DataSet
     Private dsProduccion As New DataSet
     Private dsAlmacen As New DataSet
     Private dsRecetas As New DataSet
@@ -112,7 +113,7 @@ Public Class c_recetas
         'Catalogo x Almacen de Produccion o Catalogo General
         Dim cAlmaCatalogo As String = mAlmacen.devuelveAlmacenCatalogo(cod_alma)
 
-        dsCatalogo = mCatalogo.recuperaMaestroRecetas(pCatalogoXalmacen, cAlmaCatalogo, True, False, False, False, "", False, esproduccion, False)
+        dsCatalogo1 = mCatalogo.recuperaMaestroRecetas(pCatalogoXalmacen, cAlmaCatalogo, True, False, False, False, "", False, esproduccion, False)
         estructuraMaestroRecetas()
     End Sub
     Private Sub tabRecetas_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles tabRecetas.Click
@@ -144,7 +145,7 @@ Public Class c_recetas
     End Sub
     Sub estructuraMaestroRecetas()
         With DatosMaestro
-            .DataSource = dsCatalogo.Tables("recetas").DefaultView
+            .DataSource = dsCatalogo1.Tables("recetas").DefaultView
             .ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
             .Columns("cod_art").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
             .Columns("cod_art").DisplayIndex = 0
@@ -528,7 +529,15 @@ Public Class c_recetas
     End Sub
     Private Sub txtBuscar_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtBuscar.TextChanged
         If Not estaCargando Then
-            dsCatalogo.Tables("articulo").DefaultView.RowFilter = "nom_art LIKE '" & txtBuscar.Text & "%'"
+            Dim valor As String = txtBuscar.Text
+
+            dsCatalogo.Tables("articulo").DefaultView.RowFilter = "nom_art LIKE '%" & valor & "%'"
+            'dsCatalogo.Tables("recetas").DefaultView.RowFilter = "nom_art LIKE '%" & valor & "%'"
+            'dsRecetasR.Tables("receta").DefaultView.RowFilter = "nom_art LIKE '" & valor & "%'"
+
+            'If datos.RowCount > 0 Then
+            '    datos.CurrentCell = datos("cod_art", datos.CurrentRow.Index)
+            'End If
         End If
     End Sub
     Sub buscarRecetas()
@@ -579,7 +588,7 @@ Public Class c_recetas
             frm.MdiParent = principal
             frm.Show()
         Else
-            MessageBox.Show(general.str_textoNoImpresion, "CEFE", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            MessageBox.Show(general.str_textoNoImpresion, "sga", MessageBoxButtons.OK, MessageBoxIcon.Stop)
         End If
     End Sub
 

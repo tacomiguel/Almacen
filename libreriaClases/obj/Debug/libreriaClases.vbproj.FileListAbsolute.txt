@@ -91,3 +91,13 @@ C:\Desktop\mtaco\Desarrollo\SGA_Almacen\libreriaClases\obj\Debug\libreriaClases.
 C:\Desktop\mtaco\Desarrollo\SGA_Almacen\libreriaClases\obj\Debug\libreriaClases.vbprojResolveAssemblyReference.cache
 C:\Desktop\mtaco\Desarrollo\SGA_Almacen\libreriaClases\bin\Debug\Microsoft.Vsa.dll
 C:\Desktop\mtaco\Desarrollo\SGA_Almacen\libreriaClases\bin\Debug\Microsoft.Vsa.xml
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\bin\Debug\libreriaClases.dll
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\bin\Debug\libreriaClases.pdb
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\bin\Debug\libreriaClases.xml
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\bin\Debug\Microsoft.Vsa.dll
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\obj\Debug\libreriaClases.vbprojResolveAssemblyReference.cache
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\obj\Debug\libreriaClases.Resources.resources
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\obj\Debug\libreriaClases.dll
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\obj\Debug\libreriaClases.xml
+D:\MTACO\desarrollo\SGA_Almacen\Almacen\libreriaClases\obj\Debug\libreriaClases.pdb

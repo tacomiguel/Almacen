@@ -176,7 +176,7 @@ Public Class Catalogo
                                     ByVal xp As Boolean, ByVal li As Boolean) As DataSet
         Dim clConex As MySqlConnection = Conexion.obtenerConexion()
         Dim da As New MySqlDataAdapter
-        Dim dsCatalogo As New DataSet
+        Dim dsCatalogo1 As New DataSet
         Dim cad, cad1, cad2, cad3, cad4, cad6 As String
         cad1 = "select a.cod_Art,a.nom_Art,t.nom_tart,u.nom_uni,a.factor_prod, " _
                 & "al.nom_alma,ar.nom_area,a1.nom_art,u1.nom_uni,round(r.cant,3) as cantidad,a1.pre_costo, "
@@ -202,9 +202,9 @@ Public Class Catalogo
         Dim comSaldo As New MySqlCommand(cad)
         comSaldo.Connection = clConex
         da.SelectCommand = comSaldo
-        da.Fill(dsCatalogo, "recetas")
+        da.Fill(dsCatalogo1, "recetas")
         clConex.Close()
-        Return dsCatalogo
+        Return dsCatalogo1
 
         '& IIf(sp, " and tipo_articulo.esProductoterminado", "and !tipo_articulo.esProductoterminado") _
     End Function
