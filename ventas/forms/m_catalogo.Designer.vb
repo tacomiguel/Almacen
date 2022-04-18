@@ -50,6 +50,7 @@ Partial Class m_catalogo
         Me.cboTipoCliente = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Chksoloventas = New DevComponents.DotNetBar.Controls.CheckBoxX()
         Me.chkSoloActivos = New DevComponents.DotNetBar.Controls.CheckBoxX()
         Me.cboImp_x_tipo = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.optInventarioDiario = New System.Windows.Forms.RadioButton()
@@ -99,7 +100,6 @@ Partial Class m_catalogo
         Me.Etiqueta3 = New mControles.etiqueta()
         Me.lblDescripcion = New mControles.etiqueta()
         Me.ChkMuestraVenta = New DevComponents.DotNetBar.Controls.CheckBoxX()
-        Me.Chksoloventas = New DevComponents.DotNetBar.Controls.CheckBoxX()
         CType(Me.TabControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl2.SuspendLayout()
         Me.TabControlPanel1.SuspendLayout()
@@ -123,12 +123,11 @@ Partial Class m_catalogo
         Me.TabControl2.ColorScheme.TabPanelBackground = System.Drawing.Color.White
         Me.TabControl2.Controls.Add(Me.TabControlPanel1)
         Me.TabControl2.Controls.Add(Me.TabControlPanel2)
-        Me.TabControl2.Location = New System.Drawing.Point(16, 48)
-        Me.TabControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabControl2.Location = New System.Drawing.Point(12, 39)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedTabFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TabControl2.SelectedTabIndex = 2
-        Me.TabControl2.Size = New System.Drawing.Size(876, 465)
+        Me.TabControl2.Size = New System.Drawing.Size(657, 378)
         Me.TabControl2.TabIndex = 150
         Me.TabControl2.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox
         Me.TabControl2.Tabs.Add(Me.TabItem1)
@@ -141,10 +140,9 @@ Partial Class m_catalogo
         Me.TabControlPanel1.Controls.Add(Me.dataCatalogo)
         Me.TabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControlPanel1.Location = New System.Drawing.Point(0, 26)
-        Me.TabControlPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabControlPanel1.Name = "TabControlPanel1"
         Me.TabControlPanel1.Padding = New System.Windows.Forms.Padding(1)
-        Me.TabControlPanel1.Size = New System.Drawing.Size(876, 439)
+        Me.TabControlPanel1.Size = New System.Drawing.Size(657, 352)
         Me.TabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.White
         Me.TabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.TabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
@@ -175,15 +173,14 @@ Partial Class m_catalogo
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataCatalogo.DefaultCellStyle = DataGridViewCellStyle2
         Me.dataCatalogo.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataCatalogo.Location = New System.Drawing.Point(-16, 20)
-        Me.dataCatalogo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dataCatalogo.Location = New System.Drawing.Point(-12, 16)
         Me.dataCatalogo.Name = "dataCatalogo"
         Me.dataCatalogo.RowHeadersVisible = False
         Me.dataCatalogo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.dataCatalogo.SelectAllSignVisible = False
         Me.dataCatalogo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dataCatalogo.ShowEditingIcon = False
-        Me.dataCatalogo.Size = New System.Drawing.Size(884, 446)
+        Me.dataCatalogo.Size = New System.Drawing.Size(663, 362)
         Me.dataCatalogo.TabIndex = 1
         '
         'TabItem1
@@ -199,10 +196,9 @@ Partial Class m_catalogo
         Me.TabControlPanel2.Controls.Add(Me.cmdExaminar)
         Me.TabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControlPanel2.Location = New System.Drawing.Point(0, 26)
-        Me.TabControlPanel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabControlPanel2.Name = "TabControlPanel2"
         Me.TabControlPanel2.Padding = New System.Windows.Forms.Padding(1)
-        Me.TabControlPanel2.Size = New System.Drawing.Size(876, 439)
+        Me.TabControlPanel2.Size = New System.Drawing.Size(657, 352)
         Me.TabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.White
         Me.TabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.TabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
@@ -218,9 +214,8 @@ Partial Class m_catalogo
         Me.pb_foto.Dock = System.Windows.Forms.DockStyle.Left
         Me.pb_foto.InitialImage = Nothing
         Me.pb_foto.Location = New System.Drawing.Point(1, 1)
-        Me.pb_foto.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pb_foto.Name = "pb_foto"
-        Me.pb_foto.Size = New System.Drawing.Size(436, 437)
+        Me.pb_foto.Size = New System.Drawing.Size(327, 350)
         Me.pb_foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pb_foto.TabIndex = 143
         Me.pb_foto.TabStop = False
@@ -231,11 +226,10 @@ Partial Class m_catalogo
         Me.cmdExaminar.Appearance.Options.UseFont = True
         Me.cmdExaminar.Image = Global.cefe.My.Resources.Resources.c_buscarD
         Me.cmdExaminar.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.TopCenter
-        Me.cmdExaminar.Location = New System.Drawing.Point(828, 374)
+        Me.cmdExaminar.Location = New System.Drawing.Point(621, 304)
         Me.cmdExaminar.LookAndFeel.SkinName = "iMaginary"
-        Me.cmdExaminar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdExaminar.Name = "cmdExaminar"
-        Me.cmdExaminar.Size = New System.Drawing.Size(41, 39)
+        Me.cmdExaminar.Size = New System.Drawing.Size(31, 32)
         Me.cmdExaminar.TabIndex = 148
         Me.cmdExaminar.Text = "Examinar"
         '
@@ -256,10 +250,9 @@ Partial Class m_catalogo
         Me.LabelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX1.ForeColor = System.Drawing.Color.Maroon
-        Me.LabelX1.Location = New System.Drawing.Point(16, 12)
-        Me.LabelX1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelX1.Location = New System.Drawing.Point(12, 10)
         Me.LabelX1.Name = "LabelX1"
-        Me.LabelX1.Size = New System.Drawing.Size(63, 19)
+        Me.LabelX1.Size = New System.Drawing.Size(51, 16)
         Me.LabelX1.TabIndex = 142
         Me.LabelX1.Text = "Buscar x"
         Me.LabelX1.TextAlignment = System.Drawing.StringAlignment.Center
@@ -271,11 +264,9 @@ Partial Class m_catalogo
         Me.GroupBox1.Controls.Add(Me.optCodigo)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox1.Location = New System.Drawing.Point(88, -1)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Location = New System.Drawing.Point(66, -1)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox1.Size = New System.Drawing.Size(216, 42)
+        Me.GroupBox1.Size = New System.Drawing.Size(162, 34)
         Me.GroupBox1.TabIndex = 141
         Me.GroupBox1.TabStop = False
         '
@@ -285,10 +276,9 @@ Partial Class m_catalogo
         Me.optDescripcion.Checked = True
         Me.optDescripcion.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optDescripcion.ForeColor = System.Drawing.Color.Black
-        Me.optDescripcion.Location = New System.Drawing.Point(93, 14)
-        Me.optDescripcion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optDescripcion.Location = New System.Drawing.Point(70, 11)
         Me.optDescripcion.Name = "optDescripcion"
-        Me.optDescripcion.Size = New System.Drawing.Size(113, 20)
+        Me.optDescripcion.Size = New System.Drawing.Size(90, 18)
         Me.optDescripcion.TabIndex = 1
         Me.optDescripcion.TabStop = True
         Me.optDescripcion.Text = "Descripción"
@@ -299,10 +289,9 @@ Partial Class m_catalogo
         Me.optCodigo.AutoSize = True
         Me.optCodigo.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optCodigo.ForeColor = System.Drawing.Color.Black
-        Me.optCodigo.Location = New System.Drawing.Point(9, 14)
-        Me.optCodigo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optCodigo.Location = New System.Drawing.Point(7, 11)
         Me.optCodigo.Name = "optCodigo"
-        Me.optCodigo.Size = New System.Drawing.Size(79, 20)
+        Me.optCodigo.Size = New System.Drawing.Size(64, 18)
         Me.optCodigo.TabIndex = 0
         Me.optCodigo.Text = "Código"
         Me.optCodigo.UseVisualStyleBackColor = True
@@ -312,10 +301,9 @@ Partial Class m_catalogo
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Maroon
-        Me.Label4.Location = New System.Drawing.Point(900, 463)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(675, 376)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(225, 17)
+        Me.Label4.Size = New System.Drawing.Size(169, 13)
         Me.Label4.TabIndex = 127
         Me.Label4.Text = "*Los Costos NO incluyen impuesto"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -328,10 +316,9 @@ Partial Class m_catalogo
         Me.lblRegistros.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblRegistros.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRegistros.ForeColor = System.Drawing.Color.Green
-        Me.lblRegistros.Location = New System.Drawing.Point(572, 15)
-        Me.lblRegistros.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lblRegistros.Location = New System.Drawing.Point(429, 12)
         Me.lblRegistros.Name = "lblRegistros"
-        Me.lblRegistros.Size = New System.Drawing.Size(313, 23)
+        Me.lblRegistros.Size = New System.Drawing.Size(235, 19)
         Me.lblRegistros.TabIndex = 126
         Me.lblRegistros.Text = "Nº de Registros Procesados... "
         Me.lblRegistros.TextAlignment = System.Drawing.StringAlignment.Far
@@ -340,8 +327,7 @@ Partial Class m_catalogo
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.cefe.My.Resources.Resources.buscar20
-        Me.PictureBox2.Location = New System.Drawing.Point(536, 11)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox2.Location = New System.Drawing.Point(402, 9)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(20, 20)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -356,10 +342,9 @@ Partial Class m_catalogo
         Me.txtBuscar.Border.Class = "TextBoxBorder"
         Me.txtBuscar.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBuscar.Location = New System.Drawing.Point(308, 11)
-        Me.txtBuscar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtBuscar.Location = New System.Drawing.Point(231, 9)
         Me.txtBuscar.Name = "txtBuscar"
-        Me.txtBuscar.Size = New System.Drawing.Size(224, 24)
+        Me.txtBuscar.Size = New System.Drawing.Size(168, 21)
         Me.txtBuscar.TabIndex = 0
         '
         'grpPrecioCliente
@@ -374,11 +359,9 @@ Partial Class m_catalogo
         Me.grpPrecioCliente.Controls.Add(Me.cboTipoCliente)
         Me.grpPrecioCliente.Controls.Add(Me.Label1)
         Me.grpPrecioCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpPrecioCliente.Location = New System.Drawing.Point(908, 10)
-        Me.grpPrecioCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grpPrecioCliente.Location = New System.Drawing.Point(681, 8)
         Me.grpPrecioCliente.Name = "grpPrecioCliente"
-        Me.grpPrecioCliente.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.grpPrecioCliente.Size = New System.Drawing.Size(399, 230)
+        Me.grpPrecioCliente.Size = New System.Drawing.Size(299, 187)
         Me.grpPrecioCliente.TabIndex = 21
         Me.grpPrecioCliente.TabStop = False
         Me.grpPrecioCliente.Text = "Precio x Tipo de Cliente"
@@ -390,10 +373,9 @@ Partial Class m_catalogo
         Me.cmdPrecioCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdPrecioCliente.Image = Global.cefe.My.Resources.Resources.ok22
         Me.cmdPrecioCliente.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
-        Me.cmdPrecioCliente.Location = New System.Drawing.Point(320, 78)
-        Me.cmdPrecioCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmdPrecioCliente.Location = New System.Drawing.Point(240, 63)
         Me.cmdPrecioCliente.Name = "cmdPrecioCliente"
-        Me.cmdPrecioCliente.Size = New System.Drawing.Size(61, 95)
+        Me.cmdPrecioCliente.Size = New System.Drawing.Size(46, 77)
         Me.cmdPrecioCliente.TabIndex = 35
         Me.cmdPrecioCliente.Text = "OK"
         '
@@ -401,10 +383,9 @@ Partial Class m_catalogo
         '
         Me.lblMensaje.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMensaje.ForeColor = System.Drawing.Color.Maroon
-        Me.lblMensaje.Location = New System.Drawing.Point(20, 175)
-        Me.lblMensaje.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMensaje.Location = New System.Drawing.Point(15, 142)
         Me.lblMensaje.Name = "lblMensaje"
-        Me.lblMensaje.Size = New System.Drawing.Size(361, 25)
+        Me.lblMensaje.Size = New System.Drawing.Size(271, 20)
         Me.lblMensaje.TabIndex = 30
         Me.lblMensaje.Text = "lblMensaje"
         Me.lblMensaje.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -413,10 +394,9 @@ Partial Class m_catalogo
         '
         Me.txtComisionJV.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtComisionJV.ForeColor = System.Drawing.Color.Teal
-        Me.txtComisionJV.Location = New System.Drawing.Point(229, 144)
-        Me.txtComisionJV.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtComisionJV.Location = New System.Drawing.Point(172, 117)
         Me.txtComisionJV.Name = "txtComisionJV"
-        Me.txtComisionJV.Size = New System.Drawing.Size(81, 29)
+        Me.txtComisionJV.Size = New System.Drawing.Size(62, 25)
         Me.txtComisionJV.TabIndex = 28
         Me.txtComisionJV.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -424,10 +404,9 @@ Partial Class m_catalogo
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(16, 150)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(12, 122)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(193, 20)
+        Me.Label3.Size = New System.Drawing.Size(158, 16)
         Me.Label3.TabIndex = 28
         Me.Label3.Text = "Comisión Jefe Ventas"
         '
@@ -435,10 +414,9 @@ Partial Class m_catalogo
         '
         Me.txtComisionV.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtComisionV.ForeColor = System.Drawing.Color.Teal
-        Me.txtComisionV.Location = New System.Drawing.Point(229, 110)
-        Me.txtComisionV.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtComisionV.Location = New System.Drawing.Point(172, 89)
         Me.txtComisionV.Name = "txtComisionV"
-        Me.txtComisionV.Size = New System.Drawing.Size(81, 29)
+        Me.txtComisionV.Size = New System.Drawing.Size(62, 25)
         Me.txtComisionV.TabIndex = 27
         Me.txtComisionV.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -446,10 +424,9 @@ Partial Class m_catalogo
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(16, 117)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(12, 95)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(172, 20)
+        Me.Label2.Size = New System.Drawing.Size(144, 16)
         Me.Label2.TabIndex = 26
         Me.Label2.Text = "Comisión Vendedor"
         '
@@ -457,10 +434,9 @@ Partial Class m_catalogo
         '
         Me.txtPrecioCliente.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPrecioCliente.ForeColor = System.Drawing.Color.Teal
-        Me.txtPrecioCliente.Location = New System.Drawing.Point(179, 75)
-        Me.txtPrecioCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtPrecioCliente.Location = New System.Drawing.Point(134, 61)
         Me.txtPrecioCliente.Name = "txtPrecioCliente"
-        Me.txtPrecioCliente.Size = New System.Drawing.Size(132, 29)
+        Me.txtPrecioCliente.Size = New System.Drawing.Size(100, 25)
         Me.txtPrecioCliente.TabIndex = 24
         Me.txtPrecioCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -469,20 +445,18 @@ Partial Class m_catalogo
         Me.cboTipoCliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTipoCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboTipoCliente.FormattingEnabled = True
-        Me.cboTipoCliente.Location = New System.Drawing.Point(17, 31)
-        Me.cboTipoCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboTipoCliente.Location = New System.Drawing.Point(13, 25)
         Me.cboTipoCliente.Name = "cboTipoCliente"
-        Me.cboTipoCliente.Size = New System.Drawing.Size(363, 26)
+        Me.cboTipoCliente.Size = New System.Drawing.Size(273, 23)
         Me.cboTipoCliente.TabIndex = 22
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(16, 81)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(12, 66)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(143, 20)
+        Me.Label1.Size = New System.Drawing.Size(119, 16)
         Me.Label1.TabIndex = 23
         Me.Label1.Text = "Precio de Venta"
         '
@@ -498,14 +472,27 @@ Partial Class m_catalogo
         Me.GroupBox3.Controls.Add(Me.optPrecios)
         Me.GroupBox3.Controls.Add(Me.optGeneral)
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(908, 272)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Location = New System.Drawing.Point(681, 221)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox3.Size = New System.Drawing.Size(399, 177)
+        Me.GroupBox3.Size = New System.Drawing.Size(299, 144)
         Me.GroupBox3.TabIndex = 33
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Imprimir"
+        '
+        'Chksoloventas
+        '
+        Me.Chksoloventas.AutoSize = True
+        '
+        '
+        '
+        Me.Chksoloventas.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.Chksoloventas.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Chksoloventas.Location = New System.Drawing.Point(24, 92)
+        Me.Chksoloventas.Name = "Chksoloventas"
+        Me.Chksoloventas.Size = New System.Drawing.Size(115, 15)
+        Me.Chksoloventas.TabIndex = 45
+        Me.Chksoloventas.Text = "Solo Grupo Ventas"
+        Me.Chksoloventas.TextColor = System.Drawing.Color.Black
         '
         'chkSoloActivos
         '
@@ -518,10 +505,9 @@ Partial Class m_catalogo
         Me.chkSoloActivos.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkSoloActivos.CheckValue = "Y"
         Me.chkSoloActivos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkSoloActivos.Location = New System.Drawing.Point(184, 113)
-        Me.chkSoloActivos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkSoloActivos.Location = New System.Drawing.Point(138, 92)
         Me.chkSoloActivos.Name = "chkSoloActivos"
-        Me.chkSoloActivos.Size = New System.Drawing.Size(98, 18)
+        Me.chkSoloActivos.Size = New System.Drawing.Size(83, 15)
         Me.chkSoloActivos.TabIndex = 44
         Me.chkSoloActivos.Text = "Solo Activos"
         Me.chkSoloActivos.TextColor = System.Drawing.Color.Black
@@ -535,19 +521,17 @@ Partial Class m_catalogo
         Me.cboImp_x_tipo.FocusHighlightEnabled = True
         Me.cboImp_x_tipo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboImp_x_tipo.ItemHeight = 15
-        Me.cboImp_x_tipo.Location = New System.Drawing.Point(13, 139)
-        Me.cboImp_x_tipo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboImp_x_tipo.Location = New System.Drawing.Point(10, 113)
         Me.cboImp_x_tipo.Name = "cboImp_x_tipo"
-        Me.cboImp_x_tipo.Size = New System.Drawing.Size(367, 21)
+        Me.cboImp_x_tipo.Size = New System.Drawing.Size(276, 21)
         Me.cboImp_x_tipo.TabIndex = 43
         '
         'optInventarioDiario
         '
         Me.optInventarioDiario.AutoSize = True
-        Me.optInventarioDiario.Location = New System.Drawing.Point(17, 71)
-        Me.optInventarioDiario.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optInventarioDiario.Location = New System.Drawing.Point(13, 58)
         Me.optInventarioDiario.Name = "optInventarioDiario"
-        Me.optInventarioDiario.Size = New System.Drawing.Size(240, 21)
+        Me.optInventarioDiario.Size = New System.Drawing.Size(192, 17)
         Me.optInventarioDiario.TabIndex = 42
         Me.optInventarioDiario.Text = "Artículos de Inventario Diario"
         Me.optInventarioDiario.UseVisualStyleBackColor = True
@@ -558,21 +542,19 @@ Partial Class m_catalogo
         Me.cmdImprimir.Appearance.Options.UseFont = True
         Me.cmdImprimir.Image = Global.cefe.My.Resources.Resources.print_preview
         Me.cmdImprimir.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.TopCenter
-        Me.cmdImprimir.Location = New System.Drawing.Point(303, 76)
+        Me.cmdImprimir.Location = New System.Drawing.Point(227, 62)
         Me.cmdImprimir.LookAndFeel.SkinName = "iMaginary"
-        Me.cmdImprimir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdImprimir.Name = "cmdImprimir"
-        Me.cmdImprimir.Size = New System.Drawing.Size(83, 55)
+        Me.cmdImprimir.Size = New System.Drawing.Size(62, 45)
         Me.cmdImprimir.TabIndex = 40
         Me.cmdImprimir.Text = "Imprimir"
         '
         'optTipoArticulo
         '
         Me.optTipoArticulo.AutoSize = True
-        Me.optTipoArticulo.Location = New System.Drawing.Point(229, 47)
-        Me.optTipoArticulo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optTipoArticulo.Location = New System.Drawing.Point(172, 38)
         Me.optTipoArticulo.Name = "optTipoArticulo"
-        Me.optTipoArticulo.Size = New System.Drawing.Size(133, 21)
+        Me.optTipoArticulo.Size = New System.Drawing.Size(109, 17)
         Me.optTipoArticulo.TabIndex = 33
         Me.optTipoArticulo.Text = "x Tipo Artículo"
         Me.optTipoArticulo.UseVisualStyleBackColor = True
@@ -580,10 +562,9 @@ Partial Class m_catalogo
         'optsubgrupo
         '
         Me.optsubgrupo.AutoSize = True
-        Me.optsubgrupo.Location = New System.Drawing.Point(229, 22)
-        Me.optsubgrupo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optsubgrupo.Location = New System.Drawing.Point(172, 18)
         Me.optsubgrupo.Name = "optsubgrupo"
-        Me.optsubgrupo.Size = New System.Drawing.Size(86, 21)
+        Me.optsubgrupo.Size = New System.Drawing.Size(69, 17)
         Me.optsubgrupo.TabIndex = 32
         Me.optsubgrupo.Text = "x Grupo"
         Me.optsubgrupo.UseVisualStyleBackColor = True
@@ -591,10 +572,9 @@ Partial Class m_catalogo
         'optPrecios
         '
         Me.optPrecios.AutoSize = True
-        Me.optPrecios.Location = New System.Drawing.Point(17, 47)
-        Me.optPrecios.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optPrecios.Location = New System.Drawing.Point(13, 38)
         Me.optPrecios.Name = "optPrecios"
-        Me.optPrecios.Size = New System.Drawing.Size(187, 21)
+        Me.optPrecios.Size = New System.Drawing.Size(149, 17)
         Me.optPrecios.TabIndex = 31
         Me.optPrecios.Text = "Precios x Tipo Cliente"
         Me.optPrecios.UseVisualStyleBackColor = True
@@ -603,10 +583,9 @@ Partial Class m_catalogo
         '
         Me.optGeneral.AutoSize = True
         Me.optGeneral.Checked = True
-        Me.optGeneral.Location = New System.Drawing.Point(17, 22)
-        Me.optGeneral.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optGeneral.Location = New System.Drawing.Point(13, 18)
         Me.optGeneral.Name = "optGeneral"
-        Me.optGeneral.Size = New System.Drawing.Size(156, 21)
+        Me.optGeneral.Size = New System.Drawing.Size(123, 17)
         Me.optGeneral.TabIndex = 30
         Me.optGeneral.TabStop = True
         Me.optGeneral.Text = "Catálogo General"
@@ -648,11 +627,9 @@ Partial Class m_catalogo
         Me.grupoCatalogo.Controls.Add(Me.Etiqueta4)
         Me.grupoCatalogo.Controls.Add(Me.Etiqueta3)
         Me.grupoCatalogo.Controls.Add(Me.lblDescripcion)
-        Me.grupoCatalogo.Location = New System.Drawing.Point(4, 533)
-        Me.grupoCatalogo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grupoCatalogo.Location = New System.Drawing.Point(3, 433)
         Me.grupoCatalogo.Name = "grupoCatalogo"
-        Me.grupoCatalogo.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.grupoCatalogo.Size = New System.Drawing.Size(1291, 185)
+        Me.grupoCatalogo.Size = New System.Drawing.Size(968, 150)
         Me.grupoCatalogo.TabIndex = 2
         Me.grupoCatalogo.TabStop = False
         '
@@ -665,32 +642,29 @@ Partial Class m_catalogo
         Me.LabelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX2.ForeColor = System.Drawing.Color.Black
-        Me.LabelX2.Location = New System.Drawing.Point(665, 102)
-        Me.LabelX2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelX2.Location = New System.Drawing.Point(499, 83)
         Me.LabelX2.Name = "LabelX2"
-        Me.LabelX2.Size = New System.Drawing.Size(80, 19)
+        Me.LabelX2.Size = New System.Drawing.Size(65, 16)
         Me.LabelX2.TabIndex = 146
         Me.LabelX2.Text = "Cód. Venta"
         '
         'TxtCodigoVta
         '
         Me.TxtCodigoVta.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.TxtCodigoVta.Location = New System.Drawing.Point(749, 100)
-        Me.TxtCodigoVta.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TxtCodigoVta.Location = New System.Drawing.Point(562, 81)
         Me.TxtCodigoVta.MaxLength = 10
         Me.TxtCodigoVta.Name = "TxtCodigoVta"
         Me.TxtCodigoVta.ReadOnly = True
-        Me.TxtCodigoVta.Size = New System.Drawing.Size(85, 22)
+        Me.TxtCodigoVta.Size = New System.Drawing.Size(65, 20)
         Me.TxtCodigoVta.TabIndex = 145
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.PaleTurquoise
         Me.Button1.ForeColor = System.Drawing.Color.Navy
-        Me.Button1.Location = New System.Drawing.Point(8, 17)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Location = New System.Drawing.Point(6, 14)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(68, 31)
+        Me.Button1.Size = New System.Drawing.Size(51, 25)
         Me.Button1.TabIndex = 144
         Me.Button1.Text = "Codigo"
         Me.Button1.UseVisualStyleBackColor = False
@@ -707,10 +681,9 @@ Partial Class m_catalogo
         Me.chkBotella.CheckValue = "Y"
         Me.chkBotella.Enabled = False
         Me.chkBotella.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkBotella.Location = New System.Drawing.Point(613, 139)
-        Me.chkBotella.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkBotella.Location = New System.Drawing.Point(460, 113)
         Me.chkBotella.Name = "chkBotella"
-        Me.chkBotella.Size = New System.Drawing.Size(83, 18)
+        Me.chkBotella.Size = New System.Drawing.Size(71, 15)
         Me.chkBotella.TabIndex = 26
         Me.chkBotella.Text = "es Botella"
         Me.chkBotella.TextColor = System.Drawing.Color.Black
@@ -718,33 +691,30 @@ Partial Class m_catalogo
         'txtMinimo
         '
         Me.txtMinimo.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtMinimo.Location = New System.Drawing.Point(307, 53)
-        Me.txtMinimo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtMinimo.Location = New System.Drawing.Point(230, 43)
         Me.txtMinimo.Name = "txtMinimo"
         Me.txtMinimo.ReadOnly = True
-        Me.txtMinimo.Size = New System.Drawing.Size(91, 22)
+        Me.txtMinimo.Size = New System.Drawing.Size(69, 20)
         Me.txtMinimo.TabIndex = 9
         Me.txtMinimo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtMaximo
         '
         Me.txtMaximo.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtMaximo.Location = New System.Drawing.Point(515, 53)
-        Me.txtMaximo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtMaximo.Location = New System.Drawing.Point(386, 43)
         Me.txtMaximo.Name = "txtMaximo"
         Me.txtMaximo.ReadOnly = True
-        Me.txtMaximo.Size = New System.Drawing.Size(91, 22)
+        Me.txtMaximo.Size = New System.Drawing.Size(69, 20)
         Me.txtMaximo.TabIndex = 11
         Me.txtMaximo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtBotVacia
         '
         Me.txtBotVacia.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtBotVacia.Location = New System.Drawing.Point(1212, 53)
-        Me.txtBotVacia.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtBotVacia.Location = New System.Drawing.Point(909, 43)
         Me.txtBotVacia.Name = "txtBotVacia"
         Me.txtBotVacia.ReadOnly = True
-        Me.txtBotVacia.Size = New System.Drawing.Size(69, 22)
+        Me.txtBotVacia.Size = New System.Drawing.Size(53, 20)
         Me.txtBotVacia.TabIndex = 17
         Me.txtBotVacia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -753,10 +723,10 @@ Partial Class m_catalogo
         Me.Etiqueta1.AutoSize = True
         Me.Etiqueta1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Etiqueta1.BackColor = System.Drawing.Color.White
-        Me.Etiqueta1.Location = New System.Drawing.Point(1065, 55)
-        Me.Etiqueta1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Etiqueta1.Location = New System.Drawing.Point(799, 45)
+        Me.Etiqueta1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Etiqueta1.Name = "Etiqueta1"
-        Me.Etiqueta1.Size = New System.Drawing.Size(128, 19)
+        Me.Etiqueta1.Size = New System.Drawing.Size(106, 16)
         Me.Etiqueta1.TabIndex = 16
         Me.Etiqueta1.TabStop = False
         Me.Etiqueta1.texto = "Peso Bot.Vacia"
@@ -764,11 +734,10 @@ Partial Class m_catalogo
         'txtBotLlena
         '
         Me.txtBotLlena.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtBotLlena.Location = New System.Drawing.Point(989, 53)
-        Me.txtBotLlena.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtBotLlena.Location = New System.Drawing.Point(742, 43)
         Me.txtBotLlena.Name = "txtBotLlena"
         Me.txtBotLlena.ReadOnly = True
-        Me.txtBotLlena.Size = New System.Drawing.Size(69, 22)
+        Me.txtBotLlena.Size = New System.Drawing.Size(53, 20)
         Me.txtBotLlena.TabIndex = 15
         Me.txtBotLlena.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -777,10 +746,10 @@ Partial Class m_catalogo
         Me.Etiqueta7.AutoSize = True
         Me.Etiqueta7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Etiqueta7.BackColor = System.Drawing.Color.White
-        Me.Etiqueta7.Location = New System.Drawing.Point(844, 55)
-        Me.Etiqueta7.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Etiqueta7.Location = New System.Drawing.Point(633, 45)
+        Me.Etiqueta7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Etiqueta7.Name = "Etiqueta7"
-        Me.Etiqueta7.Size = New System.Drawing.Size(127, 19)
+        Me.Etiqueta7.Size = New System.Drawing.Size(107, 16)
         Me.Etiqueta7.TabIndex = 14
         Me.Etiqueta7.TabStop = False
         Me.Etiqueta7.texto = "Peso Bot.Llena"
@@ -797,10 +766,9 @@ Partial Class m_catalogo
         Me.chkPreIncImp.CheckValue = "Y"
         Me.chkPreIncImp.Enabled = False
         Me.chkPreIncImp.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkPreIncImp.Location = New System.Drawing.Point(17, 139)
-        Me.chkPreIncImp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkPreIncImp.Location = New System.Drawing.Point(13, 113)
         Me.chkPreIncImp.Name = "chkPreIncImp"
-        Me.chkPreIncImp.Size = New System.Drawing.Size(203, 18)
+        Me.chkPreIncImp.Size = New System.Drawing.Size(167, 15)
         Me.chkPreIncImp.TabIndex = 23
         Me.chkPreIncImp.Text = "Precio de Venta Incluye IMP?"
         Me.chkPreIncImp.TextColor = System.Drawing.Color.Black
@@ -817,10 +785,9 @@ Partial Class m_catalogo
         Me.chkActivo.CheckValue = "Y"
         Me.chkActivo.Enabled = False
         Me.chkActivo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkActivo.Location = New System.Drawing.Point(725, 139)
-        Me.chkActivo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkActivo.Location = New System.Drawing.Point(544, 113)
         Me.chkActivo.Name = "chkActivo"
-        Me.chkActivo.Size = New System.Drawing.Size(60, 18)
+        Me.chkActivo.Size = New System.Drawing.Size(53, 15)
         Me.chkActivo.TabIndex = 27
         Me.chkActivo.Text = "Activo"
         Me.chkActivo.TextColor = System.Drawing.Color.Black
@@ -837,10 +804,9 @@ Partial Class m_catalogo
         Me.chkInvDiario.CheckValue = "Y"
         Me.chkInvDiario.Enabled = False
         Me.chkInvDiario.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkInvDiario.Location = New System.Drawing.Point(408, 139)
-        Me.chkInvDiario.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkInvDiario.Location = New System.Drawing.Point(306, 113)
         Me.chkInvDiario.Name = "chkInvDiario"
-        Me.chkInvDiario.Size = New System.Drawing.Size(173, 18)
+        Me.chkInvDiario.Size = New System.Drawing.Size(143, 15)
         Me.chkInvDiario.TabIndex = 25
         Me.chkInvDiario.Text = "Inventariar Diariamente?"
         Me.chkInvDiario.TextColor = System.Drawing.Color.Black
@@ -848,11 +814,9 @@ Partial Class m_catalogo
         'GroupBox4
         '
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox4.Location = New System.Drawing.Point(13, 80)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Location = New System.Drawing.Point(10, 65)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox4.Size = New System.Drawing.Size(800, 12)
+        Me.GroupBox4.Size = New System.Drawing.Size(600, 10)
         Me.GroupBox4.TabIndex = 18
         Me.GroupBox4.TabStop = False
         '
@@ -861,10 +825,10 @@ Partial Class m_catalogo
         Me.Etiqueta10.AutoSize = True
         Me.Etiqueta10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Etiqueta10.BackColor = System.Drawing.Color.White
-        Me.Etiqueta10.Location = New System.Drawing.Point(408, 55)
-        Me.Etiqueta10.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Etiqueta10.Location = New System.Drawing.Point(306, 45)
+        Me.Etiqueta10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Etiqueta10.Name = "Etiqueta10"
-        Me.Etiqueta10.Size = New System.Drawing.Size(97, 19)
+        Me.Etiqueta10.Size = New System.Drawing.Size(80, 16)
         Me.Etiqueta10.TabIndex = 10
         Me.Etiqueta10.TabStop = False
         Me.Etiqueta10.texto = "Stock Max."
@@ -874,10 +838,10 @@ Partial Class m_catalogo
         Me.Etiqueta9.AutoSize = True
         Me.Etiqueta9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Etiqueta9.BackColor = System.Drawing.Color.White
-        Me.Etiqueta9.Location = New System.Drawing.Point(204, 55)
-        Me.Etiqueta9.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Etiqueta9.Location = New System.Drawing.Point(153, 45)
+        Me.Etiqueta9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Etiqueta9.Name = "Etiqueta9"
-        Me.Etiqueta9.Size = New System.Drawing.Size(93, 19)
+        Me.Etiqueta9.Size = New System.Drawing.Size(77, 16)
         Me.Etiqueta9.TabIndex = 8
         Me.Etiqueta9.TabStop = False
         Me.Etiqueta9.texto = "Stock Min."
@@ -894,10 +858,9 @@ Partial Class m_catalogo
         Me.chkAfecto.CheckValue = "Y"
         Me.chkAfecto.Enabled = False
         Me.chkAfecto.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkAfecto.Location = New System.Drawing.Point(261, 139)
-        Me.chkAfecto.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkAfecto.Location = New System.Drawing.Point(196, 113)
         Me.chkAfecto.Name = "chkAfecto"
-        Me.chkAfecto.Size = New System.Drawing.Size(115, 18)
+        Me.chkAfecto.Size = New System.Drawing.Size(97, 15)
         Me.chkAfecto.TabIndex = 24
         Me.chkAfecto.Text = "es Afecto IMP?"
         Me.chkAfecto.TextColor = System.Drawing.Color.Black
@@ -909,11 +872,9 @@ Partial Class m_catalogo
         Me.GroupBox2.Controls.Add(Me.cmdEliminar)
         Me.GroupBox2.Controls.Add(Me.cmdGrabar)
         Me.GroupBox2.Controls.Add(Me.cmdCancelar)
-        Me.GroupBox2.Location = New System.Drawing.Point(828, 76)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Location = New System.Drawing.Point(621, 62)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox2.Size = New System.Drawing.Size(467, 81)
+        Me.GroupBox2.Size = New System.Drawing.Size(350, 66)
         Me.GroupBox2.TabIndex = 28
         Me.GroupBox2.TabStop = False
         '
@@ -923,11 +884,10 @@ Partial Class m_catalogo
         Me.cmdEditar.Appearance.Options.UseFont = True
         Me.cmdEditar.Image = Global.cefe.My.Resources.Resources.m_editar
         Me.cmdEditar.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.TopCenter
-        Me.cmdEditar.Location = New System.Drawing.Point(372, 15)
+        Me.cmdEditar.Location = New System.Drawing.Point(279, 12)
         Me.cmdEditar.LookAndFeel.SkinName = "iMaginary"
-        Me.cmdEditar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdEditar.Name = "cmdEditar"
-        Me.cmdEditar.Size = New System.Drawing.Size(83, 55)
+        Me.cmdEditar.Size = New System.Drawing.Size(62, 45)
         Me.cmdEditar.TabIndex = 0
         Me.cmdEditar.Text = "Editar"
         '
@@ -937,11 +897,10 @@ Partial Class m_catalogo
         Me.cmdAñadir.Appearance.Options.UseFont = True
         Me.cmdAñadir.Image = Global.cefe.My.Resources.Resources.m_añadir
         Me.cmdAñadir.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.TopCenter
-        Me.cmdAñadir.Location = New System.Drawing.Point(11, 16)
+        Me.cmdAñadir.Location = New System.Drawing.Point(8, 13)
         Me.cmdAñadir.LookAndFeel.SkinName = "iMaginary"
-        Me.cmdAñadir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdAñadir.Name = "cmdAñadir"
-        Me.cmdAñadir.Size = New System.Drawing.Size(83, 55)
+        Me.cmdAñadir.Size = New System.Drawing.Size(62, 45)
         Me.cmdAñadir.TabIndex = 0
         Me.cmdAñadir.Text = "Añadir"
         '
@@ -951,11 +910,10 @@ Partial Class m_catalogo
         Me.cmdEliminar.Appearance.Options.UseFont = True
         Me.cmdEliminar.Image = Global.cefe.My.Resources.Resources.m_borrar
         Me.cmdEliminar.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.TopCenter
-        Me.cmdEliminar.Location = New System.Drawing.Point(281, 15)
+        Me.cmdEliminar.Location = New System.Drawing.Point(211, 12)
         Me.cmdEliminar.LookAndFeel.SkinName = "The Asphalt World"
-        Me.cmdEliminar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdEliminar.Name = "cmdEliminar"
-        Me.cmdEliminar.Size = New System.Drawing.Size(83, 55)
+        Me.cmdEliminar.Size = New System.Drawing.Size(62, 45)
         Me.cmdEliminar.TabIndex = 38
         Me.cmdEliminar.Text = "Eliminar"
         '
@@ -966,11 +924,10 @@ Partial Class m_catalogo
         Me.cmdGrabar.Enabled = False
         Me.cmdGrabar.Image = Global.cefe.My.Resources.Resources.m_grabar
         Me.cmdGrabar.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.TopCenter
-        Me.cmdGrabar.Location = New System.Drawing.Point(101, 16)
+        Me.cmdGrabar.Location = New System.Drawing.Point(76, 13)
         Me.cmdGrabar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdGrabar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdGrabar.Name = "cmdGrabar"
-        Me.cmdGrabar.Size = New System.Drawing.Size(83, 55)
+        Me.cmdGrabar.Size = New System.Drawing.Size(62, 45)
         Me.cmdGrabar.TabIndex = 0
         Me.cmdGrabar.Text = "Grabar"
         '
@@ -981,32 +938,29 @@ Partial Class m_catalogo
         Me.cmdCancelar.Enabled = False
         Me.cmdCancelar.Image = Global.cefe.My.Resources.Resources.m_cancelar
         Me.cmdCancelar.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.TopCenter
-        Me.cmdCancelar.Location = New System.Drawing.Point(191, 16)
+        Me.cmdCancelar.Location = New System.Drawing.Point(143, 13)
         Me.cmdCancelar.LookAndFeel.SkinName = "Black"
-        Me.cmdCancelar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdCancelar.Name = "cmdCancelar"
-        Me.cmdCancelar.Size = New System.Drawing.Size(83, 55)
+        Me.cmdCancelar.Size = New System.Drawing.Size(62, 45)
         Me.cmdCancelar.TabIndex = 37
         Me.cmdCancelar.Text = "Cancelar"
         '
         'txtsubgrupo
         '
         Me.txtsubgrupo.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtsubgrupo.Location = New System.Drawing.Point(348, 101)
-        Me.txtsubgrupo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtsubgrupo.Location = New System.Drawing.Point(261, 82)
         Me.txtsubgrupo.Name = "txtsubgrupo"
         Me.txtsubgrupo.ReadOnly = True
-        Me.txtsubgrupo.Size = New System.Drawing.Size(301, 22)
+        Me.txtsubgrupo.Size = New System.Drawing.Size(227, 20)
         Me.txtsubgrupo.TabIndex = 22
         '
         'cbosubgrupo
         '
         Me.cbosubgrupo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbosubgrupo.FormattingEnabled = True
-        Me.cbosubgrupo.Location = New System.Drawing.Point(357, 100)
-        Me.cbosubgrupo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cbosubgrupo.Location = New System.Drawing.Point(268, 81)
         Me.cbosubgrupo.Name = "cbosubgrupo"
-        Me.cbosubgrupo.Size = New System.Drawing.Size(292, 24)
+        Me.cbosubgrupo.Size = New System.Drawing.Size(220, 21)
         Me.cbosubgrupo.TabIndex = 21
         Me.cbosubgrupo.Visible = False
         '
@@ -1015,10 +969,10 @@ Partial Class m_catalogo
         Me.lblsubgrupo.AutoSize = True
         Me.lblsubgrupo.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.lblsubgrupo.BackColor = System.Drawing.Color.White
-        Me.lblsubgrupo.Location = New System.Drawing.Point(280, 102)
-        Me.lblsubgrupo.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.lblsubgrupo.Location = New System.Drawing.Point(210, 83)
+        Me.lblsubgrupo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblsubgrupo.Name = "lblsubgrupo"
-        Me.lblsubgrupo.Size = New System.Drawing.Size(59, 19)
+        Me.lblsubgrupo.Size = New System.Drawing.Size(49, 16)
         Me.lblsubgrupo.TabIndex = 21
         Me.lblsubgrupo.TabStop = False
         Me.lblsubgrupo.texto = "Grupo"
@@ -1026,21 +980,19 @@ Partial Class m_catalogo
         'txtTipo
         '
         Me.txtTipo.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtTipo.Location = New System.Drawing.Point(64, 101)
-        Me.txtTipo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtTipo.Location = New System.Drawing.Point(48, 82)
         Me.txtTipo.Name = "txtTipo"
         Me.txtTipo.ReadOnly = True
-        Me.txtTipo.Size = New System.Drawing.Size(208, 22)
+        Me.txtTipo.Size = New System.Drawing.Size(157, 20)
         Me.txtTipo.TabIndex = 20
         '
         'txtUnidad
         '
         Me.txtUnidad.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtUnidad.Location = New System.Drawing.Point(1019, 18)
-        Me.txtUnidad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtUnidad.Location = New System.Drawing.Point(764, 15)
         Me.txtUnidad.Name = "txtUnidad"
         Me.txtUnidad.ReadOnly = True
-        Me.txtUnidad.Size = New System.Drawing.Size(153, 22)
+        Me.txtUnidad.Size = New System.Drawing.Size(116, 20)
         Me.txtUnidad.TabIndex = 5
         '
         'cboTipo
@@ -1048,10 +1000,9 @@ Partial Class m_catalogo
         Me.cboTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTipo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboTipo.FormattingEnabled = True
-        Me.cboTipo.Location = New System.Drawing.Point(64, 101)
-        Me.cboTipo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboTipo.Location = New System.Drawing.Point(48, 82)
         Me.cboTipo.Name = "cboTipo"
-        Me.cboTipo.Size = New System.Drawing.Size(208, 25)
+        Me.cboTipo.Size = New System.Drawing.Size(157, 21)
         Me.cboTipo.TabIndex = 19
         Me.cboTipo.Visible = False
         '
@@ -1060,10 +1011,10 @@ Partial Class m_catalogo
         Me.lblTipo.AutoSize = True
         Me.lblTipo.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.lblTipo.BackColor = System.Drawing.Color.White
-        Me.lblTipo.Location = New System.Drawing.Point(11, 102)
-        Me.lblTipo.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.lblTipo.Location = New System.Drawing.Point(8, 83)
+        Me.lblTipo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblTipo.Name = "lblTipo"
-        Me.lblTipo.Size = New System.Drawing.Size(45, 19)
+        Me.lblTipo.Size = New System.Drawing.Size(38, 16)
         Me.lblTipo.TabIndex = 19
         Me.lblTipo.TabStop = False
         Me.lblTipo.texto = "Tipo"
@@ -1071,56 +1022,51 @@ Partial Class m_catalogo
         'txtPrecio
         '
         Me.txtPrecio.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtPrecio.Location = New System.Drawing.Point(729, 53)
-        Me.txtPrecio.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtPrecio.Location = New System.Drawing.Point(547, 43)
         Me.txtPrecio.Name = "txtPrecio"
         Me.txtPrecio.ReadOnly = True
-        Me.txtPrecio.Size = New System.Drawing.Size(105, 22)
+        Me.txtPrecio.Size = New System.Drawing.Size(80, 20)
         Me.txtPrecio.TabIndex = 13
         Me.txtPrecio.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtCosto
         '
         Me.txtCosto.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtCosto.Location = New System.Drawing.Point(76, 53)
-        Me.txtCosto.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCosto.Location = New System.Drawing.Point(57, 43)
         Me.txtCosto.Name = "txtCosto"
         Me.txtCosto.ReadOnly = True
-        Me.txtCosto.Size = New System.Drawing.Size(105, 22)
+        Me.txtCosto.Size = New System.Drawing.Size(80, 20)
         Me.txtCosto.TabIndex = 7
         Me.txtCosto.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtDescripcion
         '
         Me.txtDescripcion.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtDescripcion.Location = New System.Drawing.Point(307, 18)
-        Me.txtDescripcion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtDescripcion.Location = New System.Drawing.Point(230, 15)
         Me.txtDescripcion.MaxLength = 100
         Me.txtDescripcion.Name = "txtDescripcion"
         Me.txtDescripcion.ReadOnly = True
-        Me.txtDescripcion.Size = New System.Drawing.Size(619, 22)
+        Me.txtDescripcion.Size = New System.Drawing.Size(465, 20)
         Me.txtDescripcion.TabIndex = 3
         '
         'txtCodigo
         '
         Me.txtCodigo.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtCodigo.Enabled = False
-        Me.txtCodigo.Location = New System.Drawing.Point(76, 20)
-        Me.txtCodigo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCodigo.Location = New System.Drawing.Point(57, 16)
         Me.txtCodigo.MaxLength = 10
         Me.txtCodigo.Name = "txtCodigo"
         Me.txtCodigo.ReadOnly = True
-        Me.txtCodigo.Size = New System.Drawing.Size(85, 22)
+        Me.txtCodigo.Size = New System.Drawing.Size(65, 20)
         Me.txtCodigo.TabIndex = 1
         '
         'cboUnidad
         '
         Me.cboUnidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboUnidad.FormattingEnabled = True
-        Me.cboUnidad.Location = New System.Drawing.Point(1019, 18)
-        Me.cboUnidad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboUnidad.Location = New System.Drawing.Point(764, 15)
         Me.cboUnidad.Name = "cboUnidad"
-        Me.cboUnidad.Size = New System.Drawing.Size(153, 24)
+        Me.cboUnidad.Size = New System.Drawing.Size(116, 21)
         Me.cboUnidad.TabIndex = 3
         Me.cboUnidad.Visible = False
         '
@@ -1129,10 +1075,10 @@ Partial Class m_catalogo
         Me.lblUnidad.AutoSize = True
         Me.lblUnidad.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.lblUnidad.BackColor = System.Drawing.Color.White
-        Me.lblUnidad.Location = New System.Drawing.Point(936, 22)
-        Me.lblUnidad.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.lblUnidad.Location = New System.Drawing.Point(702, 18)
+        Me.lblUnidad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblUnidad.Name = "lblUnidad"
-        Me.lblUnidad.Size = New System.Drawing.Size(64, 19)
+        Me.lblUnidad.Size = New System.Drawing.Size(56, 16)
         Me.lblUnidad.TabIndex = 4
         Me.lblUnidad.TabStop = False
         Me.lblUnidad.texto = "Unidad"
@@ -1142,10 +1088,10 @@ Partial Class m_catalogo
         Me.Etiqueta4.AutoSize = True
         Me.Etiqueta4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Etiqueta4.BackColor = System.Drawing.Color.White
-        Me.Etiqueta4.Location = New System.Drawing.Point(627, 55)
-        Me.Etiqueta4.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Etiqueta4.Location = New System.Drawing.Point(470, 45)
+        Me.Etiqueta4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Etiqueta4.Name = "Etiqueta4"
-        Me.Etiqueta4.Size = New System.Drawing.Size(85, 19)
+        Me.Etiqueta4.Size = New System.Drawing.Size(72, 16)
         Me.Etiqueta4.TabIndex = 12
         Me.Etiqueta4.TabStop = False
         Me.Etiqueta4.texto = "Pre.Venta"
@@ -1155,10 +1101,10 @@ Partial Class m_catalogo
         Me.Etiqueta3.AutoSize = True
         Me.Etiqueta3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Etiqueta3.BackColor = System.Drawing.Color.White
-        Me.Etiqueta3.Location = New System.Drawing.Point(13, 55)
-        Me.Etiqueta3.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Etiqueta3.Location = New System.Drawing.Point(10, 45)
+        Me.Etiqueta3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Etiqueta3.Name = "Etiqueta3"
-        Me.Etiqueta3.Size = New System.Drawing.Size(58, 19)
+        Me.Etiqueta3.Size = New System.Drawing.Size(46, 16)
         Me.Etiqueta3.TabIndex = 6
         Me.Etiqueta3.TabStop = False
         Me.Etiqueta3.texto = "Costo"
@@ -1168,10 +1114,10 @@ Partial Class m_catalogo
         Me.lblDescripcion.AutoSize = True
         Me.lblDescripcion.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.lblDescripcion.BackColor = System.Drawing.Color.White
-        Me.lblDescripcion.Location = New System.Drawing.Point(185, 20)
-        Me.lblDescripcion.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.lblDescripcion.Location = New System.Drawing.Point(139, 16)
+        Me.lblDescripcion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblDescripcion.Name = "lblDescripcion"
-        Me.lblDescripcion.Size = New System.Drawing.Size(102, 19)
+        Me.lblDescripcion.Size = New System.Drawing.Size(86, 16)
         Me.lblDescripcion.TabIndex = 2
         Me.lblDescripcion.TabStop = False
         Me.lblDescripcion.texto = "Descripción"
@@ -1184,35 +1130,18 @@ Partial Class m_catalogo
         '
         Me.ChkMuestraVenta.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.ChkMuestraVenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ChkMuestraVenta.Location = New System.Drawing.Point(669, 519)
-        Me.ChkMuestraVenta.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ChkMuestraVenta.Location = New System.Drawing.Point(502, 422)
         Me.ChkMuestraVenta.Name = "ChkMuestraVenta"
-        Me.ChkMuestraVenta.Size = New System.Drawing.Size(195, 21)
+        Me.ChkMuestraVenta.Size = New System.Drawing.Size(161, 18)
         Me.ChkMuestraVenta.Style = DevComponents.DotNetBar.eDotNetBarStyle.Metro
         Me.ChkMuestraVenta.TabIndex = 151
         Me.ChkMuestraVenta.Text = "Mostrar Articulos Venta"
         Me.ChkMuestraVenta.TextColor = System.Drawing.Color.Red
         '
-        'Chksoloventas
-        '
-        Me.Chksoloventas.AutoSize = True
-        '
-        '
-        '
-        Me.Chksoloventas.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.Chksoloventas.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Chksoloventas.Location = New System.Drawing.Point(32, 113)
-        Me.Chksoloventas.Margin = New System.Windows.Forms.Padding(4)
-        Me.Chksoloventas.Name = "Chksoloventas"
-        Me.Chksoloventas.Size = New System.Drawing.Size(138, 18)
-        Me.Chksoloventas.TabIndex = 45
-        Me.Chksoloventas.Text = "Solo Grupo Ventas"
-        Me.Chksoloventas.TextColor = System.Drawing.Color.Black
-        '
         'm_catalogo
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.ClientSize = New System.Drawing.Size(1311, 745)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.ClientSize = New System.Drawing.Size(983, 605)
         Me.Controls.Add(Me.ChkMuestraVenta)
         Me.Controls.Add(Me.TabControl2)
         Me.Controls.Add(Me.LabelX1)
@@ -1225,7 +1154,7 @@ Partial Class m_catalogo
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.grupoCatalogo)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "m_catalogo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Mantenimiento: CATALOGO GENERAL DE PRODUCTOS"

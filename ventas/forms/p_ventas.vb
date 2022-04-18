@@ -1144,12 +1144,12 @@ Public Class p_ventas
         If Not (pDespachoXprecioVenta) Or cod_tipoCliente = "00" Then
             c11 = ",pre_venta"
             c5 = ""
-            c6 = " where (t.esProduccion) and a.cod_alma='" & cod_alma & "' and (a.nom_art like'%" & articulo & "%' or a.cod_art like'%" & articulo & "%')"
+            c6 = " where a.cod_alma='" & cod_alma & "' and (a.nom_art like'%" & articulo & "%' or a.cod_art like'%" & articulo & "%')"
             c12 = IIf(cod_sgrupo.Length > 0, " and a.cod_sgrupo='" & cod_sgrupo & "'", " ")
         Else
             c11 = ",art_tipocliente.precio as pre_venta"
             c5 = " left join art_tipocliente on a.cod_art=art_tipocliente.cod_Art"
-            c6 = " where (t.esProduccion) and a.cod_alma='" & cod_alma & "' and art_tipocliente.cod_tipo ='" & cod_tipoCliente & "'" & " and (a.nom_art like'%" & articulo & "%' or a.cod_art like'%" & articulo & "%')"
+            c6 = " where a.cod_alma='" & cod_alma & "' and art_tipocliente.cod_tipo ='" & cod_tipoCliente & "'" & " and (a.nom_art like'%" & articulo & "%' or a.cod_art like'%" & articulo & "%')"
             c12 = IIf(cod_sgrupo.Length > 0, " and a.cod_sgrupo='" & cod_sgrupo & "'", " ")
         End If
         c7 = " and a.activo=1 group by a.cod_art order by nom_art"
@@ -1196,7 +1196,7 @@ Public Class p_ventas
     Private Sub mostrargrupo()
         'Dim objconexion As MySqlConnection
         'objconexion = Conexion.obtenerConexion()
-        Dim strSQl As String = "select cod_sgrupo,nom_sgrupo from subgrupo where activo=1 and esProduccion"
+        Dim strSQl As String = "select cod_sgrupo,nom_sgrupo from subgrupo where activo=1 and esVenta"
         Dim mycomand As New MySqlCommand(strSQl, dbConex)
         Dim myreader As MySqlDataReader
         Try

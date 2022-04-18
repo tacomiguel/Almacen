@@ -115,7 +115,7 @@ Public Class m_catalogo
         cbosubgrupo.ValueMember = dsCatalogo.Tables("subgrupo").Columns("cod_sgrupo").ToString
         habilitabotones()
     End Sub
-    Sub muestracatalogo(ByVal esventa As Boolean)
+    Sub muestracatalogo(ByVal esProduccion As Boolean)
         'dataset catalogo
         dsCatalogo = Catalogo.dsCatalogo()
         dtArticulo = dsCatalogo.Tables("articulo")
@@ -123,8 +123,8 @@ Public Class m_catalogo
         cad1 = "Select cod_art,nom_art,articulo.cod_uni,nom_uni,pre_costo,pre_venta,pre_costoMax,pre_costoMin,afecto_igv,inv_diario,cod_artExt,"
         cad2 = " articulo.cod_tart,nom_tart,articulo.cod_sgrupo,nom_sgrupo,articulo.activo,minimo,maximo,pre_inc_imp,es_botella,peso_lleno,peso_vacio"
         cad3 = " from articulo inner join unidad on articulo.cod_uni=unidad.cod_uni"
-        cad4 = " inner join tipo_articulo on articulo.cod_tart=tipo_articulo.cod_tart"
-        cad5 = " inner join subgrupo on articulo.cod_sgrupo=subgrupo.cod_sgrupo WHERE esVenta=" & esventa
+        cad4 = " inner join tipo_articulo t on articulo.cod_tart=t.cod_tart"
+        cad5 = " inner join subgrupo on articulo.cod_sgrupo=subgrupo.cod_sgrupo WHERE t.esProduccion=" & esProduccion
         cad6 = IIf(pCatalogoXalmacen, " and cod_alma='" & cAlmaPrincipal & "'", "") & " order by nom_art"
         cad = cad1 + cad2 + cad3 + cad4 + cad5 + cad6
         Dim com As New MySqlCommand(cad, dbConex)
