@@ -283,9 +283,15 @@ Public Class repTransferencias
             .Columns("fec_prod").Width = 70
             .Columns("fec_prod").DisplayIndex = 10
             .Columns("fec_prod").ReadOnly = True
+
+            .Columns("fec_ent").HeaderText = "Fecha Entrega"
+            .Columns("fec_ent").Width = 70
+            .Columns("fec_ent").DisplayIndex = 11
+            .Columns("fec_ent").ReadOnly = True
+
             .Columns("obs").HeaderText = "Observacion"
             .Columns("obs").Width = 80
-            .Columns("obs").DisplayIndex = 11
+            .Columns("obs").DisplayIndex = 12
             .Columns("obs").ReadOnly = True
             .Columns("cant1").Visible = False
             .Columns("ser_doc").Visible = False
