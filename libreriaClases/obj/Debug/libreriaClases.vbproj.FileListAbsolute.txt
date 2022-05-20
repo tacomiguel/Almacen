@@ -105,7 +105,6 @@ D:\MTACO\desarrollo\Almacen\libreriaClases\bin\Debug\libreriaClases.dll
 D:\MTACO\desarrollo\Almacen\libreriaClases\bin\Debug\libreriaClases.pdb
 D:\MTACO\desarrollo\Almacen\libreriaClases\bin\Debug\libreriaClases.xml
 D:\MTACO\desarrollo\Almacen\libreriaClases\bin\Debug\Microsoft.Vsa.dll
-D:\MTACO\desarrollo\Almacen\libreriaClases\obj\Debug\libreriaClases.vbprojResolveAssemblyReference.cache
 D:\MTACO\desarrollo\Almacen\libreriaClases\obj\Debug\libreriaClases.Resources.resources
 D:\MTACO\desarrollo\Almacen\libreriaClases\obj\Debug\libreriaClases.vbproj.GenerateResource.Cache
 D:\MTACO\desarrollo\Almacen\libreriaClases\obj\Debug\libreriaClases.dll
