@@ -63,7 +63,7 @@ Public Class Resumen
         cad15 = " inner join articulo a on hd.cod_Art=a.cod_art inner join documento_i d on h.cod_doc=d.cod_doc"
         cad16 = " inner join unidad u on a.cod_uni=u.cod_uni inner join subgrupo s on a.cod_sgrupo=s.cod_sgrupo"
         cad17 = " inner join proveedor p on p.cod_prov=h.cod_prov "
-        cad18 = " where year(fec_doc)= " & periodo & " and (esCompra) and (a.activo)"
+        cad18 = " where year(fec_doc)= " & periodo & " and (d.esCompra) and (a.activo)"
         cad19 = " group by h.cod_prov,hd.cod_art order by 1,2"
         cad = cad0 + cad1 + cad2 + cad3 + cad4 + cad5 + cad6 + cad7 + cad8 + cad9 + cad10 + cad11 + cad12 + cad13 + cad14 + cad15 + cad16 + cad17 + cad18 + cad19
         Dim comSaldo As New MySqlCommand(cad)
