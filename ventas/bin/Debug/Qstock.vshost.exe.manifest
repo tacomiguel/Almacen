@@ -53,11 +53,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="MySql.Data" version="6.5.4.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CrystalDecisions.CrystalReports.Engine.dll" size="380928">
       <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -358,14 +353,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="382976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="383488">
       <assemblyIdentity name="libreriaClases" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>1gEhm6P/MmCvXG/a5lJ6cvpRfG0=</dsig:DigestValue>
+        <dsig:DigestValue>VXnXRubLI9xS9wZ3NGWUTg6ExL8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -394,14 +389,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14035456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="376832">
+      <assemblyIdentity name="MySql.Data" version="6.5.4.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Y1q7wIbKpBImggf7NEI8ZNjguKA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14036480">
       <assemblyIdentity name="Qstock" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>DCD2TYtYoPRZy1nkQoPOG1XJSDw=</dsig:DigestValue>
+        <dsig:DigestValue>tOeIa7B7ehlyO3OZHre4vIYaKjw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

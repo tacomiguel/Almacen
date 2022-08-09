@@ -37,7 +37,7 @@ Public Class Resumen
         Dim clConex As MySqlConnection = Conexion.obtenerConexion
         Dim da As New MySqlDataAdapter
         Dim dsResumen As New DataSet
-        Dim cad, cad0, cad1, cad2, cad3, cad4, cad5, cad6, cad7, cad8, cad9, cad10, cad11, cad12, cad13, cad14, cad15, cad16, cad17, cad18, cad19 As String
+        Dim cad, cad0, cad1, cad2, cad3, cad4, cad5, cad6, cad7, cad8, cad9, cad10, cad11, cad12, cad13, cad14, cad15, cad16, cad17, cad18, cad19, cad20, cad21, cad22 As String
         'cad1 = "select cod_art,nom_art,nom_uni,0.0 as m1,0.0 as m2,0.0 as m3,0.0 as m4,0.0 as m5, 0.0 as m6,0.0 as m7,0.0 as m8,0.0 as m9,0.0 as m10,0.0 as m11,0.0 as m12,0.0 as total"
         'cad2 = " from articulo inner join unidad on articulo.cod_uni=unidad.cod_uni"
         'If soloActivos Then
@@ -45,7 +45,7 @@ Public Class Resumen
         'Else
         '    cad3 = " where articulo.cod_alma='" & cod_alma & "' order by nom_art"
         'End If
-        cad0 = "select p.raz_soc,a.nom_art,s.nom_sgrupo,u.nom_uni,a.pre_ult,"
+        cad0 = "select raz_soc,nom_art,nom_sgrupo,nom_uni,pre_ult,"
         cad1 = "round(sum(if(MONTH(fec_doc)=1," & valor & ",0)),2) as m1,"
         cad2 = "round(sum(if(MONTH(fec_doc)=2," & valor & ",0)),2) as m2,"
         cad3 = "round(sum(if(MONTH(fec_doc)=3," & valor & ",0)),2) as m3,"
@@ -59,13 +59,16 @@ Public Class Resumen
         cad11 = "round(sum(if(MONTH(fec_doc)=11," & valor & ",0)),2) as m11,"
         cad12 = "round(sum(if(MONTH(fec_doc)=12," & valor & ",0)),2) as m12,"
         cad13 = "round(sum(" & valor & "),2) as total"
-        cad14 = " from h_ingreso h inner join h_ingreso_det hd on h.operacion=hd.operacion and h.proceso=hd.proceso"
-        cad15 = " inner join articulo a on hd.cod_Art=a.cod_art inner join documento_i d on h.cod_doc=d.cod_doc"
-        cad16 = " inner join unidad u on a.cod_uni=u.cod_uni inner join subgrupo s on a.cod_sgrupo=s.cod_sgrupo"
-        cad17 = " inner join proveedor p on p.cod_prov=h.cod_prov "
-        cad18 = " where year(fec_doc)= " & periodo & " and (d.esCompra) and (a.activo)"
-        cad19 = " group by h.cod_prov,hd.cod_art order by 1,2"
-        cad = cad0 + cad1 + cad2 + cad3 + cad4 + cad5 + cad6 + cad7 + cad8 + cad9 + cad10 + cad11 + cad12 + cad13 + cad14 + cad15 + cad16 + cad17 + cad18 + cad19
+        cad14 = " from (select h.fec_doc,h.cod_doc,h.cod_prov,hd.cod_art,hd.cant,hd.precio "
+        cad15 = " from h_ingreso h inner join h_ingreso_det hd On h.operacion=hd.operacion And h.proceso=hd.proceso "
+        cad16 = " union Select h.fec_doc,h.cod_doc,h.cod_prov,hd.cod_art,hd.cant,hd.precio"
+        cad17 = " from ingreso h inner join ingreso_det hd On h.operacion=hd.operacion order by 1,2) as t"
+        cad18 = " inner join articulo a on t.cod_Art=a.cod_art inner join documento_i d on t.cod_doc=d.cod_doc"
+        cad19 = " inner join unidad u on a.cod_uni=u.cod_uni inner join subgrupo s on a.cod_sgrupo=s.cod_sgrupo"
+        cad20 = " inner join proveedor p on p.cod_prov = t.cod_prov "
+        cad21 = " where year(fec_doc)= " & periodo & " and (d.esCompra) and (a.activo)"
+        cad22 = " group by raz_soc,nom_art order by 1,2"
+        cad = cad0 + cad1 + cad2 + cad3 + cad4 + cad5 + cad6 + cad7 + cad8 + cad9 + cad10 + cad11 + cad12 + cad13 + cad14 + cad15 + cad16 + cad17 + cad18 + cad19 + cad20 + cad21 + cad22
         Dim comSaldo As New MySqlCommand(cad)
         comSaldo.Connection = clConex
         comSaldo.CommandTimeout = 300

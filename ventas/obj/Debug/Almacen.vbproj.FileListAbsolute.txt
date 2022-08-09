@@ -1791,3 +1791,4 @@ D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\cefe.u_importaVentas_dbf.resources
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Almacen.vbproj.GenerateResource.Cache
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.exe.manifest
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.application
+D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\MySql.Data.dll

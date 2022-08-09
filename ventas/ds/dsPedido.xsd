@@ -48,6 +48,7 @@
               <xs:element name="fec_ins" msprop:Generator_ColumnVarNameInTable="columnfec_ins" msprop:Generator_ColumnPropNameInRow="fec_ins" msprop:Generator_ColumnPropNameInTable="fec_insColumn" msprop:Generator_UserColumnName="fec_ins" type="xs:dateTime" minOccurs="0" />
               <xs:element name="fec_mod" msprop:Generator_ColumnVarNameInTable="columnfec_mod" msprop:Generator_ColumnPropNameInRow="fec_mod" msprop:Generator_ColumnPropNameInTable="fec_modColumn" msprop:Generator_UserColumnName="fec_mod" type="xs:dateTime" minOccurs="0" />
               <xs:element name="obsdet" msprop:Generator_ColumnVarNameInTable="columnobsdet" msprop:Generator_ColumnPropNameInRow="obsdet" msprop:Generator_ColumnPropNameInTable="obsdetColumn" msprop:Generator_UserColumnName="obsdet" type="xs:string" minOccurs="0" />
+              <xs:element name="nom_sgrupo" msprop:Generator_ColumnVarNameInTable="columnnom_sgrupo" msprop:Generator_ColumnPropNameInRow="nom_sgrupo" msprop:Generator_ColumnPropNameInTable="nom_sgrupoColumn" msprop:Generator_UserColumnName="nom_sgrupo" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

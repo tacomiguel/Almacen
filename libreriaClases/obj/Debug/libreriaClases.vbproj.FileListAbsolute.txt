@@ -110,4 +110,5 @@ D:\MTACO\desarrollo\Almacen\libreriaClases\obj\Debug\libreriaClases.vbproj.Gener
 D:\MTACO\desarrollo\Almacen\libreriaClases\obj\Debug\libreriaClases.dll
 D:\MTACO\desarrollo\Almacen\libreriaClases\obj\Debug\libreriaClases.xml
 D:\MTACO\desarrollo\Almacen\libreriaClases\obj\Debug\libreriaClases.pdb
+D:\MTACO\desarrollo\Almacen\libreriaClases\bin\Debug\MySql.Data.dll
 D:\MTACO\desarrollo\Almacen\libreriaClases\obj\Debug\libreriaClases.vbprojResolveAssemblyReference.cache

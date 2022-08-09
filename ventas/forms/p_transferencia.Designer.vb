@@ -508,7 +508,7 @@ Partial Class p_transferencia
         Me.txtBuscarTransferencia.Location = New System.Drawing.Point(5, 236)
         Me.txtBuscarTransferencia.Name = "txtBuscarTransferencia"
         Me.txtBuscarTransferencia.ReadOnly = True
-        Me.txtBuscarTransferencia.Size = New System.Drawing.Size(109, 21)
+        Me.txtBuscarTransferencia.Size = New System.Drawing.Size(122, 21)
         Me.txtBuscarTransferencia.TabIndex = 91
         '
         'dataNroTransferencias
@@ -555,7 +555,7 @@ Partial Class p_transferencia
         Me.dataNroTransferencias.SelectAllSignVisible = False
         Me.dataNroTransferencias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
         Me.dataNroTransferencias.ShowEditingIcon = False
-        Me.dataNroTransferencias.Size = New System.Drawing.Size(109, 324)
+        Me.dataNroTransferencias.Size = New System.Drawing.Size(122, 351)
         Me.dataNroTransferencias.TabIndex = 90
         '
         'txtBuscarOrigen
@@ -623,7 +623,7 @@ Partial Class p_transferencia
         DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataTransferencias.DefaultCellStyle = DataGridViewCellStyle10
         Me.dataTransferencias.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataTransferencias.Location = New System.Drawing.Point(118, 236)
+        Me.dataTransferencias.Location = New System.Drawing.Point(133, 236)
         Me.dataTransferencias.MultiSelect = False
         Me.dataTransferencias.Name = "dataTransferencias"
         DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -638,7 +638,7 @@ Partial Class p_transferencia
         Me.dataTransferencias.SelectAllSignVisible = False
         Me.dataTransferencias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
         Me.dataTransferencias.ShowEditingIcon = False
-        Me.dataTransferencias.Size = New System.Drawing.Size(849, 349)
+        Me.dataTransferencias.Size = New System.Drawing.Size(862, 376)
         Me.dataTransferencias.TabIndex = 83
         '
         'chkMostrarPedidos
@@ -802,7 +802,7 @@ Partial Class p_transferencia
         'p_transferencia
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.ClientSize = New System.Drawing.Size(967, 598)
+        Me.ClientSize = New System.Drawing.Size(1005, 637)
         Me.Controls.Add(Me.chkProduccion)
         Me.Controls.Add(Me.chkmostrarOC)
         Me.Controls.Add(Me.Chk_pedpendiente)
