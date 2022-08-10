@@ -1670,9 +1670,6 @@ D:\MTACO\desarrollo\SGA_Almacen\Almacen\ventas\bin\Debug\mControles.xml
 D:\MTACO\desarrollo\SGA_Almacen\Almacen\ventas\obj\Debug\Qstock.exe.manifest
 D:\MTACO\desarrollo\SGA_Almacen\Almacen\ventas\obj\Debug\Qstock.application
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\Qstock.exe.config
-D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Almacen.vbproj.ResolveComReference.cache
-D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.exe
-D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.pdb
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\Qstock.exe.manifest
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\Qstock.application
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\Qstock.exe
@@ -1688,6 +1685,7 @@ D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\DevExpress.DXCore.Controls.XtraBars
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\DevExpress.DXCore.Controls.XtraEditors.v6.3.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\libreriaClases.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\mControles.dll
+D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\MySql.Data.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\dotnetCHARTING.WinForms.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
@@ -1711,6 +1709,7 @@ D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\DevComponents.DotNetBar2.xml
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\mControles.pdb
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\mControles.xml
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Almacen.vbprojResolveAssemblyReference.cache
+D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Almacen.vbproj.ResolveComReference.cache
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\cefe.a_AcercaDe.resources
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\cefe.base.resources
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\cefe.baseReporte.resources
@@ -1791,4 +1790,5 @@ D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\cefe.u_importaVentas_dbf.resources
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Almacen.vbproj.GenerateResource.Cache
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.exe.manifest
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.application
-D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\MySql.Data.dll
+D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.exe
+D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.pdb

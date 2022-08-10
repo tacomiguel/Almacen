@@ -30,7 +30,6 @@
               <xs:element name="fono_clie" msprop:Generator_ColumnVarNameInTable="columnfono_clie" msprop:Generator_ColumnPropNameInRow="fono_clie" msprop:Generator_ColumnPropNameInTable="fono_clieColumn" msprop:Generator_UserColumnName="fono_clie" type="xs:string" minOccurs="0" />
               <xs:element name="obs" msprop:Generator_ColumnVarNameInTable="columnobs" msprop:Generator_ColumnPropNameInRow="obs" msprop:Generator_ColumnPropNameInTable="obsColumn" msprop:Generator_UserColumnName="obs" type="xs:string" minOccurs="0" />
               <xs:element name="nom_art" msprop:Generator_ColumnVarNameInTable="columnnom_art" msprop:Generator_ColumnPropNameInRow="nom_art" msprop:Generator_ColumnPropNameInTable="nom_artColumn" msprop:Generator_UserColumnName="nom_art" type="xs:string" minOccurs="0" />
-              <xs:element name="cant" msprop:Generator_ColumnVarNameInTable="columncant" msprop:Generator_ColumnPropNameInRow="cant" msprop:Generator_ColumnPropNameInTable="cantColumn" msprop:Generator_UserColumnName="cant" type="xs:int" minOccurs="0" />
               <xs:element name="monto" msprop:Generator_ColumnVarNameInTable="columnmonto" msprop:Generator_ColumnPropNameInRow="monto" msprop:Generator_ColumnPropNameInTable="montoColumn" msprop:Generator_UserColumnName="monto" type="xs:decimal" minOccurs="0" />
               <xs:element name="precio" msprop:Generator_ColumnVarNameInTable="columnprecio" msprop:Generator_ColumnPropNameInRow="precio" msprop:Generator_ColumnPropNameInTable="precioColumn" msprop:Generator_UserColumnName="precio" type="xs:decimal" minOccurs="0" />
               <xs:element name="nro_fac" msprop:Generator_ColumnVarNameInTable="columnnro_fac" msprop:Generator_ColumnPropNameInRow="nro_fac" msprop:Generator_ColumnPropNameInTable="nro_facColumn" msprop:Generator_UserColumnName="nro_fac" type="xs:string" minOccurs="0" />
@@ -49,6 +48,7 @@
               <xs:element name="fec_mod" msprop:Generator_ColumnVarNameInTable="columnfec_mod" msprop:Generator_ColumnPropNameInRow="fec_mod" msprop:Generator_ColumnPropNameInTable="fec_modColumn" msprop:Generator_UserColumnName="fec_mod" type="xs:dateTime" minOccurs="0" />
               <xs:element name="obsdet" msprop:Generator_ColumnVarNameInTable="columnobsdet" msprop:Generator_ColumnPropNameInRow="obsdet" msprop:Generator_ColumnPropNameInTable="obsdetColumn" msprop:Generator_UserColumnName="obsdet" type="xs:string" minOccurs="0" />
               <xs:element name="nom_sgrupo" msprop:Generator_ColumnVarNameInTable="columnnom_sgrupo" msprop:Generator_ColumnPropNameInRow="nom_sgrupo" msprop:Generator_ColumnPropNameInTable="nom_sgrupoColumn" msprop:Generator_UserColumnName="nom_sgrupo" type="xs:string" minOccurs="0" />
+              <xs:element name="cant" msprop:Generator_ColumnVarNameInTable="columncant" msprop:Generator_ColumnPropNameInRow="cant" msprop:Generator_ColumnPropNameInTable="cantColumn" msprop:Generator_UserColumnName="cant" type="xs:decimal" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

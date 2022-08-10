@@ -348,8 +348,6 @@ Partial Public Class dsPedido
         
         Private columnnom_art As Global.System.Data.DataColumn
         
-        Private columncant As Global.System.Data.DataColumn
-        
         Private columnmonto As Global.System.Data.DataColumn
         
         Private columnprecio As Global.System.Data.DataColumn
@@ -385,6 +383,8 @@ Partial Public Class dsPedido
         Private columnobsdet As Global.System.Data.DataColumn
         
         Private columnnom_sgrupo As Global.System.Data.DataColumn
+        
+        Private columncant As Global.System.Data.DataColumn
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
@@ -543,14 +543,6 @@ Partial Public Class dsPedido
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public ReadOnly Property cantColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columncant
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public ReadOnly Property montoColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnmonto
@@ -694,6 +686,14 @@ Partial Public Class dsPedido
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
+        Public ReadOnly Property cantColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columncant
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"),  _
          Global.System.ComponentModel.Browsable(false)>  _
         Public ReadOnly Property Count() As Integer
@@ -746,7 +746,6 @@ Partial Public Class dsPedido
                     ByVal fono_clie As String,  _
                     ByVal obs As String,  _
                     ByVal nom_art As String,  _
-                    ByVal cant As Integer,  _
                     ByVal monto As Decimal,  _
                     ByVal precio As Decimal,  _
                     ByVal nro_fac As String,  _
@@ -764,9 +763,10 @@ Partial Public Class dsPedido
                     ByVal fec_ins As Date,  _
                     ByVal fec_mod As Date,  _
                     ByVal obsdet As String,  _
-                    ByVal nom_sgrupo As String) As pedidoRow
+                    ByVal nom_sgrupo As String,  _
+                    ByVal cant As Decimal) As pedidoRow
             Dim rowpedidoRow As pedidoRow = CType(Me.NewRow,pedidoRow)
-            Dim columnValuesArray() As Object = New Object() {ser_ped, nro_ped, fec_ped, fec_ent, nom_vend, cod_clie, nom_clie, raz_soc, dir_clie, dir_ent, nom_cont, nom_fpago, fono_clie, obs, nom_art, cant, monto, precio, nro_fac, monto_doc, monto_igv, cod_vend, nom_uni, tm, nom_alma, nom_area, usuario, tip_pedido, hor_ent, fecha, fec_ins, fec_mod, obsdet, nom_sgrupo}
+            Dim columnValuesArray() As Object = New Object() {ser_ped, nro_ped, fec_ped, fec_ent, nom_vend, cod_clie, nom_clie, raz_soc, dir_clie, dir_ent, nom_cont, nom_fpago, fono_clie, obs, nom_art, monto, precio, nro_fac, monto_doc, monto_igv, cod_vend, nom_uni, tm, nom_alma, nom_area, usuario, tip_pedido, hor_ent, fecha, fec_ins, fec_mod, obsdet, nom_sgrupo, cant}
             rowpedidoRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowpedidoRow)
             Return rowpedidoRow
@@ -804,7 +804,6 @@ Partial Public Class dsPedido
             Me.columnfono_clie = MyBase.Columns("fono_clie")
             Me.columnobs = MyBase.Columns("obs")
             Me.columnnom_art = MyBase.Columns("nom_art")
-            Me.columncant = MyBase.Columns("cant")
             Me.columnmonto = MyBase.Columns("monto")
             Me.columnprecio = MyBase.Columns("precio")
             Me.columnnro_fac = MyBase.Columns("nro_fac")
@@ -823,6 +822,7 @@ Partial Public Class dsPedido
             Me.columnfec_mod = MyBase.Columns("fec_mod")
             Me.columnobsdet = MyBase.Columns("obsdet")
             Me.columnnom_sgrupo = MyBase.Columns("nom_sgrupo")
+            Me.columncant = MyBase.Columns("cant")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -858,8 +858,6 @@ Partial Public Class dsPedido
             MyBase.Columns.Add(Me.columnobs)
             Me.columnnom_art = New Global.System.Data.DataColumn("nom_art", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnnom_art)
-            Me.columncant = New Global.System.Data.DataColumn("cant", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columncant)
             Me.columnmonto = New Global.System.Data.DataColumn("monto", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnmonto)
             Me.columnprecio = New Global.System.Data.DataColumn("precio", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
@@ -896,6 +894,8 @@ Partial Public Class dsPedido
             MyBase.Columns.Add(Me.columnobsdet)
             Me.columnnom_sgrupo = New Global.System.Data.DataColumn("nom_sgrupo", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnnom_sgrupo)
+            Me.columncant = New Global.System.Data.DataColumn("cant", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columncant)
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1571,21 +1571,6 @@ Partial Public Class dsPedido
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property cant() As Integer
-            Get
-                Try 
-                    Return CType(Me(Me.tablepedido.cantColumn),Integer)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'cant' in table 'pedido' is DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tablepedido.cantColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Property monto() As Decimal
             Get
                 Try 
@@ -1856,6 +1841,21 @@ Partial Public Class dsPedido
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
+        Public Property cant() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tablepedido.cantColumn),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'cant' in table 'pedido' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablepedido.cantColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function Isser_pedNull() As Boolean
             Return Me.IsNull(Me.tablepedido.ser_pedColumn)
         End Function
@@ -2032,18 +2032,6 @@ Partial Public Class dsPedido
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub Setnom_artNull()
             Me(Me.tablepedido.nom_artColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Function IscantNull() As Boolean
-            Return Me.IsNull(Me.tablepedido.cantColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Sub SetcantNull()
-            Me(Me.tablepedido.cantColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -2260,6 +2248,18 @@ Partial Public Class dsPedido
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub Setnom_sgrupoNull()
             Me(Me.tablepedido.nom_sgrupoColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
+        Public Function IscantNull() As Boolean
+            Return Me.IsNull(Me.tablepedido.cantColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
+        Public Sub SetcantNull()
+            Me(Me.tablepedido.cantColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     
