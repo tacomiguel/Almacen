@@ -49,6 +49,7 @@
               <xs:element name="obsdet" msprop:Generator_ColumnVarNameInTable="columnobsdet" msprop:Generator_ColumnPropNameInRow="obsdet" msprop:Generator_ColumnPropNameInTable="obsdetColumn" msprop:Generator_UserColumnName="obsdet" type="xs:string" minOccurs="0" />
               <xs:element name="nom_sgrupo" msprop:Generator_ColumnVarNameInTable="columnnom_sgrupo" msprop:Generator_ColumnPropNameInRow="nom_sgrupo" msprop:Generator_ColumnPropNameInTable="nom_sgrupoColumn" msprop:Generator_UserColumnName="nom_sgrupo" type="xs:string" minOccurs="0" />
               <xs:element name="cant" msprop:Generator_ColumnVarNameInTable="columncant" msprop:Generator_ColumnPropNameInRow="cant" msprop:Generator_ColumnPropNameInTable="cantColumn" msprop:Generator_UserColumnName="cant" type="xs:decimal" minOccurs="0" />
+              <xs:element name="cant_stock" msprop:Generator_ColumnVarNameInTable="columncant_stock" msprop:Generator_ColumnPropNameInRow="cant_stock" msprop:Generator_ColumnPropNameInTable="cant_stockColumn" msprop:Generator_UserColumnName="cant_stock" type="xs:decimal" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
