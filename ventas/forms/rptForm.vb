@@ -411,15 +411,16 @@ Public Class rptForm
         Dim cad, sql1 As String
         sql1 = " Select ser_ped,nro_ped,fec_ped,fec_ent,hor_ent,p.cod_clie,p.dir_ent,nom_clie as nom_clie," &
         " raz_soc,dir_clie,nom_cont, fono_clie,nom_vend,nom_fpago,a.nom_art, pd.cant, un.nom_uni," &
-        " tm ,m.nom_alma,ar.nom_area,u.user as usuario,r.dsc_recurso as tip_pedido,s.nom_sgrupo" &
+        " tm ,m.nom_alma,ar.nom_area,u.user as usuario,r.dsc_recurso as tip_pedido,s.nom_sgrupo,aa.cant_stock" &
         " From pedido p inner Join pedido_det pd on p.operacion=pd.operacion" &
-        " inner Join articulo a On pd.cod_art=a.cod_art left join subgrupo s on a.cod_sgrupo=s.cod_sgrupo left join unidad un on a.cod_uni=un.cod_uni" &
-        " inner join Cliente On p.cod_clie=cliente.cod_clie " &
-        " inner join vendedor On p.cod_vend=vendedor.cod_vend " &
-        " inner join forma_pago On p.cod_fpago=forma_pago.cod_fpago " &
-        " inner Join almacen m On p.cod_alma=m.cod_alma inner join usuario u On u.cuenta=p.cuenta  " &
+        " left Join articulo a On pd.cod_art=a.cod_art left join subgrupo s on a.cod_sgrupo=s.cod_sgrupo left join unidad un on a.cod_uni=un.cod_uni" &
+        " left join Cliente On p.cod_clie=cliente.cod_clie " &
+        " left join vendedor On p.cod_vend=vendedor.cod_vend " &
+        " left join forma_pago On p.cod_fpago=forma_pago.cod_fpago " &
+        " left Join almacen m On p.cod_alma=m.cod_alma inner join usuario u On u.cuenta=p.cuenta  " &
         " Left Join area ar On p.cod_area=ar.cod_area left join tipo_recurso r On r.cod_recurso=p.cod_pedido " &
         " Left join tipo_recurso r1 On r1.cod_recurso=p.cod_estado " &
+        " left join art_almacen aa on aa.cod_alma='0001' and aa.cod_artAlma=pd.cod_art " &
         " where r.cod_tabla ='tip_pedido' and r1.cod_tabla ='tip_epedido' " &
          IIf(xestado, "and p.cod_pedido='" & tipo_pedido & "'  and p.cod_estado ='" & estado & "'", "") &
          IIf(xdia, " and p.fec_ped>='" & mFecha & "' and p.fec_ped<='" & mfechahasta & "'", "") &
