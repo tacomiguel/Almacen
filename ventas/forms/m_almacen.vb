@@ -114,6 +114,7 @@ Public Class m_almacen
         bsAlmacen.AddNew()
         datos.DataSource = bsAlmacen
         modoGrabar()
+
         txtCodigo.Refresh()
         txtAlmacen.Refresh()
         txtCatalogo.Refresh()
@@ -129,6 +130,7 @@ Public Class m_almacen
                 deshabilitaDetalle()
                 habilitaCabecera()
                 modoAñadir()
+                ingresarea("VARIOS", txtCodigo.Text)
                 datos.Focus()
             End If
         Catch ex As Exception
@@ -389,7 +391,7 @@ Public Class m_almacen
         Dim clickCell As DataGridViewCell = DataArea.SelectedCells(0)
         Select Case e.ClickedItem.Text
             Case "Ingresar"
-                ingresarea()
+                ingresarea(txtArea.Text, txtCodigo.Text)
 
             Case "Eliminar"
                 eliminaArea()
@@ -400,11 +402,11 @@ Public Class m_almacen
         muestraArea(cod_alma)
     End Sub
 
-    Sub ingresarea()
+    Sub ingresarea(ByVal desarea As String, ByVal cod_alma As String)
         Dim mAlmacen As New Almacen
         Dim codigo As String = mAlmacen.maxOperacion_area
         Try
-            mAlmacen.insertaArea(codigo, txtArea.Text, cod_alma, 1)
+            mAlmacen.insertaArea(codigo, desarea, cod_alma, 1)
             txtArea.Text = ""
         Catch ex As Exception
             MessageBox.Show(ex.Message, "Atencion", MessageBoxButtons.OK, MessageBoxIcon.Information)

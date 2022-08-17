@@ -360,7 +360,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>qUefocM/7bKmagoG7v8odFX5PRg=</dsig:DigestValue>
+        <dsig:DigestValue>In8fK8N1BU8Yhcw6jS65sEHqcRQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -408,7 +408,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Snlsqk5csOTyDIBqD07Q2V8TI9w=</dsig:DigestValue>
+        <dsig:DigestValue>q76WPD9YHrZ4yhq5yMb/vJTdQsk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -445,13 +445,13 @@
       <dsig:DigestValue>0bwhmT1kcTbp3wl5mbpYz5Wmh4Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Qstock.exe.config" size="1858">
+  <file name="Qstock.exe.config" size="1852">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>gv3I3FCju94lxSLiYPHlaL6dZMc=</dsig:DigestValue>
+      <dsig:DigestValue>Ps4dx1caV7EqK9R1zVxC8MXjSrs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\Fondo1024-Empanaderia.jpg" size="163166">
