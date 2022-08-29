@@ -388,6 +388,8 @@ Partial Public Class dsPedido
         
         Private columncant_stock As Global.System.Data.DataColumn
         
+        Private columnorden As Global.System.Data.DataColumn
+        
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub New()
@@ -704,6 +706,14 @@ Partial Public Class dsPedido
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
+        Public ReadOnly Property ordenColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnorden
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"),  _
          Global.System.ComponentModel.Browsable(false)>  _
         Public ReadOnly Property Count() As Integer
@@ -775,9 +785,10 @@ Partial Public Class dsPedido
                     ByVal obsdet As String,  _
                     ByVal nom_sgrupo As String,  _
                     ByVal cant As Decimal,  _
-                    ByVal cant_stock As Decimal) As pedidoRow
+                    ByVal cant_stock As Decimal,  _
+                    ByVal orden As Integer) As pedidoRow
             Dim rowpedidoRow As pedidoRow = CType(Me.NewRow,pedidoRow)
-            Dim columnValuesArray() As Object = New Object() {ser_ped, nro_ped, fec_ped, fec_ent, nom_vend, cod_clie, nom_clie, raz_soc, dir_clie, dir_ent, nom_cont, nom_fpago, fono_clie, obs, nom_art, monto, precio, nro_fac, monto_doc, monto_igv, cod_vend, nom_uni, tm, nom_alma, nom_area, usuario, tip_pedido, hor_ent, fecha, fec_ins, fec_mod, obsdet, nom_sgrupo, cant, cant_stock}
+            Dim columnValuesArray() As Object = New Object() {ser_ped, nro_ped, fec_ped, fec_ent, nom_vend, cod_clie, nom_clie, raz_soc, dir_clie, dir_ent, nom_cont, nom_fpago, fono_clie, obs, nom_art, monto, precio, nro_fac, monto_doc, monto_igv, cod_vend, nom_uni, tm, nom_alma, nom_area, usuario, tip_pedido, hor_ent, fecha, fec_ins, fec_mod, obsdet, nom_sgrupo, cant, cant_stock, orden}
             rowpedidoRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowpedidoRow)
             Return rowpedidoRow
@@ -835,6 +846,7 @@ Partial Public Class dsPedido
             Me.columnnom_sgrupo = MyBase.Columns("nom_sgrupo")
             Me.columncant = MyBase.Columns("cant")
             Me.columncant_stock = MyBase.Columns("cant_stock")
+            Me.columnorden = MyBase.Columns("orden")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -910,6 +922,8 @@ Partial Public Class dsPedido
             MyBase.Columns.Add(Me.columncant)
             Me.columncant_stock = New Global.System.Data.DataColumn("cant_stock", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columncant_stock)
+            Me.columnorden = New Global.System.Data.DataColumn("orden", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnorden)
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1885,6 +1899,21 @@ Partial Public Class dsPedido
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
+        Public Property orden() As Integer
+            Get
+                Try 
+                    Return CType(Me(Me.tablepedido.ordenColumn),Integer)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'orden' in table 'pedido' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablepedido.ordenColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function Isser_pedNull() As Boolean
             Return Me.IsNull(Me.tablepedido.ser_pedColumn)
         End Function
@@ -2301,6 +2330,18 @@ Partial Public Class dsPedido
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub Setcant_stockNull()
             Me(Me.tablepedido.cant_stockColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
+        Public Function IsordenNull() As Boolean
+            Return Me.IsNull(Me.tablepedido.ordenColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
+        Public Sub SetordenNull()
+            Me(Me.tablepedido.ordenColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     
