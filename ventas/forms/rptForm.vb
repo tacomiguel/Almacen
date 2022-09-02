@@ -270,7 +270,7 @@ Public Class rptForm
         '" tm ,a.nom_alma,ar.nom_area,u.user as usuario,r.dsc_recurso as tip_pedido" &
         Dim cad, sql1 As String
         sql1 =
-         " Select ser_ped,nro_ped,fecha,fec_ped,fec_ent,hor_ent,p.cod_clie,p.dir_ent,nom_clie as nom_clie,pd.obs as obsdet," &
+         " Select ser_ped,nro_ped,fecha,fec_ped,fec_ent,hor_ent,p.cod_clie,p.dir_ent,nom_clie as nom_clie,pd.obs as obsdet,pd.orden," &
          " raz_soc,dir_clie,nom_cont, fono_clie,nom_vend,nom_fpago,nom_art,sum(cant) as cant,precio,cant*precio as monto,p.fec_ins,p.fec_mod, " &
          " p.monto as monto_doc,p.monto_igv,pre_inc_igv,p.obs,nom_uni,tm ,a.nom_alma,ar.nom_area,u.user as usuario,r.dsc_recurso as tip_pedido" &
          " from pedido p inner join Cliente on p.cod_clie=cliente.cod_clie " &
@@ -285,7 +285,7 @@ Public Class rptForm
           IIf(xestado, "and p.cod_pedido='" & tipo_pedido & "'  and p.cod_estado ='" & estado & "'", "") &
           IIf(xDia, " and p.fec_ped>='" & mFecha & "' and p.fec_ped<='" & mfechahasta & "'", "") &
           IIf(xResp, "and p.cuenta='" & cod_resp & "'", "") &
-        "  group by ser_ped,nro_ped,fec_ent,articulo.nom_art order by nro_ped,fec_ent,articulo.nom_art"
+        "  group by ser_ped,nro_ped,fec_ent,articulo.nom_art order by nro_ped,fec_ent,orden"
         cad = sql1
         Dim com As New MySqlCommand(cad, dbConex)
         da.SelectCommand = com
