@@ -285,7 +285,7 @@ Public Class rptForm
           IIf(xestado, "and p.cod_pedido='" & tipo_pedido & "'  and p.cod_estado ='" & estado & "'", "") &
           IIf(xDia, " and p.fec_ped>='" & mFecha & "' and p.fec_ped<='" & mfechahasta & "'", "") &
           IIf(xResp, "and p.cuenta='" & cod_resp & "'", "") &
-        "  group by ser_ped,nro_ped,fec_ent,articulo.nom_art order by nro_ped,fec_ent,orden"
+        "  group by ser_ped,nro_ped,fec_ent,articulo.nom_art order by nro_ped,fec_ent,nom_art"
         cad = sql1
         Dim com As New MySqlCommand(cad, dbConex)
         da.SelectCommand = com
