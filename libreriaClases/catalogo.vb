@@ -531,7 +531,7 @@ Public Class Catalogo
                     " round(articulo.pre_costo*" & IIf(ag, " sum(hd.saldo)," & nd & ") as monto,", " hd.saldo," _
                     & nd & ") as monto,"))
             cad1c = " articulo.afecto_igv,articulo.cod_sgrupo,nom_sgrupo,h.cod_alma,nom_alma,maximo,minimo,tm,tc,h.pre_inc_igv,hd.igv"
-            cad2 = " from ingreso as h inner join ingreso_det as hd on h.operacion=hd.operacion "
+            cad2 = " from h_ingreso as h inner join h_ingreso_det as hd on h.operacion=hd.operacion "
         End If
         cad3 = " inner join articulo on articulo.cod_art=hd.cod_art inner join almacen on h.cod_alma=almacen.cod_alma "
         cad4 = " inner join unidad on articulo.cod_uni=unidad.cod_uni inner join subgrupo on articulo.cod_sgrupo=subgrupo.cod_sgrupo"
@@ -539,7 +539,8 @@ Public Class Catalogo
         cad6 = IIf(xAlmacen, " and h.cod_alma='" & cod_alma & "'", "")
         cad7 = IIf(xsg, " and articulo.cod_sgrupo='" & csg & "'", "") _
                 & IIf(xa, " and hd.cod_art='" & ca & "'", "")
-        cad8 = IIf(ag, " group by hd.cod_art having" & IIf(xsaldo, " sum(hd.saldo)>=0", " sum(hd.saldo)<=0"), "") & " order by nom_art,fec_doc"
+        cad8 = IIf(ag, " group by hd.cod_art having" & IIf(xsaldo, " sum(hd.saldo)>=0 or sum(hd.saldo)=0", " sum(hd.saldo)<=0"), "") & " order by nom_art,fec_doc"
+
         cad = cad1 + cad1a + cad1b + cad1c + cad2 + cad3 + cad4 + cad5 + cad6 + cad7 + cad8
         Dim comSaldo As New MySqlCommand(cad)
         comSaldo.Connection = clConex

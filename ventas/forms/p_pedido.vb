@@ -170,7 +170,7 @@ Public Class p_pedido
         'dataset RESPONSABLE
         Dim daResponsable As New MySqlDataAdapter
         Dim chkresp As Boolean = If(ChkResppn.Checked = True, True, False)
-        Dim query As String = "SELECT cuenta,user FROM usuario where activo " & IIf(chkresp = False, "", " and cuenta='" & pCuentaUser & "'")
+        Dim query As String = "SELECT cuenta,user FROM usuario where activo " & IIf(chkresp = False, " order by user ", " and cuenta='" & pCuentaUser & "' ")
         Dim comRes As New MySqlCommand(query, dbConex)
         daResponsable.SelectCommand = comRes
         daResponsable.Fill(dsResponsable, "responsable")

@@ -74,10 +74,9 @@ Partial Class p_produccion
         '
         'txtObservacion
         '
-        Me.txtObservacion.Location = New System.Drawing.Point(11, 322)
-        Me.txtObservacion.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtObservacion.Location = New System.Drawing.Point(8, 262)
         Me.txtObservacion.Name = "txtObservacion"
-        Me.txtObservacion.Size = New System.Drawing.Size(687, 41)
+        Me.txtObservacion.Size = New System.Drawing.Size(516, 34)
         Me.txtObservacion.TabIndex = 167
         Me.txtObservacion.Text = ""
         '
@@ -97,21 +96,18 @@ Partial Class p_produccion
         Me.GroupBox3.Controls.Add(Me.LabelX5)
         Me.GroupBox3.Controls.Add(Me.dtiProduccion)
         Me.GroupBox3.Controls.Add(Me.PictureBox2)
-        Me.GroupBox3.Location = New System.Drawing.Point(17, 0)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox3.Location = New System.Drawing.Point(13, 0)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox3.Size = New System.Drawing.Size(681, 92)
+        Me.GroupBox3.Size = New System.Drawing.Size(511, 75)
         Me.GroupBox3.TabIndex = 166
         Me.GroupBox3.TabStop = False
         '
         'ChkResppn
         '
         Me.ChkResppn.AutoSize = True
-        Me.ChkResppn.Location = New System.Drawing.Point(292, 66)
-        Me.ChkResppn.Margin = New System.Windows.Forms.Padding(4)
+        Me.ChkResppn.Location = New System.Drawing.Point(223, 54)
         Me.ChkResppn.Name = "ChkResppn"
-        Me.ChkResppn.Size = New System.Drawing.Size(18, 17)
+        Me.ChkResppn.Size = New System.Drawing.Size(15, 14)
         Me.ChkResppn.TabIndex = 1045
         Me.ChkResppn.UseVisualStyleBackColor = True
         Me.ChkResppn.Visible = False
@@ -125,10 +121,9 @@ Partial Class p_produccion
         Me.LabelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.LabelX4.Location = New System.Drawing.Point(1, 61)
-        Me.LabelX4.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX4.Location = New System.Drawing.Point(0, 50)
         Me.LabelX4.Name = "LabelX4"
-        Me.LabelX4.Size = New System.Drawing.Size(75, 16)
+        Me.LabelX4.Size = New System.Drawing.Size(61, 13)
         Me.LabelX4.TabIndex = 1044
         Me.LabelX4.Text = "Responsable"
         '
@@ -143,10 +138,9 @@ Partial Class p_produccion
         Me.CboResponsable.ForeColor = System.Drawing.Color.Black
         Me.CboResponsable.FormattingEnabled = True
         Me.CboResponsable.ItemHeight = 15
-        Me.CboResponsable.Location = New System.Drawing.Point(75, 59)
-        Me.CboResponsable.Margin = New System.Windows.Forms.Padding(4)
+        Me.CboResponsable.Location = New System.Drawing.Point(60, 48)
         Me.CboResponsable.Name = "CboResponsable"
-        Me.CboResponsable.Size = New System.Drawing.Size(213, 21)
+        Me.CboResponsable.Size = New System.Drawing.Size(161, 21)
         Me.CboResponsable.TabIndex = 1043
         Me.CboResponsable.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
@@ -158,10 +152,9 @@ Partial Class p_produccion
         '
         Me.LabelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX2.Location = New System.Drawing.Point(356, 37)
-        Me.LabelX2.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX2.Location = New System.Drawing.Point(267, 30)
         Me.LabelX2.Name = "LabelX2"
-        Me.LabelX2.Size = New System.Drawing.Size(95, 19)
+        Me.LabelX2.Size = New System.Drawing.Size(76, 16)
         Me.LabelX2.TabIndex = 1042
         Me.LabelX2.Text = "Hora Entrega"
         Me.LabelX2.TextAlignment = System.Drawing.StringAlignment.Center
@@ -179,8 +172,7 @@ Partial Class p_produccion
         Me.dt_horaEntrega.FocusHighlightEnabled = True
         Me.dt_horaEntrega.Format = DevComponents.Editors.eDateTimePickerFormat.ShortTime
         Me.dt_horaEntrega.IsPopupCalendarOpen = False
-        Me.dt_horaEntrega.Location = New System.Drawing.Point(501, 37)
-        Me.dt_horaEntrega.Margin = New System.Windows.Forms.Padding(4)
+        Me.dt_horaEntrega.Location = New System.Drawing.Point(376, 30)
         '
         '
         '
@@ -210,7 +202,7 @@ Partial Class p_produccion
         Me.dt_horaEntrega.MonthCalendar.Visible = False
         Me.dt_horaEntrega.MonthCalendar.WeeklyMarkedDays = New System.DayOfWeek(-1) {}
         Me.dt_horaEntrega.Name = "dt_horaEntrega"
-        Me.dt_horaEntrega.Size = New System.Drawing.Size(172, 22)
+        Me.dt_horaEntrega.Size = New System.Drawing.Size(129, 20)
         Me.dt_horaEntrega.TabIndex = 1041
         '
         'LabelX1
@@ -221,10 +213,9 @@ Partial Class p_produccion
         '
         Me.LabelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX1.Location = New System.Drawing.Point(356, 12)
-        Me.LabelX1.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX1.Location = New System.Drawing.Point(267, 10)
         Me.LabelX1.Name = "LabelX1"
-        Me.LabelX1.Size = New System.Drawing.Size(128, 19)
+        Me.LabelX1.Size = New System.Drawing.Size(103, 16)
         Me.LabelX1.TabIndex = 169
         Me.LabelX1.Text = "Fecha Produccion"
         Me.LabelX1.TextAlignment = System.Drawing.StringAlignment.Center
@@ -240,10 +231,9 @@ Partial Class p_produccion
         Me.lblArea.Enabled = False
         Me.lblArea.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblArea.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.lblArea.Location = New System.Drawing.Point(1, 36)
-        Me.lblArea.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblArea.Location = New System.Drawing.Point(1, 29)
         Me.lblArea.Name = "lblArea"
-        Me.lblArea.Size = New System.Drawing.Size(33, 18)
+        Me.lblArea.Size = New System.Drawing.Size(27, 15)
         Me.lblArea.TabIndex = 168
         Me.lblArea.Text = "Area"
         '
@@ -258,10 +248,9 @@ Partial Class p_produccion
         Me.cboArea.ForeColor = System.Drawing.Color.Black
         Me.cboArea.FormattingEnabled = True
         Me.cboArea.ItemHeight = 15
-        Me.cboArea.Location = New System.Drawing.Point(75, 35)
-        Me.cboArea.Margin = New System.Windows.Forms.Padding(4)
+        Me.cboArea.Location = New System.Drawing.Point(60, 28)
         Me.cboArea.Name = "cboArea"
-        Me.cboArea.Size = New System.Drawing.Size(213, 21)
+        Me.cboArea.Size = New System.Drawing.Size(161, 21)
         Me.cboArea.TabIndex = 167
         Me.cboArea.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
@@ -270,10 +259,9 @@ Partial Class p_produccion
         Me.chkacumulado.AutoSize = True
         Me.chkacumulado.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chkacumulado.ForeColor = System.Drawing.Color.DarkGreen
-        Me.chkacumulado.Location = New System.Drawing.Point(297, 0)
-        Me.chkacumulado.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkacumulado.Location = New System.Drawing.Point(223, 0)
         Me.chkacumulado.Name = "chkacumulado"
-        Me.chkacumulado.Size = New System.Drawing.Size(105, 20)
+        Me.chkacumulado.Size = New System.Drawing.Size(87, 16)
         Me.chkacumulado.TabIndex = 166
         Me.chkacumulado.Text = "Acumulado"
         Me.chkacumulado.UseVisualStyleBackColor = True
@@ -290,10 +278,9 @@ Partial Class p_produccion
         Me.cboAlmacen.ForeColor = System.Drawing.Color.Black
         Me.cboAlmacen.FormattingEnabled = True
         Me.cboAlmacen.ItemHeight = 15
-        Me.cboAlmacen.Location = New System.Drawing.Point(75, 11)
-        Me.cboAlmacen.Margin = New System.Windows.Forms.Padding(4)
+        Me.cboAlmacen.Location = New System.Drawing.Point(60, 9)
         Me.cboAlmacen.Name = "cboAlmacen"
-        Me.cboAlmacen.Size = New System.Drawing.Size(213, 21)
+        Me.cboAlmacen.Size = New System.Drawing.Size(161, 21)
         Me.cboAlmacen.TabIndex = 142
         Me.cboAlmacen.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
@@ -306,10 +293,9 @@ Partial Class p_produccion
         Me.txtBuscarProduccion.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtBuscarProduccion.FocusHighlightEnabled = True
         Me.txtBuscarProduccion.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBuscarProduccion.Location = New System.Drawing.Point(318, 62)
-        Me.txtBuscarProduccion.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtBuscarProduccion.Location = New System.Drawing.Point(240, 50)
         Me.txtBuscarProduccion.Name = "txtBuscarProduccion"
-        Me.txtBuscarProduccion.Size = New System.Drawing.Size(337, 23)
+        Me.txtBuscarProduccion.Size = New System.Drawing.Size(251, 20)
         Me.txtBuscarProduccion.TabIndex = 1
         '
         'LabelX5
@@ -320,10 +306,9 @@ Partial Class p_produccion
         '
         Me.LabelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX5.Location = New System.Drawing.Point(1, 10)
-        Me.LabelX5.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX5.Location = New System.Drawing.Point(1, 8)
         Me.LabelX5.Name = "LabelX5"
-        Me.LabelX5.Size = New System.Drawing.Size(56, 19)
+        Me.LabelX5.Size = New System.Drawing.Size(45, 16)
         Me.LabelX5.TabIndex = 143
         Me.LabelX5.Text = "Destino"
         Me.LabelX5.TextAlignment = System.Drawing.StringAlignment.Center
@@ -342,8 +327,7 @@ Partial Class p_produccion
         Me.dtiProduccion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.dtiProduccion.IsInputReadOnly = True
         Me.dtiProduccion.IsPopupCalendarOpen = False
-        Me.dtiProduccion.Location = New System.Drawing.Point(501, 10)
-        Me.dtiProduccion.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtiProduccion.Location = New System.Drawing.Point(376, 8)
         '
         '
         '
@@ -376,14 +360,13 @@ Partial Class p_produccion
         Me.dtiProduccion.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.dtiProduccion.MonthCalendar.WeeklyMarkedDays = New System.DayOfWeek(-1) {}
         Me.dtiProduccion.Name = "dtiProduccion"
-        Me.dtiProduccion.Size = New System.Drawing.Size(172, 22)
+        Me.dtiProduccion.Size = New System.Drawing.Size(129, 20)
         Me.dtiProduccion.TabIndex = 145
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.cefe.My.Resources.Resources.buscar18
-        Me.PictureBox2.Location = New System.Drawing.Point(654, 63)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Location = New System.Drawing.Point(490, 51)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(18, 18)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -397,10 +380,9 @@ Partial Class p_produccion
         Me.chkprocesar.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkprocesar.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chkprocesar.ForeColor = System.Drawing.Color.DarkGreen
-        Me.chkprocesar.Location = New System.Drawing.Point(16, 670)
-        Me.chkprocesar.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkprocesar.Location = New System.Drawing.Point(12, 544)
         Me.chkprocesar.Name = "chkprocesar"
-        Me.chkprocesar.Size = New System.Drawing.Size(274, 21)
+        Me.chkprocesar.Size = New System.Drawing.Size(218, 18)
         Me.chkprocesar.TabIndex = 165
         Me.chkprocesar.Text = "Porcesar Producciones sin Stock"
         Me.chkprocesar.UseVisualStyleBackColor = True
@@ -432,8 +414,7 @@ Partial Class p_produccion
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataProducionesS.DefaultCellStyle = DataGridViewCellStyle2
         Me.dataProducionesS.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataProducionesS.Location = New System.Drawing.Point(707, 414)
-        Me.dataProducionesS.Margin = New System.Windows.Forms.Padding(4)
+        Me.dataProducionesS.Location = New System.Drawing.Point(530, 336)
         Me.dataProducionesS.MultiSelect = False
         Me.dataProducionesS.Name = "dataProducionesS"
         Me.dataProducionesS.ReadOnly = True
@@ -450,7 +431,7 @@ Partial Class p_produccion
         Me.dataProducionesS.SelectAllSignVisible = False
         Me.dataProducionesS.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dataProducionesS.ShowEditingIcon = False
-        Me.dataProducionesS.Size = New System.Drawing.Size(655, 249)
+        Me.dataProducionesS.Size = New System.Drawing.Size(491, 202)
         Me.dataProducionesS.TabIndex = 146
         '
         'dataProducciones
@@ -471,8 +452,7 @@ Partial Class p_produccion
         DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataProducciones.DefaultCellStyle = DataGridViewCellStyle4
         Me.dataProducciones.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataProducciones.Location = New System.Drawing.Point(12, 414)
-        Me.dataProducciones.Margin = New System.Windows.Forms.Padding(4)
+        Me.dataProducciones.Location = New System.Drawing.Point(9, 336)
         Me.dataProducciones.Name = "dataProducciones"
         Me.dataProducciones.ReadOnly = True
         Me.dataProducciones.RowHeadersVisible = False
@@ -480,7 +460,7 @@ Partial Class p_produccion
         Me.dataProducciones.SelectAllSignVisible = False
         Me.dataProducciones.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dataProducciones.ShowEditingIcon = False
-        Me.dataProducciones.Size = New System.Drawing.Size(687, 249)
+        Me.dataProducciones.Size = New System.Drawing.Size(515, 202)
         Me.dataProducciones.StandardTab = True
         Me.dataProducciones.TabIndex = 103
         Me.dataProducciones.TabStop = False
@@ -513,8 +493,7 @@ Partial Class p_produccion
         DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataProduccion.DefaultCellStyle = DataGridViewCellStyle7
         Me.dataProduccion.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataProduccion.Location = New System.Drawing.Point(11, 92)
-        Me.dataProduccion.Margin = New System.Windows.Forms.Padding(4)
+        Me.dataProduccion.Location = New System.Drawing.Point(8, 75)
         Me.dataProduccion.MultiSelect = False
         Me.dataProduccion.Name = "dataProduccion"
         DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -530,7 +509,7 @@ Partial Class p_produccion
         Me.dataProduccion.SelectAllSignVisible = False
         Me.dataProduccion.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dataProduccion.ShowEditingIcon = False
-        Me.dataProduccion.Size = New System.Drawing.Size(688, 233)
+        Me.dataProduccion.Size = New System.Drawing.Size(516, 189)
         Me.dataProduccion.StandardTab = True
         Me.dataProduccion.TabIndex = 2
         Me.dataProduccion.TabStop = False
@@ -543,11 +522,9 @@ Partial Class p_produccion
         Me.GroupBox1.Controls.Add(Me.lblProduccion)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 353)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Location = New System.Drawing.Point(9, 287)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(687, 57)
+        Me.GroupBox1.Size = New System.Drawing.Size(515, 46)
         Me.GroupBox1.TabIndex = 90
         Me.GroupBox1.TabStop = False
         '
@@ -557,11 +534,10 @@ Partial Class p_produccion
         Me.SimpleButton1.Appearance.Options.UseFont = True
         Me.SimpleButton1.Image = Global.cefe.My.Resources.Resources.ok22
         Me.SimpleButton1.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.MiddleRight
-        Me.SimpleButton1.Location = New System.Drawing.Point(496, 18)
+        Me.SimpleButton1.Location = New System.Drawing.Point(372, 15)
         Me.SimpleButton1.LookAndFeel.SkinName = "iMaginary"
-        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(183, 38)
+        Me.SimpleButton1.Size = New System.Drawing.Size(137, 31)
         Me.SimpleButton1.TabIndex = 103
         Me.SimpleButton1.Text = "Generar Pedido"
         '
@@ -571,11 +547,10 @@ Partial Class p_produccion
         Me.cmdIniciar.Appearance.Options.UseFont = True
         Me.cmdIniciar.Image = Global.cefe.My.Resources.Resources.ok22
         Me.cmdIniciar.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.MiddleRight
-        Me.cmdIniciar.Location = New System.Drawing.Point(303, 18)
+        Me.cmdIniciar.Location = New System.Drawing.Point(227, 15)
         Me.cmdIniciar.LookAndFeel.SkinName = "iMaginary"
-        Me.cmdIniciar.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdIniciar.Name = "cmdIniciar"
-        Me.cmdIniciar.Size = New System.Drawing.Size(183, 38)
+        Me.cmdIniciar.Size = New System.Drawing.Size(137, 31)
         Me.cmdIniciar.TabIndex = 102
         Me.cmdIniciar.Text = "Iniciar Producción"
         '
@@ -589,11 +564,10 @@ Partial Class p_produccion
         Me.txtProduccion.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtProduccion.FocusHighlightEnabled = True
         Me.txtProduccion.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtProduccion.Location = New System.Drawing.Point(207, 25)
-        Me.txtProduccion.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtProduccion.Location = New System.Drawing.Point(155, 20)
         Me.txtProduccion.MaxLength = 6
         Me.txtProduccion.Name = "txtProduccion"
-        Me.txtProduccion.Size = New System.Drawing.Size(77, 23)
+        Me.txtProduccion.Size = New System.Drawing.Size(58, 20)
         Me.txtProduccion.TabIndex = 2
         Me.txtProduccion.Text = "1.0"
         Me.txtProduccion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -607,10 +581,9 @@ Partial Class p_produccion
         Me.lblProduccion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblProduccion.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblProduccion.ForeColor = System.Drawing.Color.Green
-        Me.lblProduccion.Location = New System.Drawing.Point(7, 30)
-        Me.lblProduccion.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblProduccion.Location = New System.Drawing.Point(5, 24)
         Me.lblProduccion.Name = "lblProduccion"
-        Me.lblProduccion.Size = New System.Drawing.Size(180, 18)
+        Me.lblProduccion.Size = New System.Drawing.Size(144, 15)
         Me.lblProduccion.TabIndex = 1
         Me.lblProduccion.Text = "Ingrese Cantidad a Producir"
         Me.lblProduccion.TextAlignment = System.Drawing.StringAlignment.Center
@@ -622,11 +595,9 @@ Partial Class p_produccion
         Me.GroupBox2.Controls.Add(Me.lblRegistros)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox2.Location = New System.Drawing.Point(707, 0)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Location = New System.Drawing.Point(530, 0)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox2.Size = New System.Drawing.Size(655, 73)
+        Me.GroupBox2.Size = New System.Drawing.Size(491, 59)
         Me.GroupBox2.TabIndex = 7
         Me.GroupBox2.TabStop = False
         '
@@ -637,10 +608,9 @@ Partial Class p_produccion
         '
         Me.lblReceta.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblReceta.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblReceta.Location = New System.Drawing.Point(8, 26)
-        Me.lblReceta.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblReceta.Location = New System.Drawing.Point(6, 21)
         Me.lblReceta.Name = "lblReceta"
-        Me.lblReceta.Size = New System.Drawing.Size(639, 23)
+        Me.lblReceta.Size = New System.Drawing.Size(479, 19)
         Me.lblReceta.TabIndex = 0
         Me.lblReceta.Text = "RECETA: "
         Me.lblReceta.TextAlignment = System.Drawing.StringAlignment.Center
@@ -654,10 +624,9 @@ Partial Class p_produccion
         Me.lblRegistros.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblRegistros.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRegistros.ForeColor = System.Drawing.Color.Green
-        Me.lblRegistros.Location = New System.Drawing.Point(24, 27)
-        Me.lblRegistros.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblRegistros.Location = New System.Drawing.Point(18, 22)
         Me.lblRegistros.Name = "lblRegistros"
-        Me.lblRegistros.Size = New System.Drawing.Size(163, 23)
+        Me.lblRegistros.Size = New System.Drawing.Size(122, 19)
         Me.lblRegistros.TabIndex = 144
         Me.lblRegistros.Text = "Nº de Registros... "
         Me.lblRegistros.TextAlignment = System.Drawing.StringAlignment.Far
@@ -690,8 +659,7 @@ Partial Class p_produccion
         DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataReceta.DefaultCellStyle = DataGridViewCellStyle10
         Me.dataReceta.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataReceta.Location = New System.Drawing.Point(707, 92)
-        Me.dataReceta.Margin = New System.Windows.Forms.Padding(4)
+        Me.dataReceta.Location = New System.Drawing.Point(530, 75)
         Me.dataReceta.MultiSelect = False
         Me.dataReceta.Name = "dataReceta"
         Me.dataReceta.ReadOnly = True
@@ -708,15 +676,15 @@ Partial Class p_produccion
         Me.dataReceta.SelectAllSignVisible = False
         Me.dataReceta.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
         Me.dataReceta.ShowEditingIcon = False
-        Me.dataReceta.Size = New System.Drawing.Size(655, 318)
+        Me.dataReceta.Size = New System.Drawing.Size(491, 258)
         Me.dataReceta.StandardTab = True
         Me.dataReceta.TabIndex = 8
         Me.dataReceta.TabStop = False
         '
         'p_produccion
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.ClientSize = New System.Drawing.Size(1274, 685)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.ClientSize = New System.Drawing.Size(956, 557)
         Me.Controls.Add(Me.txtObservacion)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.chkprocesar)
@@ -727,7 +695,7 @@ Partial Class p_produccion
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.dataReceta)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(5)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "p_produccion"
         Me.Text = "Proceso: GENERACION DE PRODUCCIONES"
         Me.GroupBox3.ResumeLayout(False)
