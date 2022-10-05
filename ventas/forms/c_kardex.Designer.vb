@@ -98,8 +98,7 @@ Partial Class c_kardex
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataArticulo.DefaultCellStyle = DataGridViewCellStyle2
         Me.dataArticulo.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataArticulo.Location = New System.Drawing.Point(321, 47)
-        Me.dataArticulo.Margin = New System.Windows.Forms.Padding(4)
+        Me.dataArticulo.Location = New System.Drawing.Point(241, 38)
         Me.dataArticulo.MultiSelect = False
         Me.dataArticulo.Name = "dataArticulo"
         Me.dataArticulo.ReadOnly = True
@@ -116,7 +115,7 @@ Partial Class c_kardex
         Me.dataArticulo.SelectAllSignVisible = False
         Me.dataArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dataArticulo.ShowEditingIcon = False
-        Me.dataArticulo.Size = New System.Drawing.Size(703, 164)
+        Me.dataArticulo.Size = New System.Drawing.Size(527, 133)
         Me.dataArticulo.TabIndex = 2
         '
         'lblItems
@@ -127,10 +126,9 @@ Partial Class c_kardex
         '
         Me.lblItems.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblItems.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblItems.Location = New System.Drawing.Point(321, 15)
-        Me.lblItems.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblItems.Location = New System.Drawing.Point(241, 12)
         Me.lblItems.Name = "lblItems"
-        Me.lblItems.Size = New System.Drawing.Size(60, 18)
+        Me.lblItems.Size = New System.Drawing.Size(48, 15)
         Me.lblItems.TabIndex = 60
         Me.lblItems.Text = "Producto"
         '
@@ -160,8 +158,7 @@ Partial Class c_kardex
         DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataKardex.DefaultCellStyle = DataGridViewCellStyle5
         Me.dataKardex.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataKardex.Location = New System.Drawing.Point(0, 214)
-        Me.dataKardex.Margin = New System.Windows.Forms.Padding(4)
+        Me.dataKardex.Location = New System.Drawing.Point(0, 174)
         Me.dataKardex.Name = "dataKardex"
         Me.dataKardex.ReadOnly = True
         DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -176,7 +173,7 @@ Partial Class c_kardex
         Me.dataKardex.SelectAllSignVisible = False
         Me.dataKardex.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
         Me.dataKardex.ShowEditingIcon = False
-        Me.dataKardex.Size = New System.Drawing.Size(1293, 418)
+        Me.dataKardex.Size = New System.Drawing.Size(970, 340)
         Me.dataKardex.TabIndex = 3
         '
         'txtBuscar
@@ -188,10 +185,9 @@ Partial Class c_kardex
         Me.txtBuscar.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtBuscar.FocusHighlightEnabled = True
         Me.txtBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBuscar.Location = New System.Drawing.Point(392, 11)
-        Me.txtBuscar.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtBuscar.Location = New System.Drawing.Point(294, 9)
         Me.txtBuscar.Name = "txtBuscar"
-        Me.txtBuscar.Size = New System.Drawing.Size(208, 23)
+        Me.txtBuscar.Size = New System.Drawing.Size(156, 20)
         Me.txtBuscar.TabIndex = 0
         '
         'chkProduccion
@@ -205,10 +201,9 @@ Partial Class c_kardex
         Me.chkProduccion.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkProduccion.CheckValue = "Y"
         Me.chkProduccion.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkProduccion.Location = New System.Drawing.Point(636, 15)
-        Me.chkProduccion.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkProduccion.Location = New System.Drawing.Point(477, 12)
         Me.chkProduccion.Name = "chkProduccion"
-        Me.chkProduccion.Size = New System.Drawing.Size(78, 18)
+        Me.chkProduccion.Size = New System.Drawing.Size(67, 15)
         Me.chkProduccion.TabIndex = 71
         Me.chkProduccion.Text = "Articulos"
         '
@@ -224,10 +219,9 @@ Partial Class c_kardex
         Me.cboAlmacen.ForeColor = System.Drawing.Color.Black
         Me.cboAlmacen.FormattingEnabled = True
         Me.cboAlmacen.ItemHeight = 15
-        Me.cboAlmacen.Location = New System.Drawing.Point(739, 11)
-        Me.cboAlmacen.Margin = New System.Windows.Forms.Padding(4)
+        Me.cboAlmacen.Location = New System.Drawing.Point(554, 9)
         Me.cboAlmacen.Name = "cboAlmacen"
-        Me.cboAlmacen.Size = New System.Drawing.Size(211, 21)
+        Me.cboAlmacen.Size = New System.Drawing.Size(159, 21)
         Me.cboAlmacen.TabIndex = 87
         Me.cboAlmacen.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
@@ -239,10 +233,9 @@ Partial Class c_kardex
         '
         Me.chkDia.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.chkDia.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkDia.Location = New System.Drawing.Point(31, 92)
-        Me.chkDia.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkDia.Location = New System.Drawing.Point(23, 75)
         Me.chkDia.Name = "chkDia"
-        Me.chkDia.Size = New System.Drawing.Size(138, 18)
+        Me.chkDia.Size = New System.Drawing.Size(115, 15)
         Me.chkDia.TabIndex = 126
         Me.chkDia.TabStop = False
         Me.chkDia.Text = "x Rango de Fecha "
@@ -256,11 +249,9 @@ Partial Class c_kardex
         Me.GroupBox5.Controls.Add(Me.LabelX2)
         Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox5.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.GroupBox5.Location = New System.Drawing.Point(16, 101)
-        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox5.Location = New System.Drawing.Point(12, 82)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox5.Size = New System.Drawing.Size(297, 92)
+        Me.GroupBox5.Size = New System.Drawing.Size(223, 75)
         Me.GroupBox5.TabIndex = 127
         Me.GroupBox5.TabStop = False
         '
@@ -278,8 +269,7 @@ Partial Class c_kardex
         Me.dtiHasta.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.dtiHasta.IsInputReadOnly = True
         Me.dtiHasta.IsPopupCalendarOpen = False
-        Me.dtiHasta.Location = New System.Drawing.Point(68, 58)
-        Me.dtiHasta.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtiHasta.Location = New System.Drawing.Point(51, 47)
         '
         '
         '
@@ -312,7 +302,7 @@ Partial Class c_kardex
         Me.dtiHasta.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.dtiHasta.MonthCalendar.WeeklyMarkedDays = New System.DayOfWeek(-1) {}
         Me.dtiHasta.Name = "dtiHasta"
-        Me.dtiHasta.Size = New System.Drawing.Size(217, 23)
+        Me.dtiHasta.Size = New System.Drawing.Size(163, 20)
         Me.dtiHasta.TabIndex = 120
         '
         'dtiDesde
@@ -329,8 +319,7 @@ Partial Class c_kardex
         Me.dtiDesde.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.dtiDesde.IsInputReadOnly = True
         Me.dtiDesde.IsPopupCalendarOpen = False
-        Me.dtiDesde.Location = New System.Drawing.Point(68, 26)
-        Me.dtiDesde.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtiDesde.Location = New System.Drawing.Point(51, 21)
         '
         '
         '
@@ -363,7 +352,7 @@ Partial Class c_kardex
         Me.dtiDesde.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.dtiDesde.MonthCalendar.WeeklyMarkedDays = New System.DayOfWeek(-1) {}
         Me.dtiDesde.Name = "dtiDesde"
-        Me.dtiDesde.Size = New System.Drawing.Size(217, 23)
+        Me.dtiDesde.Size = New System.Drawing.Size(163, 20)
         Me.dtiDesde.TabIndex = 119
         '
         'LabelX1
@@ -375,10 +364,9 @@ Partial Class c_kardex
         Me.LabelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX1.ForeColor = System.Drawing.Color.Black
-        Me.LabelX1.Location = New System.Drawing.Point(12, 27)
-        Me.LabelX1.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX1.Location = New System.Drawing.Point(9, 22)
         Me.LabelX1.Name = "LabelX1"
-        Me.LabelX1.Size = New System.Drawing.Size(45, 19)
+        Me.LabelX1.Size = New System.Drawing.Size(36, 16)
         Me.LabelX1.TabIndex = 115
         Me.LabelX1.Text = "desde"
         Me.LabelX1.TextAlignment = System.Drawing.StringAlignment.Center
@@ -393,10 +381,9 @@ Partial Class c_kardex
         Me.LabelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX2.ForeColor = System.Drawing.Color.Black
-        Me.LabelX2.Location = New System.Drawing.Point(16, 59)
-        Me.LabelX2.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX2.Location = New System.Drawing.Point(12, 48)
         Me.LabelX2.Name = "LabelX2"
-        Me.LabelX2.Size = New System.Drawing.Size(41, 19)
+        Me.LabelX2.Size = New System.Drawing.Size(33, 16)
         Me.LabelX2.TabIndex = 117
         Me.LabelX2.Text = "hasta"
         Me.LabelX2.TextAlignment = System.Drawing.StringAlignment.Center
@@ -408,10 +395,9 @@ Partial Class c_kardex
         Me.GroupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel1.Controls.Add(Me.cboAnno)
         Me.GroupPanel1.Controls.Add(Me.cboMes)
-        Me.GroupPanel1.Location = New System.Drawing.Point(16, 15)
-        Me.GroupPanel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupPanel1.Location = New System.Drawing.Point(12, 12)
         Me.GroupPanel1.Name = "GroupPanel1"
-        Me.GroupPanel1.Size = New System.Drawing.Size(297, 68)
+        Me.GroupPanel1.Size = New System.Drawing.Size(223, 55)
         '
         '
         '
@@ -449,10 +435,9 @@ Partial Class c_kardex
         Me.cboAnno.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboAnno.FormattingEnabled = True
         Me.cboAnno.Items.AddRange(New Object() {"2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"})
-        Me.cboAnno.Location = New System.Drawing.Point(176, 7)
-        Me.cboAnno.Margin = New System.Windows.Forms.Padding(4)
+        Me.cboAnno.Location = New System.Drawing.Point(132, 6)
         Me.cboAnno.Name = "cboAnno"
-        Me.cboAnno.Size = New System.Drawing.Size(101, 28)
+        Me.cboAnno.Size = New System.Drawing.Size(77, 24)
         Me.cboAnno.TabIndex = 1
         '
         'cboMes
@@ -461,20 +446,17 @@ Partial Class c_kardex
         Me.cboMes.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboMes.FormattingEnabled = True
         Me.cboMes.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"})
-        Me.cboMes.Location = New System.Drawing.Point(7, 7)
-        Me.cboMes.Margin = New System.Windows.Forms.Padding(4)
+        Me.cboMes.Location = New System.Drawing.Point(5, 6)
         Me.cboMes.Name = "cboMes"
-        Me.cboMes.Size = New System.Drawing.Size(151, 28)
+        Me.cboMes.Size = New System.Drawing.Size(114, 24)
         Me.cboMes.TabIndex = 0
         '
         'GroupBox3
         '
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(-88, 201)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox3.Location = New System.Drawing.Point(-66, 163)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox3.Size = New System.Drawing.Size(1412, 12)
+        Me.GroupBox3.Size = New System.Drawing.Size(1059, 10)
         Me.GroupBox3.TabIndex = 128
         Me.GroupBox3.TabStop = False
         '
@@ -486,10 +468,9 @@ Partial Class c_kardex
         Me.lblRegistros.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblRegistros.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRegistros.ForeColor = System.Drawing.Color.Green
-        Me.lblRegistros.Location = New System.Drawing.Point(923, 9)
-        Me.lblRegistros.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblRegistros.Location = New System.Drawing.Point(692, 7)
         Me.lblRegistros.Name = "lblRegistros"
-        Me.lblRegistros.Size = New System.Drawing.Size(297, 25)
+        Me.lblRegistros.Size = New System.Drawing.Size(223, 20)
         Me.lblRegistros.TabIndex = 135
         Me.lblRegistros.Text = "Nº de Registros Procesados... "
         Me.lblRegistros.TextAlignment = System.Drawing.StringAlignment.Far
@@ -503,10 +484,9 @@ Partial Class c_kardex
         Me.lblPrecioPromedio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblPrecioPromedio.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPrecioPromedio.ForeColor = System.Drawing.Color.Maroon
-        Me.lblPrecioPromedio.Location = New System.Drawing.Point(477, 10)
-        Me.lblPrecioPromedio.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblPrecioPromedio.Location = New System.Drawing.Point(358, 8)
         Me.lblPrecioPromedio.Name = "lblPrecioPromedio"
-        Me.lblPrecioPromedio.Size = New System.Drawing.Size(260, 23)
+        Me.lblPrecioPromedio.Size = New System.Drawing.Size(195, 19)
         Me.lblPrecioPromedio.TabIndex = 136
         Me.lblPrecioPromedio.Text = "Precio Costo Promedio. 0.000"
         Me.lblPrecioPromedio.TextAlignment = System.Drawing.StringAlignment.Center
@@ -519,11 +499,9 @@ Partial Class c_kardex
         Me.GroupBox1.Controls.Add(Me.lblRegistros)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.GroupBox1.Location = New System.Drawing.Point(3, 630)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Location = New System.Drawing.Point(2, 512)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(1229, 37)
+        Me.GroupBox1.Size = New System.Drawing.Size(922, 30)
         Me.GroupBox1.TabIndex = 137
         Me.GroupBox1.TabStop = False
         '
@@ -535,10 +513,9 @@ Partial Class c_kardex
         '
         Me.chkIncIGV.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.chkIncIGV.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkIncIGV.Location = New System.Drawing.Point(11, 12)
-        Me.chkIncIGV.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkIncIGV.Location = New System.Drawing.Point(8, 10)
         Me.chkIncIGV.Name = "chkIncIGV"
-        Me.chkIncIGV.Size = New System.Drawing.Size(220, 18)
+        Me.chkIncIGV.Size = New System.Drawing.Size(180, 15)
         Me.chkIncIGV.TabIndex = 137
         Me.chkIncIGV.TabStop = False
         Me.chkIncIGV.Text = "Mostrar Precios CON Impuesto"
@@ -550,19 +527,17 @@ Partial Class c_kardex
         Me.cmdImprimir.Appearance.Options.UseFont = True
         Me.cmdImprimir.Image = Global.cefe.My.Resources.Resources.print_preview
         Me.cmdImprimir.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.MiddleLeft
-        Me.cmdImprimir.Location = New System.Drawing.Point(1040, 44)
+        Me.cmdImprimir.Location = New System.Drawing.Point(780, 36)
         Me.cmdImprimir.LookAndFeel.SkinName = "iMaginary"
-        Me.cmdImprimir.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdImprimir.Name = "cmdImprimir"
-        Me.cmdImprimir.Size = New System.Drawing.Size(107, 42)
+        Me.cmdImprimir.Size = New System.Drawing.Size(80, 34)
         Me.cmdImprimir.TabIndex = 4
         Me.cmdImprimir.Text = "Imprimir"
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.cefe.My.Resources.Resources.buscar20
-        Me.PictureBox2.Location = New System.Drawing.Point(601, 11)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Location = New System.Drawing.Point(451, 9)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(20, 20)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -581,11 +556,9 @@ Partial Class c_kardex
         Me.GroupBox2.Controls.Add(Me.lblInicial)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.GroupBox2.Location = New System.Drawing.Point(1036, 85)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Location = New System.Drawing.Point(777, 69)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox2.Size = New System.Drawing.Size(179, 122)
+        Me.GroupBox2.Size = New System.Drawing.Size(134, 99)
         Me.GroupBox2.TabIndex = 138
         Me.GroupBox2.TabStop = False
         '
@@ -598,10 +571,9 @@ Partial Class c_kardex
         Me.LabelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX7.ForeColor = System.Drawing.Color.Maroon
-        Me.LabelX7.Location = New System.Drawing.Point(15, 97)
-        Me.LabelX7.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX7.Location = New System.Drawing.Point(11, 79)
         Me.LabelX7.Name = "LabelX7"
-        Me.LabelX7.Size = New System.Drawing.Size(48, 18)
+        Me.LabelX7.Size = New System.Drawing.Size(39, 15)
         Me.LabelX7.TabIndex = 146
         Me.LabelX7.Text = "Stock..."
         Me.LabelX7.WordWrap = True
@@ -615,10 +587,9 @@ Partial Class c_kardex
         Me.LabelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX5.ForeColor = System.Drawing.Color.Maroon
-        Me.LabelX5.Location = New System.Drawing.Point(15, 71)
-        Me.LabelX5.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX5.Location = New System.Drawing.Point(11, 58)
         Me.LabelX5.Name = "LabelX5"
-        Me.LabelX5.Size = New System.Drawing.Size(59, 18)
+        Me.LabelX5.Size = New System.Drawing.Size(48, 15)
         Me.LabelX5.TabIndex = 145
         Me.LabelX5.Text = "Salidas..."
         Me.LabelX5.WordWrap = True
@@ -632,10 +603,9 @@ Partial Class c_kardex
         Me.LabelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX4.ForeColor = System.Drawing.Color.Maroon
-        Me.LabelX4.Location = New System.Drawing.Point(15, 43)
-        Me.LabelX4.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX4.Location = New System.Drawing.Point(11, 35)
         Me.LabelX4.Name = "LabelX4"
-        Me.LabelX4.Size = New System.Drawing.Size(67, 18)
+        Me.LabelX4.Size = New System.Drawing.Size(54, 15)
         Me.LabelX4.TabIndex = 143
         Me.LabelX4.Text = "Ingresos..."
         Me.LabelX4.WordWrap = True
@@ -648,10 +618,9 @@ Partial Class c_kardex
         Me.lblSalidas.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblSalidas.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSalidas.ForeColor = System.Drawing.Color.Maroon
-        Me.lblSalidas.Location = New System.Drawing.Point(79, 71)
-        Me.lblSalidas.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblSalidas.Location = New System.Drawing.Point(59, 58)
         Me.lblSalidas.Name = "lblSalidas"
-        Me.lblSalidas.Size = New System.Drawing.Size(85, 18)
+        Me.lblSalidas.Size = New System.Drawing.Size(64, 15)
         Me.lblSalidas.TabIndex = 142
         Me.lblSalidas.Text = "0.00"
         Me.lblSalidas.TextAlignment = System.Drawing.StringAlignment.Far
@@ -666,10 +635,9 @@ Partial Class c_kardex
         Me.LabelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX3.ForeColor = System.Drawing.Color.Maroon
-        Me.LabelX3.Location = New System.Drawing.Point(15, 17)
-        Me.LabelX3.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX3.Location = New System.Drawing.Point(11, 14)
         Me.LabelX3.Name = "LabelX3"
-        Me.LabelX3.Size = New System.Drawing.Size(49, 18)
+        Me.LabelX3.Size = New System.Drawing.Size(40, 15)
         Me.LabelX3.TabIndex = 141
         Me.LabelX3.Text = "Inicial..."
         Me.LabelX3.WordWrap = True
@@ -682,10 +650,9 @@ Partial Class c_kardex
         Me.lblStock.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblStock.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblStock.ForeColor = System.Drawing.Color.Maroon
-        Me.lblStock.Location = New System.Drawing.Point(79, 98)
-        Me.lblStock.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblStock.Location = New System.Drawing.Point(59, 80)
         Me.lblStock.Name = "lblStock"
-        Me.lblStock.Size = New System.Drawing.Size(85, 18)
+        Me.lblStock.Size = New System.Drawing.Size(64, 15)
         Me.lblStock.TabIndex = 140
         Me.lblStock.Text = "0.00"
         Me.lblStock.TextAlignment = System.Drawing.StringAlignment.Far
@@ -699,10 +666,9 @@ Partial Class c_kardex
         Me.lblIngresos.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblIngresos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblIngresos.ForeColor = System.Drawing.Color.Maroon
-        Me.lblIngresos.Location = New System.Drawing.Point(79, 43)
-        Me.lblIngresos.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblIngresos.Location = New System.Drawing.Point(59, 35)
         Me.lblIngresos.Name = "lblIngresos"
-        Me.lblIngresos.Size = New System.Drawing.Size(85, 18)
+        Me.lblIngresos.Size = New System.Drawing.Size(64, 15)
         Me.lblIngresos.TabIndex = 138
         Me.lblIngresos.Text = "0.00"
         Me.lblIngresos.TextAlignment = System.Drawing.StringAlignment.Far
@@ -716,10 +682,9 @@ Partial Class c_kardex
         Me.lblInicial.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblInicial.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblInicial.ForeColor = System.Drawing.Color.Maroon
-        Me.lblInicial.Location = New System.Drawing.Point(79, 16)
-        Me.lblInicial.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblInicial.Location = New System.Drawing.Point(59, 13)
         Me.lblInicial.Name = "lblInicial"
-        Me.lblInicial.Size = New System.Drawing.Size(85, 18)
+        Me.lblInicial.Size = New System.Drawing.Size(64, 15)
         Me.lblInicial.TabIndex = 137
         Me.lblInicial.Text = "0.00"
         Me.lblInicial.TextAlignment = System.Drawing.StringAlignment.Far
@@ -738,11 +703,11 @@ Partial Class c_kardex
         Me.cbogrupo.ForeColor = System.Drawing.Color.Black
         Me.cbogrupo.FormattingEnabled = True
         Me.cbogrupo.ItemHeight = 16
-        Me.cbogrupo.Location = New System.Drawing.Point(1037, 11)
-        Me.cbogrupo.Margin = New System.Windows.Forms.Padding(4)
+        Me.cbogrupo.Location = New System.Drawing.Point(778, 9)
         Me.cbogrupo.Name = "cbogrupo"
-        Me.cbogrupo.Size = New System.Drawing.Size(256, 22)
+        Me.cbogrupo.Size = New System.Drawing.Size(193, 22)
         Me.cbogrupo.TabIndex = 140
+        Me.cbogrupo.Visible = False
         Me.cbogrupo.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
         'chkgrupo
@@ -753,22 +718,21 @@ Partial Class c_kardex
         '
         Me.chkgrupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.chkgrupo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkgrupo.Location = New System.Drawing.Point(961, 15)
-        Me.chkgrupo.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkgrupo.Location = New System.Drawing.Point(721, 12)
         Me.chkgrupo.Name = "chkgrupo"
-        Me.chkgrupo.Size = New System.Drawing.Size(79, 18)
+        Me.chkgrupo.Size = New System.Drawing.Size(67, 15)
         Me.chkgrupo.TabIndex = 139
         Me.chkgrupo.Text = "CuentaC"
+        Me.chkgrupo.Visible = False
         '
         'rb_standar
         '
         Me.rb_standar.AutoSize = True
         Me.rb_standar.Checked = True
         Me.rb_standar.ForeColor = System.Drawing.Color.DarkBlue
-        Me.rb_standar.Location = New System.Drawing.Point(1156, 44)
-        Me.rb_standar.Margin = New System.Windows.Forms.Padding(4)
+        Me.rb_standar.Location = New System.Drawing.Point(867, 36)
         Me.rb_standar.Name = "rb_standar"
-        Me.rb_standar.Size = New System.Drawing.Size(141, 21)
+        Me.rb_standar.Size = New System.Drawing.Size(109, 17)
         Me.rb_standar.TabIndex = 141
         Me.rb_standar.TabStop = True
         Me.rb_standar.Text = " Resumen Kardex"
@@ -778,18 +742,17 @@ Partial Class c_kardex
         '
         Me.rb_sunat.AutoSize = True
         Me.rb_sunat.ForeColor = System.Drawing.Color.DarkBlue
-        Me.rb_sunat.Location = New System.Drawing.Point(1156, 69)
-        Me.rb_sunat.Margin = New System.Windows.Forms.Padding(4)
+        Me.rb_sunat.Location = New System.Drawing.Point(867, 56)
         Me.rb_sunat.Name = "rb_sunat"
-        Me.rb_sunat.Size = New System.Drawing.Size(132, 21)
+        Me.rb_sunat.Size = New System.Drawing.Size(103, 17)
         Me.rb_sunat.TabIndex = 142
         Me.rb_sunat.Text = "Formato SUNAT"
         Me.rb_sunat.UseVisualStyleBackColor = True
         '
         'c_kardex
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.ClientSize = New System.Drawing.Size(1299, 671)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.ClientSize = New System.Drawing.Size(974, 545)
         Me.Controls.Add(Me.rb_sunat)
         Me.Controls.Add(Me.rb_standar)
         Me.Controls.Add(Me.cbogrupo)
@@ -809,7 +772,7 @@ Partial Class c_kardex
         Me.Controls.Add(Me.txtBuscar)
         Me.Controls.Add(Me.lblItems)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(5)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "c_kardex"
         Me.Text = "Consulta y Reporte: KARDEX DE PRODUCTOS"
         CType(Me.dataArticulo, System.ComponentModel.ISupportInitialize).EndInit()

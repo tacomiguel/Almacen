@@ -603,9 +603,10 @@ Public Class c_kardex
             preciosConIGV = IIf(chkIncIGV.Checked = True, "*Los Precios Incluyen Impuesto", "*Los Precios NO Incluyen Impuesto")
             Dim cAlmacen As String = IIf(cboAlmacen.SelectedIndex >= 0, cboAlmacen.Text, "Integrado")
 
-            muestraKardexImp(codigo)
+            'muestraKardexImp(codigo)
             If rb_standar.Checked Then
-                frm.ResumenKardex_SUNAT(dsKardex, nom_art, cAlmacen, fechaReporte, "Kardex, " & periodoReporte, preciosConIGV, True)
+                frm.cargarKardex(dsKardex, nom_art, cAlmacen, fechaReporte, "Kardex, " & periodoReporte, preciosConIGV, True)
+                ' frm.ResumenKardex_SUNAT(dsKardex, nom_art, cAlmacen, fechaReporte, "Kardex, " & periodoReporte, preciosConIGV, True)
             Else
                 frm.cargarKardex_SUNAT(dsKardex, nom_art, cAlmacen, fechaReporte, periodoReporte, preciosConIGV, True)
             End If

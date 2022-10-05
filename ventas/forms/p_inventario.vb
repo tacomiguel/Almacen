@@ -407,8 +407,8 @@ Public Class p_inventario
 
     End Sub
     Private Sub dataCatalogo_DoubleClick(ByVal sender As Object, ByVal e As System.EventArgs) Handles dataCatalogo.DoubleClick
-        If cmdIniciar.Enabled = False Then
-            If dataCatalogo.RowCount > 0 Then
+        'If cmdIniciar.Enabled = False Then
+        If dataCatalogo.RowCount > 0 Then
                 If esEditable() Then
                     If ChkModoImp.Checked = False Then
                         txtBuscarInventario.Text = ""
@@ -431,9 +431,9 @@ Public Class p_inventario
                     End If
                 End If
             End If
-        Else
-            MessageBox.Show("Por favor Inicilializar Inventario...", "ALMACEN", MessageBoxButtons.OK, MessageBoxIcon.Stop)
-        End If
+        'Else
+        ' MessageBox.Show("Por favor Inicilializar Inventario...", "ALMACEN", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+        ' End If
     End Sub
     Private Sub dataCatalogo_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles dataCatalogo.KeyDown
         If e.KeyCode = Keys.Enter Then
@@ -579,9 +579,9 @@ Public Class p_inventario
         End If
         Dim mAlmacen As New Almacen, mUnidad As New Unidad
         Dim cod_artAlma As String = dataInventario("cod_art", ifila).Value
-        Dim codigo As String = mAlmacen.devuelveCodigoArtPrinRelacionado(cod_artAlma)
-        Dim unidad As String = mUnidad.devuelveUnidad(codigo)
-        Dim esBotella As Boolean = mUnidad.esBotella(unidad)
+        ' Dim codigo As String = mAlmacen.devuelveCodigoArtPrinRelacionado(cod_artAlma)
+        'Dim unidad As String = mUnidad.devuelveUnidad(codigo)
+        'Dim esBotella As Boolean = mUnidad.esBotella(unidad)
         Dim precio As Decimal = dataInventario("precio", ifila).Value
         'Dim cantSalida As Decimal = mIngreso.devSalidasDelIngreso(nIngreso)
         Dim saldo As Decimal = cantidad

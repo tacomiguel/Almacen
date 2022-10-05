@@ -82,11 +82,10 @@ Partial Class p_inventario
         Me.cmdIniciar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdIniciar.Image = CType(resources.GetObject("cmdIniciar.Image"), System.Drawing.Image)
         Me.cmdIniciar.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
-        Me.cmdIniciar.Location = New System.Drawing.Point(32, 12)
-        Me.cmdIniciar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmdIniciar.Location = New System.Drawing.Point(24, 10)
         Me.cmdIniciar.Name = "cmdIniciar"
         Me.cmdIniciar.Shape = New DevComponents.DotNetBar.RoundRectangleShapeDescriptor(5)
-        Me.cmdIniciar.Size = New System.Drawing.Size(85, 74)
+        Me.cmdIniciar.Size = New System.Drawing.Size(64, 60)
         Me.cmdIniciar.TabIndex = 54
         Me.cmdIniciar.Text = "Iniciar Inventario"
         '
@@ -117,15 +116,14 @@ Partial Class p_inventario
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataCatalogo.DefaultCellStyle = DataGridViewCellStyle2
         Me.dataCatalogo.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataCatalogo.Location = New System.Drawing.Point(9, 172)
-        Me.dataCatalogo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dataCatalogo.Location = New System.Drawing.Point(7, 140)
         Me.dataCatalogo.MultiSelect = False
         Me.dataCatalogo.Name = "dataCatalogo"
         Me.dataCatalogo.RowHeadersVisible = False
         Me.dataCatalogo.SelectAllSignVisible = False
         Me.dataCatalogo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dataCatalogo.ShowEditingIcon = False
-        Me.dataCatalogo.Size = New System.Drawing.Size(529, 494)
+        Me.dataCatalogo.Size = New System.Drawing.Size(397, 401)
         Me.dataCatalogo.TabIndex = 2
         '
         'txtBuscar
@@ -137,10 +135,9 @@ Partial Class p_inventario
         Me.txtBuscar.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtBuscar.FocusHighlightEnabled = True
         Me.txtBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBuscar.Location = New System.Drawing.Point(121, 20)
-        Me.txtBuscar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtBuscar.Location = New System.Drawing.Point(91, 16)
         Me.txtBuscar.Name = "txtBuscar"
-        Me.txtBuscar.Size = New System.Drawing.Size(207, 24)
+        Me.txtBuscar.Size = New System.Drawing.Size(155, 21)
         Me.txtBuscar.TabIndex = 1
         '
         'dataInventario
@@ -169,22 +166,20 @@ Partial Class p_inventario
         DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataInventario.DefaultCellStyle = DataGridViewCellStyle4
         Me.dataInventario.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.dataInventario.Location = New System.Drawing.Point(536, 172)
-        Me.dataInventario.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dataInventario.Location = New System.Drawing.Point(402, 140)
         Me.dataInventario.Name = "dataInventario"
         Me.dataInventario.RowHeadersVisible = False
         Me.dataInventario.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.dataInventario.SelectAllSignVisible = False
         Me.dataInventario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dataInventario.ShowEditingIcon = False
-        Me.dataInventario.Size = New System.Drawing.Size(765, 494)
+        Me.dataInventario.Size = New System.Drawing.Size(574, 401)
         Me.dataInventario.TabIndex = 4
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.cefe.My.Resources.Resources.buscar18
-        Me.PictureBox2.Location = New System.Drawing.Point(336, 22)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox2.Location = New System.Drawing.Point(252, 18)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(18, 18)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -199,11 +194,9 @@ Partial Class p_inventario
         Me.GroupBox1.Controls.Add(Me.LabelX2)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox1.Location = New System.Drawing.Point(267, 6)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Location = New System.Drawing.Point(200, 5)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox1.Size = New System.Drawing.Size(333, 92)
+        Me.GroupBox1.Size = New System.Drawing.Size(250, 75)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Parámetros de Registro"
@@ -217,10 +210,9 @@ Partial Class p_inventario
         Me.LabelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.LabelX1.Location = New System.Drawing.Point(15, 60)
-        Me.LabelX1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelX1.Location = New System.Drawing.Point(11, 49)
         Me.LabelX1.Name = "LabelX1"
-        Me.LabelX1.Size = New System.Drawing.Size(35, 19)
+        Me.LabelX1.Size = New System.Drawing.Size(29, 16)
         Me.LabelX1.TabIndex = 4
         Me.LabelX1.Text = "Area"
         '
@@ -235,10 +227,9 @@ Partial Class p_inventario
         Me.cboArea.ForeColor = System.Drawing.Color.Black
         Me.cboArea.FormattingEnabled = True
         Me.cboArea.ItemHeight = 15
-        Me.cboArea.Location = New System.Drawing.Point(84, 59)
-        Me.cboArea.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboArea.Location = New System.Drawing.Point(63, 48)
         Me.cboArea.Name = "cboArea"
-        Me.cboArea.Size = New System.Drawing.Size(237, 21)
+        Me.cboArea.Size = New System.Drawing.Size(179, 21)
         Me.cboArea.TabIndex = 3
         Me.cboArea.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
@@ -253,10 +244,9 @@ Partial Class p_inventario
         Me.cboAlmacen.ForeColor = System.Drawing.Color.Black
         Me.cboAlmacen.FormattingEnabled = True
         Me.cboAlmacen.ItemHeight = 15
-        Me.cboAlmacen.Location = New System.Drawing.Point(84, 26)
-        Me.cboAlmacen.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboAlmacen.Location = New System.Drawing.Point(63, 21)
         Me.cboAlmacen.Name = "cboAlmacen"
-        Me.cboAlmacen.Size = New System.Drawing.Size(237, 21)
+        Me.cboAlmacen.Size = New System.Drawing.Size(179, 21)
         Me.cboAlmacen.TabIndex = 1
         Me.cboAlmacen.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
@@ -269,10 +259,9 @@ Partial Class p_inventario
         Me.LabelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.LabelX2.Location = New System.Drawing.Point(13, 27)
-        Me.LabelX2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelX2.Location = New System.Drawing.Point(10, 22)
         Me.LabelX2.Name = "LabelX2"
-        Me.LabelX2.Size = New System.Drawing.Size(63, 19)
+        Me.LabelX2.Size = New System.Drawing.Size(51, 16)
         Me.LabelX2.TabIndex = 0
         Me.LabelX2.Text = "Almacén"
         '
@@ -283,11 +272,9 @@ Partial Class p_inventario
         Me.GroupBox2.Controls.Add(Me.cmdActualizaCostos)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox2.Location = New System.Drawing.Point(612, 6)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Location = New System.Drawing.Point(459, 5)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox2.Size = New System.Drawing.Size(357, 94)
+        Me.GroupBox2.Size = New System.Drawing.Size(268, 76)
         Me.GroupBox2.TabIndex = 111
         Me.GroupBox2.TabStop = False
         '
@@ -298,11 +285,10 @@ Partial Class p_inventario
         Me.cmdEliminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdEliminar.Image = Global.cefe.My.Resources.Resources.Error_22
         Me.cmdEliminar.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
-        Me.cmdEliminar.Location = New System.Drawing.Point(143, 12)
-        Me.cmdEliminar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmdEliminar.Location = New System.Drawing.Point(107, 10)
         Me.cmdEliminar.Name = "cmdEliminar"
         Me.cmdEliminar.Shape = New DevComponents.DotNetBar.RoundRectangleShapeDescriptor(5)
-        Me.cmdEliminar.Size = New System.Drawing.Size(85, 75)
+        Me.cmdEliminar.Size = New System.Drawing.Size(64, 61)
         Me.cmdEliminar.TabIndex = 55
         Me.cmdEliminar.Text = "Elminar Inventario"
         '
@@ -313,11 +299,10 @@ Partial Class p_inventario
         Me.cmdActualizaCostos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdActualizaCostos.Image = CType(resources.GetObject("cmdActualizaCostos.Image"), System.Drawing.Image)
         Me.cmdActualizaCostos.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
-        Me.cmdActualizaCostos.Location = New System.Drawing.Point(252, 12)
-        Me.cmdActualizaCostos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmdActualizaCostos.Location = New System.Drawing.Point(189, 10)
         Me.cmdActualizaCostos.Name = "cmdActualizaCostos"
         Me.cmdActualizaCostos.Shape = New DevComponents.DotNetBar.RoundRectangleShapeDescriptor(5)
-        Me.cmdActualizaCostos.Size = New System.Drawing.Size(85, 75)
+        Me.cmdActualizaCostos.Size = New System.Drawing.Size(64, 61)
         Me.cmdActualizaCostos.TabIndex = 161
         Me.cmdActualizaCostos.Text = "Actualizar Costos"
         '
@@ -327,11 +312,9 @@ Partial Class p_inventario
         Me.GroupBox3.Controls.Add(Me.optCodigo)
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox3.Location = New System.Drawing.Point(511, 9)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Location = New System.Drawing.Point(383, 7)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox3.Size = New System.Drawing.Size(213, 42)
+        Me.GroupBox3.Size = New System.Drawing.Size(160, 34)
         Me.GroupBox3.TabIndex = 134
         Me.GroupBox3.TabStop = False
         '
@@ -341,10 +324,9 @@ Partial Class p_inventario
         Me.optDescripcion.Checked = True
         Me.optDescripcion.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optDescripcion.ForeColor = System.Drawing.Color.Black
-        Me.optDescripcion.Location = New System.Drawing.Point(89, 14)
-        Me.optDescripcion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optDescripcion.Location = New System.Drawing.Point(67, 11)
         Me.optDescripcion.Name = "optDescripcion"
-        Me.optDescripcion.Size = New System.Drawing.Size(113, 20)
+        Me.optDescripcion.Size = New System.Drawing.Size(90, 18)
         Me.optDescripcion.TabIndex = 1
         Me.optDescripcion.TabStop = True
         Me.optDescripcion.Text = "Descripción"
@@ -355,10 +337,9 @@ Partial Class p_inventario
         Me.optCodigo.AutoSize = True
         Me.optCodigo.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optCodigo.ForeColor = System.Drawing.Color.Black
-        Me.optCodigo.Location = New System.Drawing.Point(9, 14)
-        Me.optCodigo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optCodigo.Location = New System.Drawing.Point(7, 11)
         Me.optCodigo.Name = "optCodigo"
-        Me.optCodigo.Size = New System.Drawing.Size(79, 20)
+        Me.optCodigo.Size = New System.Drawing.Size(64, 18)
         Me.optCodigo.TabIndex = 0
         Me.optCodigo.Text = "Código"
         Me.optCodigo.UseVisualStyleBackColor = True
@@ -372,17 +353,15 @@ Partial Class p_inventario
         Me.txtBuscarInventario.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.txtBuscarInventario.FocusHighlightEnabled = True
         Me.txtBuscarInventario.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBuscarInventario.Location = New System.Drawing.Point(729, 18)
-        Me.txtBuscarInventario.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtBuscarInventario.Location = New System.Drawing.Point(547, 15)
         Me.txtBuscarInventario.Name = "txtBuscarInventario"
-        Me.txtBuscarInventario.Size = New System.Drawing.Size(159, 24)
+        Me.txtBuscarInventario.Size = New System.Drawing.Size(119, 21)
         Me.txtBuscarInventario.TabIndex = 2
         '
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(893, 21)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox3.Location = New System.Drawing.Point(670, 17)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(18, 18)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -397,10 +376,9 @@ Partial Class p_inventario
         Me.lblRegistros.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblRegistros.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRegistros.ForeColor = System.Drawing.Color.Green
-        Me.lblRegistros.Location = New System.Drawing.Point(9, 78)
-        Me.lblRegistros.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lblRegistros.Location = New System.Drawing.Point(7, 63)
         Me.lblRegistros.Name = "lblRegistros"
-        Me.lblRegistros.Size = New System.Drawing.Size(245, 23)
+        Me.lblRegistros.Size = New System.Drawing.Size(184, 19)
         Me.lblRegistros.TabIndex = 141
         Me.lblRegistros.Text = "Nº de Registros..."
         Me.lblRegistros.TextAlignment = System.Drawing.StringAlignment.Center
@@ -409,8 +387,7 @@ Partial Class p_inventario
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(1255, 21)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Location = New System.Drawing.Point(941, 17)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(16, 16)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -425,10 +402,9 @@ Partial Class p_inventario
         '
         Me.chkGrupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.chkGrupo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkGrupo.Location = New System.Drawing.Point(925, 22)
-        Me.chkGrupo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkGrupo.Location = New System.Drawing.Point(694, 18)
         Me.chkGrupo.Name = "chkGrupo"
-        Me.chkGrupo.Size = New System.Drawing.Size(71, 18)
+        Me.chkGrupo.Size = New System.Drawing.Size(61, 15)
         Me.chkGrupo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.chkGrupo.TabIndex = 138
         Me.chkGrupo.Text = "x Grupo"
@@ -446,10 +422,9 @@ Partial Class p_inventario
         Me.cboGrupo.ForeColor = System.Drawing.Color.Black
         Me.cboGrupo.FormattingEnabled = True
         Me.cboGrupo.ItemHeight = 15
-        Me.cboGrupo.Location = New System.Drawing.Point(1011, 18)
-        Me.cboGrupo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboGrupo.Location = New System.Drawing.Point(758, 15)
         Me.cboGrupo.Name = "cboGrupo"
-        Me.cboGrupo.Size = New System.Drawing.Size(240, 21)
+        Me.cboGrupo.Size = New System.Drawing.Size(181, 21)
         Me.cboGrupo.TabIndex = 4
         Me.cboGrupo.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
@@ -464,10 +439,9 @@ Partial Class p_inventario
         Me.chkModo.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkModo.CheckValue = "Y"
         Me.chkModo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkModo.Location = New System.Drawing.Point(363, 15)
-        Me.chkModo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkModo.Location = New System.Drawing.Point(272, 12)
         Me.chkModo.Name = "chkModo"
-        Me.chkModo.Size = New System.Drawing.Size(100, 18)
+        Me.chkModo.Size = New System.Drawing.Size(85, 15)
         Me.chkModo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.chkModo.TabIndex = 137
         Me.chkModo.Text = "Modo Añadir"
@@ -479,11 +453,10 @@ Partial Class p_inventario
         Me.cmdImprimir.Appearance.Options.UseFont = True
         Me.cmdImprimir.Image = CType(resources.GetObject("cmdImprimir.Image"), System.Drawing.Image)
         Me.cmdImprimir.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.MiddleLeft
-        Me.cmdImprimir.Location = New System.Drawing.Point(1189, 66)
+        Me.cmdImprimir.Location = New System.Drawing.Point(892, 54)
         Me.cmdImprimir.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdImprimir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdImprimir.Name = "cmdImprimir"
-        Me.cmdImprimir.Size = New System.Drawing.Size(103, 42)
+        Me.cmdImprimir.Size = New System.Drawing.Size(77, 34)
         Me.cmdImprimir.TabIndex = 156
         Me.cmdImprimir.Text = "Imprimir"
         '
@@ -493,11 +466,10 @@ Partial Class p_inventario
         Me.cmdCerrar.Appearance.Options.UseFont = True
         Me.cmdCerrar.Image = CType(resources.GetObject("cmdCerrar.Image"), System.Drawing.Image)
         Me.cmdCerrar.ImageLocation = DevExpress.DXCore.Controls.XtraEditors.ImageLocation.MiddleLeft
-        Me.cmdCerrar.Location = New System.Drawing.Point(1189, 14)
+        Me.cmdCerrar.Location = New System.Drawing.Point(892, 11)
         Me.cmdCerrar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdCerrar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdCerrar.Name = "cmdCerrar"
-        Me.cmdCerrar.Size = New System.Drawing.Size(103, 42)
+        Me.cmdCerrar.Size = New System.Drawing.Size(77, 34)
         Me.cmdCerrar.TabIndex = 157
         Me.cmdCerrar.Text = "Cerrar"
         '
@@ -510,11 +482,9 @@ Partial Class p_inventario
         Me.GroupBox8.Controls.Add(Me.optRepAlmacen)
         Me.GroupBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox8.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox8.Location = New System.Drawing.Point(1001, 6)
-        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox8.Location = New System.Drawing.Point(751, 5)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox8.Size = New System.Drawing.Size(169, 102)
+        Me.GroupBox8.Size = New System.Drawing.Size(127, 83)
         Me.GroupBox8.TabIndex = 158
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Reportes"
@@ -525,10 +495,9 @@ Partial Class p_inventario
         Me.optFormatos.Checked = True
         Me.optFormatos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optFormatos.ForeColor = System.Drawing.Color.Black
-        Me.optFormatos.Location = New System.Drawing.Point(11, 59)
-        Me.optFormatos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optFormatos.Location = New System.Drawing.Point(8, 48)
         Me.optFormatos.Name = "optFormatos"
-        Me.optFormatos.Size = New System.Drawing.Size(88, 21)
+        Me.optFormatos.Size = New System.Drawing.Size(68, 17)
         Me.optFormatos.TabIndex = 139
         Me.optFormatos.TabStop = True
         Me.optFormatos.Text = "Formatos"
@@ -542,10 +511,9 @@ Partial Class p_inventario
         '
         Me.chkResumenGrupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.chkResumenGrupo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkResumenGrupo.Location = New System.Drawing.Point(9, 81)
-        Me.chkResumenGrupo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkResumenGrupo.Location = New System.Drawing.Point(7, 66)
         Me.chkResumenGrupo.Name = "chkResumenGrupo"
-        Me.chkResumenGrupo.Size = New System.Drawing.Size(134, 18)
+        Me.chkResumenGrupo.Size = New System.Drawing.Size(111, 15)
         Me.chkResumenGrupo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.chkResumenGrupo.TabIndex = 138
         Me.chkResumenGrupo.Text = "Resumen x Grupo"
@@ -556,10 +524,9 @@ Partial Class p_inventario
         Me.optRepAlmacen_area.AutoSize = True
         Me.optRepAlmacen_area.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optRepAlmacen_area.ForeColor = System.Drawing.Color.Black
-        Me.optRepAlmacen_area.Location = New System.Drawing.Point(11, 39)
-        Me.optRepAlmacen_area.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optRepAlmacen_area.Location = New System.Drawing.Point(8, 32)
         Me.optRepAlmacen_area.Name = "optRepAlmacen_area"
-        Me.optRepAlmacen_area.Size = New System.Drawing.Size(138, 21)
+        Me.optRepAlmacen_area.Size = New System.Drawing.Size(107, 17)
         Me.optRepAlmacen_area.TabIndex = 1
         Me.optRepAlmacen_area.Text = "x Almacén y Area"
         Me.optRepAlmacen_area.UseVisualStyleBackColor = True
@@ -569,10 +536,9 @@ Partial Class p_inventario
         Me.optRepAlmacen.AutoSize = True
         Me.optRepAlmacen.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optRepAlmacen.ForeColor = System.Drawing.Color.Black
-        Me.optRepAlmacen.Location = New System.Drawing.Point(11, 20)
-        Me.optRepAlmacen.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.optRepAlmacen.Location = New System.Drawing.Point(8, 16)
         Me.optRepAlmacen.Name = "optRepAlmacen"
-        Me.optRepAlmacen.Size = New System.Drawing.Size(93, 21)
+        Me.optRepAlmacen.Size = New System.Drawing.Size(74, 17)
         Me.optRepAlmacen.TabIndex = 0
         Me.optRepAlmacen.Text = "x Almacén"
         Me.optRepAlmacen.UseVisualStyleBackColor = True
@@ -584,10 +550,9 @@ Partial Class p_inventario
         Me.GroupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
         Me.GroupPanel1.Controls.Add(Me.cboAnno)
         Me.GroupPanel1.Controls.Add(Me.cboMes)
-        Me.GroupPanel1.Location = New System.Drawing.Point(9, 12)
-        Me.GroupPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupPanel1.Location = New System.Drawing.Point(7, 10)
         Me.GroupPanel1.Name = "GroupPanel1"
-        Me.GroupPanel1.Size = New System.Drawing.Size(245, 62)
+        Me.GroupPanel1.Size = New System.Drawing.Size(184, 50)
         '
         '
         '
@@ -626,10 +591,9 @@ Partial Class p_inventario
         Me.cboAnno.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboAnno.FormattingEnabled = True
         Me.cboAnno.Items.AddRange(New Object() {"2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"})
-        Me.cboAnno.Location = New System.Drawing.Point(145, 6)
-        Me.cboAnno.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboAnno.Location = New System.Drawing.Point(109, 5)
         Me.cboAnno.Name = "cboAnno"
-        Me.cboAnno.Size = New System.Drawing.Size(79, 25)
+        Me.cboAnno.Size = New System.Drawing.Size(60, 21)
         Me.cboAnno.TabIndex = 1
         '
         'cboMes
@@ -639,10 +603,9 @@ Partial Class p_inventario
         Me.cboMes.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboMes.FormattingEnabled = True
         Me.cboMes.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"})
-        Me.cboMes.Location = New System.Drawing.Point(7, 6)
-        Me.cboMes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboMes.Location = New System.Drawing.Point(5, 5)
         Me.cboMes.Name = "cboMes"
-        Me.cboMes.Size = New System.Drawing.Size(124, 25)
+        Me.cboMes.Size = New System.Drawing.Size(94, 21)
         Me.cboMes.TabIndex = 0
         '
         'GroupBox4
@@ -660,11 +623,9 @@ Partial Class p_inventario
         Me.GroupBox4.Controls.Add(Me.PictureBox2)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox4.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox4.Location = New System.Drawing.Point(9, 107)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Location = New System.Drawing.Point(7, 87)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox4.Size = New System.Drawing.Size(1292, 59)
+        Me.GroupBox4.Size = New System.Drawing.Size(969, 48)
         Me.GroupBox4.TabIndex = 1
         Me.GroupBox4.TabStop = False
         '
@@ -676,10 +637,9 @@ Partial Class p_inventario
         '
         Me.ChkModoImp.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.ChkModoImp.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ChkModoImp.Location = New System.Drawing.Point(363, 37)
-        Me.ChkModoImp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ChkModoImp.Location = New System.Drawing.Point(272, 30)
         Me.ChkModoImp.Name = "ChkModoImp"
-        Me.ChkModoImp.Size = New System.Drawing.Size(132, 18)
+        Me.ChkModoImp.Size = New System.Drawing.Size(110, 15)
         Me.ChkModoImp.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.ChkModoImp.TabIndex = 141
         Me.ChkModoImp.Text = "Modo Importacion"
@@ -696,10 +656,9 @@ Partial Class p_inventario
         Me.chkBuscar.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkBuscar.CheckValue = "Y"
         Me.chkBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkBuscar.Location = New System.Drawing.Point(7, 23)
-        Me.chkBuscar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkBuscar.Location = New System.Drawing.Point(5, 19)
         Me.chkBuscar.Name = "chkBuscar"
-        Me.chkBuscar.Size = New System.Drawing.Size(83, 19)
+        Me.chkBuscar.Size = New System.Drawing.Size(71, 16)
         Me.chkBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.chkBuscar.TabIndex = 140
         Me.chkBuscar.Text = "Artículos"
@@ -713,10 +672,9 @@ Partial Class p_inventario
         '
         Me.lblinsertar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.lblinsertar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblinsertar.Location = New System.Drawing.Point(359, 671)
-        Me.lblinsertar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lblinsertar.Location = New System.Drawing.Point(269, 545)
         Me.lblinsertar.Name = "lblinsertar"
-        Me.lblinsertar.Size = New System.Drawing.Size(103, 21)
+        Me.lblinsertar.Size = New System.Drawing.Size(83, 17)
         Me.lblinsertar.TabIndex = 164
         Me.lblinsertar.Text = "Insertar Todo"
         Me.lblinsertar.TextAlignment = System.Drawing.StringAlignment.Center
@@ -727,17 +685,16 @@ Partial Class p_inventario
         '
         Me.cmdInsertar.BackColor = System.Drawing.Color.Transparent
         Me.cmdInsertar.Image = Global.cefe.My.Resources.Resources.forward18
-        Me.cmdInsertar.Location = New System.Drawing.Point(477, 667)
-        Me.cmdInsertar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmdInsertar.Location = New System.Drawing.Point(358, 542)
         Me.cmdInsertar.Name = "cmdInsertar"
-        Me.cmdInsertar.Size = New System.Drawing.Size(61, 32)
+        Me.cmdInsertar.Size = New System.Drawing.Size(46, 26)
         Me.cmdInsertar.TabIndex = 165
         Me.cmdInsertar.UseVisualStyleBackColor = False
         '
         'p_inventario
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.ClientSize = New System.Drawing.Size(1312, 698)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.ClientSize = New System.Drawing.Size(984, 567)
         Me.Controls.Add(Me.cmdInsertar)
         Me.Controls.Add(Me.lblinsertar)
         Me.Controls.Add(Me.GroupBox8)
@@ -751,7 +708,7 @@ Partial Class p_inventario
         Me.Controls.Add(Me.dataInventario)
         Me.Controls.Add(Me.dataCatalogo)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "p_inventario"
         Me.Text = "Proceso: REGISTRO DE INVENTARIO FISICO INICIAL"
         CType(Me.dataCatalogo, System.ComponentModel.ISupportInitialize).EndInit()

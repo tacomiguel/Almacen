@@ -398,23 +398,27 @@ Public Class u_Cierreinventario
         da.SelectCommand = com
         da.Fill(dsInicial, "fisico")
         barraProgreso.Minimum = 0
-        barraProgreso.Maximum = dsInicial.Tables("fisico").Rows.Count - 1
-        For I = 0 To dsInicial.Tables("fisico").Rows.Count - 1
-            cCodigo = dsInicial.Tables("fisico").Rows(I).Item("cod_art").ToString
-            nCant = dsInicial.Tables("fisico").Rows(I).Item("cant").ToString
-            nCosto = dsInicial.Tables("fisico").Rows(I).Item("precio").ToString
-            cCuenta = dsInicial.Tables("fisico").Rows(I).Item("cuenta").ToString
-            Dim comBusca As New MySqlCommand("Select count(cod_art) from inventario_mdet where cod_art='" & cCodigo & "' and operacion=" & nOperacion, dbConex)
-            existe = comBusca.ExecuteScalar
-            If existe Then
-                Dim comUPD As New MySqlCommand("Update inventario_mdet set cant_fis=" & nCant & " where cod_art='" & cCodigo & "' and operacion=" & nOperacion, dbConex)
-                comUPD.ExecuteNonQuery()
-            Else
-                nInventario = mInventario.maxInventarioMensual
-                mInventario.insertar_detInvMensual(nOperacion, nInventario, cCodigo, nCant, nCant, nCosto, cCuenta)
-            End If
-            barraProgreso.Value = I
-        Next
+        barraProgreso.Maximum = 100
+        If dsInicial.Tables("fisico").Rows.Count > 0 Then
+            barraProgreso.Maximum = dsInicial.Tables("fisico").Rows.Count - 1
+
+            For I = 0 To dsInicial.Tables("fisico").Rows.Count - 1
+                cCodigo = dsInicial.Tables("fisico").Rows(I).Item("cod_art").ToString
+                nCant = dsInicial.Tables("fisico").Rows(I).Item("cant").ToString
+                nCosto = dsInicial.Tables("fisico").Rows(I).Item("precio").ToString
+                cCuenta = dsInicial.Tables("fisico").Rows(I).Item("cuenta").ToString
+                Dim comBusca As New MySqlCommand("Select count(cod_art) from inventario_mdet where cod_art='" & cCodigo & "' and operacion=" & nOperacion, dbConex)
+                existe = comBusca.ExecuteScalar
+                If existe Then
+                    Dim comUPD As New MySqlCommand("Update inventario_mdet set cant_fis=" & nCant & " where cod_art='" & cCodigo & "' and operacion=" & nOperacion, dbConex)
+                    comUPD.ExecuteNonQuery()
+                Else
+                    nInventario = mInventario.maxInventarioMensual
+                    mInventario.insertar_detInvMensual(nOperacion, nInventario, cCodigo, nCant, nCant, nCosto, cCuenta)
+                End If
+                barraProgreso.Value = I
+            Next
+        End If
         barraProgreso.Visible = False
         MessageBox.Show("Proceso Finalizado...")
     End Sub
