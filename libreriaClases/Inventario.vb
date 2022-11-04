@@ -251,20 +251,21 @@ Public Class Inventario
         clConex.Close()
         Return dsCrosstab
     End Function
-    Public Function recuperaInventarioPermanente(ByVal fechaInv As Date) As DataSet
+    Public Function recuperaInventarioPermanente(ByVal cod_alma As String, ByVal fechaInv As Date) As DataSet
         Dim clConex As MySqlConnection = Conexion.obtenerConexion
         Dim da As New MySqlDataAdapter
         Dim ds As New DataSet
         Dim mfecha As String = fechaInv.ToString("yy-MM-dd")
-        Dim cad, cad1, cad2, cad3, cad4, cad5, cad6, cad7, cad8 As String
+        Dim cad, cad1, cad2, cad3, cad4, cad5, cad6, cad7, cad8, cadx As String
         cad1 = " select a.fec_inv,a.cod_alma,b.cod_art,ar.nom_art,u.nom_uni,b.pre_costo,sum(b.cant_fis*b.pre_costo) as valor, (sum(b.cant_fis*b.pre_costo)/b.pre_costo) as cant_fis, "
-        cad2 = " if(a.cod_alma='0001',b.cod_art,(select  max(cod_art) from art_relaalmacenes where cod_artAlma=b.cod_art and cod_alma=a.cod_alma) ) as codigo ,(select nom_sgrupo from subgrupo where cod_sgrupo=(select cod_sgrupo from articulo where cod_art=codigo)) as nom_sgrupo"
+        cad2 = " nom_sgrupo"
+        cadx = ",if(a.cod_alma='0001',b.cod_art, (select  max(cod_art) from art_relaalmacenes where cod_artAlma=b.cod_art and cod_alma=a.cod_alma) ) as codigo ,(select nom_sgrupo from subgrupo where cod_sgrupo=(select cod_sgrupo from articulo where cod_art=codigo)) as nom_sgrupo"
         cad3 = " from inventario_m a "
         cad4 = " inner join inventario_mdet b on a.operacion=b.operacion "
-        cad5 = " inner join articulo ar on ar.cod_art=b.cod_art "
+        cad5 = " inner join articulo ar on ar.cod_art=b.cod_art inner join subgrupo sg on sg.cod_sgrupo=ar.cod_sgrupo "
         cad6 = " inner join almacen al on a.cod_alma=al.cod_alma "
         cad7 = " inner join unidad u on u.cod_uni=ar.cod_uni "
-        cad8 = " where fec_inv='" & mfecha & "' and escatalogo group by codigo having valor >0 order by nom_sgrupo"
+        cad8 = " where a.cod_alma= '" & cod_alma & "' and fec_inv='" & mfecha & "' and escatalogo group by b.cod_art having valor >0 order by nom_sgrupo"
         cad = cad1 + cad2 + cad3 + cad4 + cad5 + cad6 + cad7 + cad8
         Dim comArt As New MySqlCommand(cad)
         comArt.Connection = clConex

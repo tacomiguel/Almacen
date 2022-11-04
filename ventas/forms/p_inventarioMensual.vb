@@ -947,6 +947,7 @@ Public Class p_inventarioMensual
             Dim fechaReporte As String = general.fechaInventario(periodoInventario)
             Dim periodo As String = periodoSeleccionadoReportes()
             Dim periodoReporte As String = "Periodo: " & general.periodo_mesAnnoLetras(periodo)
+            Dim cod_alma As String = cboAlmacenRegistro.SelectedValue
             Dim frm As New rptForm
             Dim nomReporte = IIf(chkIntegrado.Checked = True, "Integrado", CboAlmacenRpt.Text)
 
@@ -966,7 +967,7 @@ Public Class p_inventarioMensual
                         Else
                             If optInventario.Checked = True Then
                                 Dim ds As New DataSet, titulo As String = "Listado de Inventarios Valorizado"
-                                ds = minventario.recuperaInventarioPermanente(general.fechaInventario(periodo))
+                                ds = minventario.recuperaInventarioPermanente(cod_alma, general.fechaInventario(periodo))
                                 frm.cargarReporteInventario(ds, periodoReporte, titulo)
 
                             Else
