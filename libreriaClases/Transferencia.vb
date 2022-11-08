@@ -287,7 +287,7 @@ Public Class Transferencia
         cod_trans = "90"
         cad1 = "select almacen.nom_alma as origen,hs.fec_doc,concat(hs.ser_doc,'-',hs.nro_doc) as doc, hs.fec_prod," & IIf(xPedPend, "cant_ped-cant as cant", "cant")
         cad2 = ",articulo.cod_art,nom_art,nom_uni,nom_sgrupo as Grupo,hsd.cant,hsd.precio,hsd.cant*hsd.precio as total,hs.ser_doc,hs.nro_doc,almacenD.nom_alma as destino, area.nom_area as area,hsd.operacion,hsd.salida,hsd.ingreso,hsd.nAux,hs.obs " _
-             & ",hs.cuenta,hsd.usu_ins,hsd.fec_ins,p.fec_ent"
+             & ",hs.cuenta,hsd.usu_ins,hsd.fec_ins,hs.fec_prod as fec_ent"
         If esHistorial Then
             cad3 = " from h_salida as hs inner join h_salida_det as hsd on hs.operacion= hsd.operacion and hs.proceso=hsd.proceso"
         Else
