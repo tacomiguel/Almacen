@@ -198,7 +198,7 @@ Public Class rptForm
 
         Dim cad, sql1 As String
         sql1 = " Select ser_ped,nro_ped,fec_ped,fec_ent,hor_ent,p.cod_clie,p.dir_ent,nom_clie as nom_clie," &
-         " raz_soc,dir_clie,nom_cont, fono_clie,nom_vend,nom_fpago,(monto+monto_igv) as total " &
+         " raz_soc,dir_clie,nom_cont, fono_clie,nom_vend,nom_fpago,(monto+monto_igv) as total, " &
          " tm ,a.nom_alma,ar.nom_area,u.user as usuario,r.dsc_recurso as tip_pedido" &
          " from pedido p inner join Cliente on p.cod_clie=cliente.cod_clie " &
          " inner join vendedor on p.cod_vend=vendedor.cod_vend " &

@@ -360,7 +360,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>rs7PsJ9umt0zKUC6Hp9W1Q6sYow=</dsig:DigestValue>
+        <dsig:DigestValue>T4LB/6OyLKzZH4g4tln65tvx1JE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -401,14 +401,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14034944">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14036992">
       <assemblyIdentity name="Qstock" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>DdoX1mYF+yVio56nVm7kAxPYAiM=</dsig:DigestValue>
+        <dsig:DigestValue>4zpnWdYQskkFTKpMJEus4qED8dQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -425,14 +425,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="22344">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="32416">
       <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>KNXqPPQvMFDHoHscdyVWZZypGYA=</dsig:DigestValue>
+        <dsig:DigestValue>ruRC42LnL3fYmJMmx7ED/vII3lU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -445,13 +445,13 @@
       <dsig:DigestValue>0bwhmT1kcTbp3wl5mbpYz5Wmh4Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Qstock.exe.config" size="1858">
+  <file name="Qstock.exe.config" size="1853">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>gv3I3FCju94lxSLiYPHlaL6dZMc=</dsig:DigestValue>
+      <dsig:DigestValue>eVEioZwl8GISnjAD4I3tWq0UuDQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\Fondo1024-Empanaderia.jpg" size="163166">
