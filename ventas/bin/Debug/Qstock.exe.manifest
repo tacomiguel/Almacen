@@ -53,6 +53,11 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Vsa" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CrystalDecisions.CrystalReports.Engine.dll" size="380928">
       <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -353,14 +358,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="384000">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="384512">
       <assemblyIdentity name="libreriaClases" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>T4LB/6OyLKzZH4g4tln65tvx1JE=</dsig:DigestValue>
+        <dsig:DigestValue>bWlbYnbnehxXPnnSg3xwlF1dxc0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -377,18 +382,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Vsa.dll" size="32768">
-      <assemblyIdentity name="Microsoft.Vsa" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JFMr96IzWvCWoCCcJs7UH0PYIbY=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="376832">
       <assemblyIdentity name="MySql.Data" version="6.5.4.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -401,14 +394,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14036992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14040576">
       <assemblyIdentity name="Qstock" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4zpnWdYQskkFTKpMJEus4qED8dQ=</dsig:DigestValue>
+        <dsig:DigestValue>cmTSbbhqpEOsWFpFbIhTaMMC6lg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -445,13 +438,13 @@
       <dsig:DigestValue>0bwhmT1kcTbp3wl5mbpYz5Wmh4Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Qstock.exe.config" size="1853">
+  <file name="Qstock.exe.config" size="1858">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>eVEioZwl8GISnjAD4I3tWq0UuDQ=</dsig:DigestValue>
+      <dsig:DigestValue>gv3I3FCju94lxSLiYPHlaL6dZMc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\Fondo1024-Empanaderia.jpg" size="163166">

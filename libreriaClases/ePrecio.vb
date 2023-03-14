@@ -348,6 +348,29 @@ Public Class ePrecio
         clConex.Close()
         Return result
     End Function
+    Public Function calculaPrecioUltimo(ByVal esh As Boolean, ByVal periodo As String, ByVal cod_art As String, ByVal cPrecioProm As String) As Decimal
+        Dim clConex As MySqlConnection = Conexion.obtenerConexion
+        Dim com As New MySqlCommand
+        com.Connection = clConex
+        Dim cad, cad1, cad2, cad3, cad4, cad5, cad6 As String, result As Decimal
+        cad1 = "select " & cPrecioProm & " as precio"
+        cad5 = " where anul = 0 And cod_art ='" & cod_art & "' And (esCompra) and precio>0"
+        If esh Then
+            cad2 = " from h_ingreso as h inner join h_ingreso_det as hd on h.proceso=hd.proceso and h.operacion=hd.operacion "
+        Else
+            cad2 = " from ingreso as h inner join ingreso_det as hd on h.operacion=hd.operacion "
+        End If
+        cad3 = " inner join documento_i on h.cod_doc=documento_i.cod_doc"
+        cad4 = " inner join (select max(hd.operacion) as ope " & cad2 + cad3 + cad5 & ") as s1 on s1.ope=hd.operacion"
+
+        cad6 = IIf(esh, " and h.proceso='" & periodo & "'", "")
+        cad = cad1 + cad2 + cad3 + cad4 + cad5
+        com.CommandText = cad
+        Dim obj As Object = com.ExecuteScalar
+        result = CType(IIf(IsDBNull(obj), 0, obj), Decimal)
+        clConex.Close()
+        Return result
+    End Function
 
     Public Function calculaPrecioPromedioh(ByVal cod_art As String, ByVal stringreso As String, ByVal cPrecioProm As String, ByVal eH As Boolean, ByVal pr As String) As Decimal
         Dim clConex As MySqlConnection = Conexion.obtenerConexion

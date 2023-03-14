@@ -186,6 +186,7 @@ Public Class m_catalogo
         daSGrupo.Fill(dsCatalogo, "subgrupo")
     End Sub
     Private Sub cmdAñadir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdAñadir.Click
+        Dim mcatalogo As New Catalogo
         lcBoton = "Añadir"
         lCodigo = ""
         dsCatalogo.Tables("articulo").Columns("activo").DefaultValue = True
@@ -205,6 +206,7 @@ Public Class m_catalogo
         habilitaDetalle()
         deshabilitaCabecera()
         txtCodigo.Focus()
+        txtCodigo.Text = mcatalogo.maxCodigo()
     End Sub
     Private Sub cmdGrabar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdGrabar.Click
         Try
@@ -344,6 +346,7 @@ Public Class m_catalogo
         chkAfecto.TextColor = Color.Maroon
         txtCodigo.BackColor = Color.White
         txtCodigo.ReadOnly = False
+
         txtDescripcion.BackColor = Color.White
         txtDescripcion.ReadOnly = False
         txtUnidad.BackColor = Color.White
@@ -384,6 +387,7 @@ Public Class m_catalogo
         chkAfecto.TextColor = Color.Black
         txtCodigo.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         txtCodigo.ReadOnly = True
+
         txtDescripcion.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         txtDescripcion.ReadOnly = True
         txtUnidad.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))

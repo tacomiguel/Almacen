@@ -335,8 +335,8 @@ Public Class m_precios
                 cod_art = datosGeneral.Item("cod_art", I).Value
                 cant_uni = datosGeneral.Item("cant_uni", I).Value
                 costo = datosGeneral.Item("pre_costo", I).Value
-                nPrecioProm = mPrecio.calculaPrecioPromedio(esHistorial, periodo, cod_art, cPrecioProm)
-
+                'nPrecioProm = mPrecio.calculaPrecioPromedio(esHistorial, periodo, cod_art, cPrecioProm)
+                nPrecioProm = mPrecio.calculaPrecioUltimo(esHistorial, periodo, cod_art, cPrecioProm)
 
                 If nPrecioProm > 0 Then
                     mPrecio.actualizaCostoArticulo(esHistorial, periodo, cod_art, nPrecioProm)

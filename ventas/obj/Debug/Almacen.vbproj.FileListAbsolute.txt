@@ -1699,7 +1699,6 @@ D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\CrystalDecisions.ReportAppServer.Cu
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\FlashControlV71.dll
-D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\Microsoft.Vsa.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\stdole.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\ShockwaveFlashObjects.dll
