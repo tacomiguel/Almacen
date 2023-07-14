@@ -1263,7 +1263,8 @@ Public Class p_pedido
 
         Else
 
-            If mPedido.yaFacturado(nroOperacion) Or CboResponsable.SelectedValue <> pCuentaUser Then
+            'If mPedido.yaFacturado(nroOperacion) Or CboResponsable.SelectedValue <> pCuentaUser Then
+            If mPedido.yaFacturado(nroOperacion) Then
                 MessageBox.Show("DETALLE PEDIDOS" & Chr(13) & "No Es Posible Eliminarlo...", "SGA", MessageBoxButtons.OK, MessageBoxIcon.Stop)
             Else
                 rpta = MessageBox.Show("Esta Seguro de Eliminar el ITEM Seleccionado" + Chr(13) + "Este Proceso es Irreversible...", "SGA", MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2)

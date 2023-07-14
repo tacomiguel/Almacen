@@ -466,7 +466,7 @@ Public Class pedido
         Dim clConex As MySqlConnection = Conexion.obtenerConexion
         Dim com As New MySqlCommand, result As Integer, sql As String
         com.Connection = clConex
-        sql = "Select ope_ped from salida where ope_ped=" & operacion
+        sql = "Select fac from pedido where operacion=" & operacion
         com.CommandText = sql
         Dim obj As Object = com.ExecuteScalar
         result = CType(IIf(IsDBNull(obj), 0, obj), Integer)
