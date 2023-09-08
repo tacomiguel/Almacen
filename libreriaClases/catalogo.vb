@@ -217,19 +217,21 @@ Public Class Catalogo
         Dim da As New MySqlDataAdapter
         Dim dsCatalogo As New DataSet
         Dim cad, cad1, cad2, cad3, cad4, cad6 As String
-        cad1 = "select cod_art,nom_art,articulo.cod_uni,cant_uni,nom_uni,pre_costo,pre_costoMin," _
+        cad1 = "select a.cod_art,nom_art,a.cod_uni,cant_uni,nom_uni,pre_costo,pre_costoMin," _
                 & "pre_costoMax,pre_prom,pre_ult,afecto_igv,imp,pre_inc_imp,nom_tart,"
         cad2 = " cuenta_v,cuenta_v_c,cuenta_c,cuenta_c_a1,cuenta_c_a2,cuenta_c_p," _
-                & "maximo,minimo,pre_venta,articulo.activo,articulo.cod_alma,articulo.cod_sgrupo,nom_sgrupo," _
-                & "cod_artExt,cod_artExt1,cod_artExt2,subgrupo.esProduccion "
-        cad3 = " from articulo inner join unidad on articulo.cod_uni=unidad.cod_uni" _
-                & " inner join subgrupo on articulo.cod_sgrupo=subgrupo.cod_sgrupo" _
-                & " inner join tipo_articulo on articulo.cod_tart=tipo_articulo.cod_tart"
-        cad4 = " where articulo.activo=" & sa _
-                & IIf(xalma, " and articulo.cod_alma='" & ca & "'", "") _
+                & "maximo,minimo,pre_venta,a.activo,a.cod_alma,a.cod_sgrupo,nom_sgrupo," _
+                & "cod_artExt,cod_artExt1,cod_artExt2,subgrupo.esProduccion,aa.cant_stock "
+        cad3 = " from articulo a inner join unidad on a.cod_uni=unidad.cod_uni" _
+                & " left join subgrupo on a.cod_sgrupo=subgrupo.cod_sgrupo" _
+                & " left join tipo_articulo on a.cod_tart=tipo_articulo.cod_tart" _
+                & " left join art_almacen aa on aa.cod_alma=a.cod_alma and aa.cod_artAlma=a.cod_art"
+
+        cad4 = " where a.activo=" & sa _
+                & IIf(xalma, " and a.cod_alma='" & ca & "'", "") _
                 & IIf(sv, " and (subgrupo.esVenta)", "") _
                 & IIf(li, " and (es_limpio)", "") _
-                & IIf(xg, " and articulo.cod_sgrupo='" & csg & "'", "") _
+                & IIf(xg, " and a.cod_sgrupo='" & csg & "'", "") _
                 & IIf(sid, " and inv_diario=1", "")
         cad6 = " order by nom_art"
         cad = cad1 + cad2 + cad3 + cad4 + cad6

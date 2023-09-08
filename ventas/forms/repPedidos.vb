@@ -180,6 +180,14 @@ Public Class repPedidos
                         frm.cargarProductosPedidos(anno, mes, fechaPedido, fechaPedidohasta, True, tipo_pedido, estado, nom_estado, False)
                     End If
                 End If
+
+                If optConsolidado.Checked = True Then
+                    If Chkdia.Checked = True Then
+                        frm.cargarConsolidadoPedidos(anno, mes, fechaPedido, fechaPedidohasta, True, tipo_pedido, estado, nom_estado, True)
+                    Else
+                        frm.cargarConsolidadoPedidos(anno, mes, fechaPedido, fechaPedidohasta, True, tipo_pedido, estado, nom_estado, False)
+                    End If
+                End If
                 frm.MdiParent = principal
                 frm.Show()
 
@@ -188,9 +196,7 @@ Public Class repPedidos
                     dsTransferencias.Clear()
                     Dim fechaReporte As String
                     fechaReporte = "Al: " & general.devuelveFechaImpresionEspecificado(pFechaSystem)
-                    dsTransferencias = mTransferencia.recuperaTransferencias_pend(False, "", True,
-                                        dtiDesde.Value, dtiHasta.Value, pDecimales, False, False,
-                                        "", False, "", False, "", True)
+                    dsTransferencias = mTransferencia.recuperaTransferencias_pend(False, "", True, dtiDesde.Value, dtiHasta.Value, pDecimales, False, False, "", False, "", False, "", True)
                     frm.cargarTransferencias(dsTransferencias, "Almacén Origen: Almacen Central", "Pedidos Pendientes", fechaReporte, periodoReporte, 1)
 
                 End If
@@ -281,7 +287,8 @@ Public Class repPedidos
     Function fechaI() As Date
         If Not estaCargando Then
             Dim mfecha As Date
-            mfecha = general.convierteTexto_enFecha(1, cboMes.SelectedIndex + 1, Val(cboAnno.Text))
+            'mfecha = general.convierteTexto_enFecha(1, cboMes.SelectedIndex + 1, Val(cboAnno.Text))
+            mfecha = general.convierteTexto_enFecha(1, 1, Val(cboAnno.Text))
             Return mfecha
         End If
     End Function
@@ -298,4 +305,8 @@ Public Class repPedidos
             Return mFecha
         End If
     End Function
+
+    Private Sub Chkdia_CheckedChanged_1(sender As Object, e As EventArgs) Handles Chkdia.CheckedChanged
+
+    End Sub
 End Class

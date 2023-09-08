@@ -25,6 +25,7 @@ Partial Class repPedidos
         Me.Label2 = New System.Windows.Forms.Label()
         Me.cboMes = New System.Windows.Forms.ComboBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.optConsolidado = New System.Windows.Forms.RadioButton()
         Me.optPedidoPed = New System.Windows.Forms.RadioButton()
         Me.optPedFormato = New System.Windows.Forms.RadioButton()
         Me.optProducto = New System.Windows.Forms.RadioButton()
@@ -60,11 +61,9 @@ Partial Class repPedidos
         Me.GroupBox1.Controls.Add(Me.cboMes)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox1.Location = New System.Drawing.Point(16, 15)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(380, 68)
+        Me.GroupBox1.Size = New System.Drawing.Size(285, 55)
         Me.GroupBox1.TabIndex = 6
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Seleccione Fecha del Reporte"
@@ -74,10 +73,9 @@ Partial Class repPedidos
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(12, 31)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(9, 25)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 20)
+        Me.Label1.Size = New System.Drawing.Size(37, 16)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Mes"
         '
@@ -87,10 +85,9 @@ Partial Class repPedidos
         Me.cboAnno.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboAnno.FormattingEnabled = True
         Me.cboAnno.Items.AddRange(New Object() {"2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"})
-        Me.cboAnno.Location = New System.Drawing.Point(261, 26)
-        Me.cboAnno.Margin = New System.Windows.Forms.Padding(4)
+        Me.cboAnno.Location = New System.Drawing.Point(196, 21)
         Me.cboAnno.Name = "cboAnno"
-        Me.cboAnno.Size = New System.Drawing.Size(103, 28)
+        Me.cboAnno.Size = New System.Drawing.Size(78, 24)
         Me.cboAnno.TabIndex = 1
         '
         'Label2
@@ -98,10 +95,9 @@ Partial Class repPedidos
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(215, 31)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(161, 25)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(41, 20)
+        Me.Label2.Size = New System.Drawing.Size(35, 16)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Año"
         '
@@ -111,14 +107,14 @@ Partial Class repPedidos
         Me.cboMes.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboMes.FormattingEnabled = True
         Me.cboMes.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"})
-        Me.cboMes.Location = New System.Drawing.Point(63, 26)
-        Me.cboMes.Margin = New System.Windows.Forms.Padding(4)
+        Me.cboMes.Location = New System.Drawing.Point(47, 21)
         Me.cboMes.Name = "cboMes"
-        Me.cboMes.Size = New System.Drawing.Size(141, 28)
+        Me.cboMes.Size = New System.Drawing.Size(107, 24)
         Me.cboMes.TabIndex = 0
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.optConsolidado)
         Me.GroupBox2.Controls.Add(Me.optPedidoPed)
         Me.GroupBox2.Controls.Add(Me.optPedFormato)
         Me.GroupBox2.Controls.Add(Me.optProducto)
@@ -126,24 +122,34 @@ Partial Class repPedidos
         Me.GroupBox2.Controls.Add(Me.optRegistro)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.Maroon
-        Me.GroupBox2.Location = New System.Drawing.Point(16, 90)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Location = New System.Drawing.Point(12, 73)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox2.Size = New System.Drawing.Size(380, 184)
+        Me.GroupBox2.Size = New System.Drawing.Size(285, 180)
         Me.GroupBox2.TabIndex = 9
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Tipo de Reporte"
+        '
+        'optConsolidado
+        '
+        Me.optConsolidado.AutoSize = True
+        Me.optConsolidado.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.optConsolidado.ForeColor = System.Drawing.Color.Black
+        Me.optConsolidado.Location = New System.Drawing.Point(6, 144)
+        Me.optConsolidado.Name = "optConsolidado"
+        Me.optConsolidado.Size = New System.Drawing.Size(145, 19)
+        Me.optConsolidado.TabIndex = 5
+        Me.optConsolidado.TabStop = True
+        Me.optConsolidado.Text = "Consolidado Pedidos"
+        Me.optConsolidado.UseVisualStyleBackColor = True
         '
         'optPedidoPed
         '
         Me.optPedidoPed.AutoSize = True
         Me.optPedidoPed.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optPedidoPed.ForeColor = System.Drawing.Color.Black
-        Me.optPedidoPed.Location = New System.Drawing.Point(8, 118)
-        Me.optPedidoPed.Margin = New System.Windows.Forms.Padding(4)
+        Me.optPedidoPed.Location = New System.Drawing.Point(6, 96)
         Me.optPedidoPed.Name = "optPedidoPed"
-        Me.optPedidoPed.Size = New System.Drawing.Size(157, 21)
+        Me.optPedidoPed.Size = New System.Drawing.Size(134, 19)
         Me.optPedidoPed.TabIndex = 4
         Me.optPedidoPed.TabStop = True
         Me.optPedidoPed.Text = "Entrega Pendientes"
@@ -154,10 +160,9 @@ Partial Class repPedidos
         Me.optPedFormato.AutoSize = True
         Me.optPedFormato.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optPedFormato.ForeColor = System.Drawing.Color.Black
-        Me.optPedFormato.Location = New System.Drawing.Point(8, 147)
-        Me.optPedFormato.Margin = New System.Windows.Forms.Padding(4)
+        Me.optPedFormato.Location = New System.Drawing.Point(6, 119)
         Me.optPedFormato.Name = "optPedFormato"
-        Me.optPedFormato.Size = New System.Drawing.Size(200, 21)
+        Me.optPedFormato.Size = New System.Drawing.Size(170, 19)
         Me.optPedFormato.TabIndex = 3
         Me.optPedFormato.TabStop = True
         Me.optPedFormato.Text = "Registro Pedidos Formato"
@@ -168,10 +173,9 @@ Partial Class repPedidos
         Me.optProducto.AutoSize = True
         Me.optProducto.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optProducto.ForeColor = System.Drawing.Color.Black
-        Me.optProducto.Location = New System.Drawing.Point(8, 57)
-        Me.optProducto.Margin = New System.Windows.Forms.Padding(4)
+        Me.optProducto.Location = New System.Drawing.Point(6, 46)
         Me.optProducto.Name = "optProducto"
-        Me.optProducto.Size = New System.Drawing.Size(156, 21)
+        Me.optProducto.Size = New System.Drawing.Size(131, 19)
         Me.optProducto.TabIndex = 2
         Me.optProducto.TabStop = True
         Me.optProducto.Text = "Pedidos x Producto"
@@ -182,10 +186,9 @@ Partial Class repPedidos
         Me.optVendedor.AutoSize = True
         Me.optVendedor.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optVendedor.ForeColor = System.Drawing.Color.Black
-        Me.optVendedor.Location = New System.Drawing.Point(8, 87)
-        Me.optVendedor.Margin = New System.Windows.Forms.Padding(4)
+        Me.optVendedor.Location = New System.Drawing.Point(6, 71)
         Me.optVendedor.Name = "optVendedor"
-        Me.optVendedor.Size = New System.Drawing.Size(183, 21)
+        Me.optVendedor.Size = New System.Drawing.Size(157, 19)
         Me.optVendedor.TabIndex = 1
         Me.optVendedor.TabStop = True
         Me.optVendedor.Text = "Pedidos x Responsable"
@@ -197,10 +200,9 @@ Partial Class repPedidos
         Me.optRegistro.Checked = True
         Me.optRegistro.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optRegistro.ForeColor = System.Drawing.Color.Black
-        Me.optRegistro.Location = New System.Drawing.Point(8, 26)
-        Me.optRegistro.Margin = New System.Windows.Forms.Padding(4)
+        Me.optRegistro.Location = New System.Drawing.Point(6, 21)
         Me.optRegistro.Name = "optRegistro"
-        Me.optRegistro.Size = New System.Drawing.Size(161, 21)
+        Me.optRegistro.Size = New System.Drawing.Size(138, 19)
         Me.optRegistro.TabIndex = 0
         Me.optRegistro.TabStop = True
         Me.optRegistro.Text = "Registro de Pedidos"
@@ -211,11 +213,9 @@ Partial Class repPedidos
         Me.grupo.Controls.Add(Me.cboDatos)
         Me.grupo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grupo.ForeColor = System.Drawing.Color.Maroon
-        Me.grupo.Location = New System.Drawing.Point(252, 348)
-        Me.grupo.Margin = New System.Windows.Forms.Padding(4)
+        Me.grupo.Location = New System.Drawing.Point(189, 313)
         Me.grupo.Name = "grupo"
-        Me.grupo.Padding = New System.Windows.Forms.Padding(4)
-        Me.grupo.Size = New System.Drawing.Size(380, 64)
+        Me.grupo.Size = New System.Drawing.Size(285, 52)
         Me.grupo.TabIndex = 14
         Me.grupo.TabStop = False
         '
@@ -226,10 +226,9 @@ Partial Class repPedidos
         Me.cboDatos.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboDatos.FormattingEnabled = True
         Me.cboDatos.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"})
-        Me.cboDatos.Location = New System.Drawing.Point(15, 23)
-        Me.cboDatos.Margin = New System.Windows.Forms.Padding(4)
+        Me.cboDatos.Location = New System.Drawing.Point(11, 19)
         Me.cboDatos.Name = "cboDatos"
-        Me.cboDatos.Size = New System.Drawing.Size(349, 28)
+        Me.cboDatos.Size = New System.Drawing.Size(263, 24)
         Me.cboDatos.TabIndex = 1
         '
         'cmdCerrar
@@ -238,10 +237,9 @@ Partial Class repPedidos
         Me.cmdCerrar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
         Me.cmdCerrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdCerrar.Image = Global.cefe.My.Resources.Resources.CLOSE22
-        Me.cmdCerrar.Location = New System.Drawing.Point(525, 298)
-        Me.cmdCerrar.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmdCerrar.Location = New System.Drawing.Point(394, 272)
         Me.cmdCerrar.Name = "cmdCerrar"
-        Me.cmdCerrar.Size = New System.Drawing.Size(107, 42)
+        Me.cmdCerrar.Size = New System.Drawing.Size(80, 34)
         Me.cmdCerrar.TabIndex = 16
         Me.cmdCerrar.Text = "Cerrar"
         '
@@ -251,10 +249,9 @@ Partial Class repPedidos
         Me.cmdImprimir.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
         Me.cmdImprimir.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdImprimir.Image = Global.cefe.My.Resources.Resources.print_preview
-        Me.cmdImprimir.Location = New System.Drawing.Point(405, 298)
-        Me.cmdImprimir.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmdImprimir.Location = New System.Drawing.Point(304, 272)
         Me.cmdImprimir.Name = "cmdImprimir"
-        Me.cmdImprimir.Size = New System.Drawing.Size(112, 42)
+        Me.cmdImprimir.Size = New System.Drawing.Size(84, 34)
         Me.cmdImprimir.TabIndex = 15
         Me.cmdImprimir.Text = "Imprimir"
         '
@@ -268,10 +265,9 @@ Partial Class repPedidos
         Me.LabelX5.Enabled = False
         Me.LabelX5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.LabelX5.Location = New System.Drawing.Point(61, 320)
-        Me.LabelX5.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX5.Location = New System.Drawing.Point(46, 290)
         Me.LabelX5.Name = "LabelX5"
-        Me.LabelX5.Size = New System.Drawing.Size(47, 18)
+        Me.LabelX5.Size = New System.Drawing.Size(38, 15)
         Me.LabelX5.TabIndex = 1007
         Me.LabelX5.Text = "Estado"
         '
@@ -286,10 +282,9 @@ Partial Class repPedidos
         Me.CboEstado.ForeColor = System.Drawing.Color.Black
         Me.CboEstado.FormattingEnabled = True
         Me.CboEstado.ItemHeight = 15
-        Me.CboEstado.Location = New System.Drawing.Point(123, 315)
-        Me.CboEstado.Margin = New System.Windows.Forms.Padding(4)
+        Me.CboEstado.Location = New System.Drawing.Point(92, 286)
         Me.CboEstado.Name = "CboEstado"
-        Me.CboEstado.Size = New System.Drawing.Size(213, 21)
+        Me.CboEstado.Size = New System.Drawing.Size(161, 21)
         Me.CboEstado.TabIndex = 1006
         Me.CboEstado.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
@@ -302,10 +297,9 @@ Partial Class repPedidos
         Me.LabelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.LabelX3.Location = New System.Drawing.Point(61, 288)
-        Me.LabelX3.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX3.Location = New System.Drawing.Point(46, 264)
         Me.LabelX3.Name = "LabelX3"
-        Me.LabelX3.Size = New System.Drawing.Size(47, 18)
+        Me.LabelX3.Size = New System.Drawing.Size(38, 15)
         Me.LabelX3.TabIndex = 1009
         Me.LabelX3.Text = "Pedido"
         '
@@ -320,10 +314,9 @@ Partial Class repPedidos
         Me.cboPedido.ForeColor = System.Drawing.Color.Black
         Me.cboPedido.FormattingEnabled = True
         Me.cboPedido.ItemHeight = 15
-        Me.cboPedido.Location = New System.Drawing.Point(123, 282)
-        Me.cboPedido.Margin = New System.Windows.Forms.Padding(4)
+        Me.cboPedido.Location = New System.Drawing.Point(92, 259)
         Me.cboPedido.Name = "cboPedido"
-        Me.cboPedido.Size = New System.Drawing.Size(213, 21)
+        Me.cboPedido.Size = New System.Drawing.Size(161, 21)
         Me.cboPedido.TabIndex = 1008
         Me.cboPedido.WatermarkColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(255, Byte), Integer))
         '
@@ -336,11 +329,9 @@ Partial Class repPedidos
         Me.GroupBox5.Controls.Add(Me.LabelX2)
         Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox5.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.GroupBox5.Location = New System.Drawing.Point(421, 183)
-        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox5.Location = New System.Drawing.Point(316, 149)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox5.Size = New System.Drawing.Size(180, 91)
+        Me.GroupBox5.Size = New System.Drawing.Size(135, 74)
         Me.GroupBox5.TabIndex = 1010
         Me.GroupBox5.TabStop = False
         '
@@ -356,9 +347,8 @@ Partial Class repPedidos
         Me.Chkdia.CheckValue = "Y"
         Me.Chkdia.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Chkdia.Location = New System.Drawing.Point(0, 0)
-        Me.Chkdia.Margin = New System.Windows.Forms.Padding(4)
         Me.Chkdia.Name = "Chkdia"
-        Me.Chkdia.Size = New System.Drawing.Size(134, 18)
+        Me.Chkdia.Size = New System.Drawing.Size(112, 15)
         Me.Chkdia.TabIndex = 1011
         Me.Chkdia.TabStop = False
         Me.Chkdia.Text = "x Rango de Fecha "
@@ -377,8 +367,7 @@ Partial Class repPedidos
         Me.dtiHasta.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.dtiHasta.IsInputReadOnly = True
         Me.dtiHasta.IsPopupCalendarOpen = False
-        Me.dtiHasta.Location = New System.Drawing.Point(59, 57)
-        Me.dtiHasta.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtiHasta.Location = New System.Drawing.Point(44, 46)
         '
         '
         '
@@ -411,7 +400,7 @@ Partial Class repPedidos
         Me.dtiHasta.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.dtiHasta.MonthCalendar.WeeklyMarkedDays = New System.DayOfWeek(-1) {}
         Me.dtiHasta.Name = "dtiHasta"
-        Me.dtiHasta.Size = New System.Drawing.Size(111, 23)
+        Me.dtiHasta.Size = New System.Drawing.Size(83, 20)
         Me.dtiHasta.TabIndex = 120
         '
         'dtiDesde
@@ -427,8 +416,7 @@ Partial Class repPedidos
         Me.dtiDesde.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.dtiDesde.IsInputReadOnly = True
         Me.dtiDesde.IsPopupCalendarOpen = False
-        Me.dtiDesde.Location = New System.Drawing.Point(59, 25)
-        Me.dtiDesde.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtiDesde.Location = New System.Drawing.Point(44, 20)
         '
         '
         '
@@ -461,7 +449,7 @@ Partial Class repPedidos
         Me.dtiDesde.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.dtiDesde.MonthCalendar.WeeklyMarkedDays = New System.DayOfWeek(-1) {}
         Me.dtiDesde.Name = "dtiDesde"
-        Me.dtiDesde.Size = New System.Drawing.Size(111, 23)
+        Me.dtiDesde.Size = New System.Drawing.Size(83, 20)
         Me.dtiDesde.TabIndex = 119
         '
         'LabelX1
@@ -473,10 +461,9 @@ Partial Class repPedidos
         Me.LabelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX1.ForeColor = System.Drawing.Color.Black
-        Me.LabelX1.Location = New System.Drawing.Point(11, 28)
-        Me.LabelX1.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX1.Location = New System.Drawing.Point(8, 23)
         Me.LabelX1.Name = "LabelX1"
-        Me.LabelX1.Size = New System.Drawing.Size(41, 18)
+        Me.LabelX1.Size = New System.Drawing.Size(34, 15)
         Me.LabelX1.TabIndex = 115
         Me.LabelX1.Text = "desde"
         Me.LabelX1.TextAlignment = System.Drawing.StringAlignment.Center
@@ -491,10 +478,9 @@ Partial Class repPedidos
         Me.LabelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelX2.ForeColor = System.Drawing.Color.Black
-        Me.LabelX2.Location = New System.Drawing.Point(15, 59)
-        Me.LabelX2.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelX2.Location = New System.Drawing.Point(11, 48)
         Me.LabelX2.Name = "LabelX2"
-        Me.LabelX2.Size = New System.Drawing.Size(38, 18)
+        Me.LabelX2.Size = New System.Drawing.Size(31, 15)
         Me.LabelX2.TabIndex = 117
         Me.LabelX2.Text = "hasta"
         Me.LabelX2.TextAlignment = System.Drawing.StringAlignment.Center
@@ -502,8 +488,8 @@ Partial Class repPedidos
         '
         'repPedidos
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.ClientSize = New System.Drawing.Size(645, 418)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.ClientSize = New System.Drawing.Size(484, 374)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.LabelX3)
         Me.Controls.Add(Me.LabelX5)
@@ -514,7 +500,7 @@ Partial Class repPedidos
         Me.Controls.Add(Me.grupo)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Margin = New System.Windows.Forms.Padding(5)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "repPedidos"
         Me.Text = "Consulta y Reporte: PEDIDOS"
         Me.GroupBox1.ResumeLayout(False)
@@ -555,4 +541,5 @@ Partial Class repPedidos
     Friend WithEvents LabelX1 As DevComponents.DotNetBar.LabelX
     Friend WithEvents LabelX2 As DevComponents.DotNetBar.LabelX
     Friend WithEvents Chkdia As DevComponents.DotNetBar.Controls.CheckBoxX
+    Friend WithEvents optConsolidado As RadioButton
 End Class

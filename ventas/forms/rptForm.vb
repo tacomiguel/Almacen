@@ -187,10 +187,11 @@ Public Class rptForm
         Dim ds As New DataSet
         Dim dt As New DataTable("pedido")
         ds.Tables.Add(dt)
-        Dim mFecha, mfechahasta As String
+        Dim mFecha, mfechahasta, mdesdehasta As String
         If xDia Then
             mFecha = fechaPedido.ToString("yyyy-MM-dd")
             mfechahasta = fechaPedidohasta.ToString("yyyy-MM-dd")
+            mdesdehasta = mFecha + " a " + mfechahasta
         Else
             mFecha = pTituloRep1
             mfechahasta = pTituloRep1
@@ -336,6 +337,7 @@ Public Class rptForm
         Dim mFecha As String
         If xDia Then
             mFecha = fechaPedido.ToString("yyyy-MM-dd")
+
         Else
             mFecha = pTituloRep1
         End If
@@ -399,13 +401,15 @@ Public Class rptForm
         Dim ds As New DataSet
         Dim dt As New DataTable("pedido")
         Dim com As New MySqlCommand
-        Dim mFecha, mfechahasta As String
+        Dim mFecha, mfechahasta, mdesdehasta As String
+        mdesdehasta = ""
         If xdia Then
             mFecha = fechaPedido.ToString("yyyy-MM-dd")
             mfechahasta = fechaPedidohasta.ToString("yyyy-MM-dd")
+            mdesdehasta = mFecha + " al " + mfechahasta
         Else
-            mFecha = pTituloRep1
-            mfechahasta = pTituloRep1
+            mdesdehasta = pTituloRep1
+            'mfechahasta = pTituloRep1
         End If
 
         Dim cad, sql1 As String
@@ -440,12 +444,75 @@ Public Class rptForm
         pfs.Add(pf0)
 
         pf.Name = "mesAnno"
-        pdv.Value = mFecha
+        pdv.Value = mdesdehasta
         pf.CurrentValues.Add(pdv)
         pfs.Add(pf)
 
         pftit.Name = "titulo"
         pdvTit.Value = "Reg.Pedidos x Articulo"
+        pftit.CurrentValues.Add(pdvTit)
+        pfs.Add(pftit)
+
+        rpt.SetDataSource(ds)
+        crv.ParameterFieldInfo = pfs
+        crv.ReportSource = rpt
+    End Sub
+
+    Public Sub cargarConsolidadoPedidos(ByVal anno As Integer, ByVal mes As Integer, ByVal fechaPedido As Date, ByVal fechaPedidohasta As Date,
+                                      ByVal xestado As Boolean, ByVal tipo_pedido As String, ByVal estado As String, ByVal nom_Estado As String,
+                                      ByVal xdia As Boolean)
+        Dim da As New MySqlDataAdapter
+        Dim ds As New DataSet
+        Dim dt As New DataTable("pedido")
+        Dim com As New MySqlCommand
+        Dim mFecha, mfechahasta, mdesdehasta As String
+        mdesdehasta = ""
+
+        If xdia Then
+            mFecha = fechaPedido.ToString("yyyy-MM-dd")
+            mfechahasta = fechaPedidohasta.ToString("yyyy-MM-dd")
+            mdesdehasta = mFecha + " al " + mfechahasta
+        Else
+            mdesdehasta = pTituloRep1
+            'mfechahasta = pTituloRep1
+        End If
+
+        Dim cad, sql1 As String
+        sql1 = " Select  m.nom_alma,s.nom_sgrupo,a.nom_art,un.nom_uni, sum(pd.cant) as cant, aa.cant_stock  " &
+        " From pedido p inner Join pedido_det pd on p.operacion=pd.operacion" &
+        " left Join articulo a On pd.cod_art=a.cod_art left join subgrupo s on a.cod_sgrupo=s.cod_sgrupo left join unidad un on a.cod_uni=un.cod_uni" &
+        " left join Cliente On p.cod_clie=cliente.cod_clie " &
+        " left join vendedor On p.cod_vend=vendedor.cod_vend " &
+        " left join forma_pago On p.cod_fpago=forma_pago.cod_fpago " &
+        " left Join almacen m On p.cod_alma=m.cod_alma inner join usuario u On u.cuenta=p.cuenta  " &
+        " Left Join area ar On p.cod_area=ar.cod_area left join tipo_recurso r On r.cod_recurso=p.cod_pedido " &
+        " Left join tipo_recurso r1 On r1.cod_recurso=p.cod_estado " &
+        " left join art_almacen aa on aa.cod_alma='0001' and aa.cod_artAlma=pd.cod_art " &
+        " where r.cod_tabla ='tip_pedido' and r1.cod_tabla ='tip_epedido' " &
+         IIf(xestado, "and p.cod_pedido='" & tipo_pedido & "'  and p.cod_estado ='" & estado & "'", "") &
+         IIf(xdia, " and p.fec_ped>='" & mFecha & "' and p.fec_ped<='" & mfechahasta & "'", "") &
+        " group by  m.nom_alma,s.nom_sgrupo,a.nom_art,un.nom_uni, aa.cant_stock order by m.nom_alma,s.nom_sgrupo,a.nom_art "
+        cad = sql1
+        com.CommandText = cad
+        com.Connection = dbConex
+        da.SelectCommand = com
+        da.Fill(ds, "pedido")
+        Dim rpt As New rptConsolidadoPedidos
+        Dim pf0, pf, pftit As New ParameterField
+        Dim pfs As New ParameterFields
+        Dim pdv0, pdv, pdvTit As New ParameterDiscreteValue
+        pf0.Name = "ruta"
+        pdv0.Value = pruta
+        pf0.CurrentValues.Add(pdv0)
+        pfs.Add(pf0)
+
+        pf.Name = "mesAnno"
+        pdv.Value = mdesdehasta
+        pf.CurrentValues.Add(pdv)
+        pfs.Add(pf)
+
+        pftit.Name = "titulo"
+        pdvTit.Value = "Consolidado Pedidos"
         pftit.CurrentValues.Add(pdvTit)
         pfs.Add(pftit)
 

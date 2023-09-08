@@ -152,8 +152,11 @@ Public Class p_transferencia
             .Columns("cod_art").ReadOnly = True
             .Columns("cod_art").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
             .Columns("nom_art").HeaderText = "Descripción"
-            .Columns("nom_art").Width = 360
+            .Columns("nom_art").Width = 270
             .Columns("nom_art").ReadOnly = True
+            .Columns("cant_stock").HeaderText = "Stock"
+            .Columns("cant_stock").Width = 80
+            .Columns("cant_stock").ReadOnly = True
             .Columns("nom_uni").HeaderText = "Unidad"
             .Columns("nom_uni").Width = 70
             .Columns("nom_uni").ReadOnly = True

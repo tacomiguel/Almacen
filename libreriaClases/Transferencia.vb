@@ -299,13 +299,13 @@ Public Class Transferencia
         cad7 = " inner join almacen as almacenD on hs.cAux=almacenD.cod_alma"
         cad8 = " inner join area on hs.cAux2=area.cod_area left join pedido p on p.ser_ped=hs.ser_doc and p.nro_ped=hs.nro_doc "
         cad9 = " where hs.cod_doc='" & cod_trans & "'" _
-                    & IIf(esHistorial, " and hs.proceso='" & nroProceso & "' and hsd.proceso='" & nroProceso & "'", "") _
-                    & IIf(esMensual, "", " and hs.fec_doc>='" & mfechaI & "' and hs.fec_doc<='" & mfechaF & "'") _
+                    & IIf(esMensual, " and hs.fec_doc>='" & mfechaI & "' and hs.fec_doc<='" & mfechaF & "'", " and hs.proceso='" & nroProceso & "' and hsd.proceso='" & nroProceso & "'") _
                     & IIf(xusuario, " and hs.cuenta='" & cod_usuario & "'", "") _
                     & IIf(xAlmacenO, " and hs.cod_alma='" & cod_alma & "'", "") _
                     & IIf(xAlmacenD, " and hs.cAux='" & cod_alma & "'", "") _
                     & IIf(xnroTrans, " and hs.nro_doc='" & nro_trans & "'", "") _
                     & IIf(xPedPend, " and espendiente=1 ", "")
+        '& IIf(esHistorial, " and hs.proceso='" & nroProceso & "' and hsd.proceso='" & nroProceso & "'", "") _
         cad10 = " order by hs.fec_doc desc,salida desc"
         cad = cad1 + cad2 + cad3 + cad4 + cad5 + cad6 + cad7 + cad8 + cad9 + cad10
         Dim comTrans As New MySqlCommand(cad)

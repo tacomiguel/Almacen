@@ -358,14 +358,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="384512">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="385536">
       <assemblyIdentity name="libreriaClases" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>jqRUpMxTRlDiyf/8xghmofFd1gI=</dsig:DigestValue>
+        <dsig:DigestValue>ldpeBjYuCBsVBA5+yjYMVEVQjVo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -394,14 +394,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14040576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14175232">
       <assemblyIdentity name="Qstock" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Sj+wzKJ4DrUGXRwVVQ4nYl8J4TI=</dsig:DigestValue>
+        <dsig:DigestValue>Wtp1qgR9SE172E9rlEM4vkOhV7U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

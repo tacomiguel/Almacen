@@ -149,7 +149,8 @@ Public Class repTransferencias
     Function fechaI() As Date
         If Not estaCargando Then
             Dim mfecha As Date
-            mfecha = general.convierteTexto_enFecha(1, cboMes.SelectedIndex + 1, Val(cboAnno.Text))
+            'mfecha = general.convierteTexto_enFecha(1, cboMes.SelectedIndex + 1, Val(cboAnno.Text))
+            mfecha = general.convierteTexto_enFecha(1, 1, Val(cboAnno.Text))
             Return mfecha
         End If
     End Function
@@ -205,7 +206,7 @@ Public Class repTransferencias
         Dim mTransferencia As New Transferencia
         Dim periodo As String = periodoSeleccionado()
         Dim esHistorial As Boolean = IIf(periodo = periodoActivo(), False, True)
-        Dim esMensual As Boolean = IIf(chkDia.Checked = False, True, False)
+        Dim esMensual As Boolean = IIf(chkDia.Checked = True, True, False)
         Dim es_xAlmacenO As Boolean = IIf(optAlmacenO.Checked = True, True, False)
         Dim es_xAlmacenD As Boolean = IIf(optAlmacenD.Checked = True, True, False)
         Dim es_xusuario As Boolean = IIf(chkUsuario.Checked = True, True, False)

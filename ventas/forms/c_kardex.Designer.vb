@@ -772,7 +772,7 @@ Partial Class c_kardex
         Me.Controls.Add(Me.txtBuscar)
         Me.Controls.Add(Me.lblItems)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "c_kardex"
         Me.Text = "Consulta y Reporte: KARDEX DE PRODUCTOS"
         CType(Me.dataArticulo, System.ComponentModel.ISupportInitialize).EndInit()

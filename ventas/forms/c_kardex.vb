@@ -168,7 +168,7 @@ Public Class c_kardex
         c3 = " where   " _
                         & IIf(xAlmacen, " articulo.cod_alma='" & cAlmaCatalogo & "'", "") _
                         & IIf(xgrupo, " and articulo.cod_sgrupo='" & cbogrupo.SelectedValue & "'", "") _
-                        & IIf(cad = "*", " order by nom_art LIMIT 10000", "and nom_art like '" & cad & "%' order by nom_art")
+                        & IIf(cad = "*", " order by nom_art LIMIT 10000", "and nom_art like '%" & cad & "%' order by nom_art")
         lCadena = c1 + c2 + c2a + c3
         Dim comArt As New MySqlCommand(lCadena, dbConex)
         daArticulo.SelectCommand = comArt
@@ -521,20 +521,16 @@ Public Class c_kardex
     End Sub
     Private Sub txtBuscar_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtBuscar.TextChanged
         If Not estaCargando And Len(txtBuscar.Text) > 2 Then
-            muestraArticulos(txtBuscar.Text)
-            dsArticulo.Tables("articulo").DefaultView.RowFilter = "nom_art LIKE '" & txtBuscar.Text & "%'"
+            ' muestraArticulos(txtBuscar.Text)
+            dsArticulo.Tables("articulo").DefaultView.RowFilter = "nom_art LIKE '%" & txtBuscar.Text & "%'"
         End If
     End Sub
 
-    Private Sub dataArticulo_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dataArticulo.CellDoubleClick
-        'Dim codigo As String = dataArticulo.Item("cod_art", dataArticulo.CurrentRow.Index).Value
-        'imprimirkardex(codigo)
 
-    End Sub
 
-  
+
     Private Sub dataArticulo_GotFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles dataArticulo.GotFocus
-        ' muestraKardex()
+
         lblRegistros.Text = "Nº de Registros Procesados... 0"
         lblPrecioPromedio.Text = "Precio Costo Promedio. 0.000"
     End Sub
@@ -641,15 +637,11 @@ Public Class c_kardex
         End If
     End Sub
 
-    Private Sub cbogrupo_SelectedIndexChanged(sender As System.Object, e As System.EventArgs) Handles cbogrupo.SelectedIndexChanged
-        'If Not estaCargando Then
-        '    muestraKardex()
-        '    muestraArticulos(txtBuscar.Text)
-        '    txtBuscar.Focus()
-        'End If
+
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        ' muestraArticulos(txtBuscar.Text)
+        dsArticulo.Tables("articulo").DefaultView.RowFilter = "nom_art LIKE '%" & txtBuscar.Text & "%'"
     End Sub
-
-
-
 
 End Class
