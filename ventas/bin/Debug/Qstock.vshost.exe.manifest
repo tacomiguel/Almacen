@@ -358,14 +358,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="385536">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="386560">
       <assemblyIdentity name="libreriaClases" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ldpeBjYuCBsVBA5+yjYMVEVQjVo=</dsig:DigestValue>
+        <dsig:DigestValue>fm85vOZpj0FG4bTGUVENYsiwUSk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -401,7 +401,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Wtp1qgR9SE172E9rlEM4vkOhV7U=</dsig:DigestValue>
+        <dsig:DigestValue>GlmiKPeHKiQrrbzZC11XWVhC1PU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -438,13 +438,13 @@
       <dsig:DigestValue>0bwhmT1kcTbp3wl5mbpYz5Wmh4Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Qstock.exe.config" size="1858">
+  <file name="Qstock.exe.config" size="1852">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>gv3I3FCju94lxSLiYPHlaL6dZMc=</dsig:DigestValue>
+      <dsig:DigestValue>Ps4dx1caV7EqK9R1zVxC8MXjSrs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\Fondo1024-Empanaderia.jpg" size="163166">

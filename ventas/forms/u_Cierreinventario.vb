@@ -207,18 +207,18 @@ Public Class u_Cierreinventario
         '/********************************/
         'grabamos los saldos finales del mes en proceso x almacen
         Dim nro As Integer = Int(45 / (nroAlmacenes * 2))
-            For I = 0 To nroAlmacenes - 1
-                Dim operacion As Integer = mInventario.maxOperacionMensual
-                mInventario.insertar_invMensual(operacion, fechaInventario, pDecimales, mAlmacen(I), "0000", pCuentaUser)
-                barraProgreso.Value = barraProgreso.Value + nro
-                grabaSaldoSistema(mAlmacen(I), operacion)
-                barraProgreso.Value = barraProgreso.Value + nro
-            Next
-            '/********************************/
+        For I = 0 To nroAlmacenes - 1
+            Dim operacion As Integer = mInventario.maxOperacionMensual
+            mInventario.insertar_invMensual(operacion, fechaInventario, pDecimales, mAlmacen(I), "0000", pCuentaUser)
+            'barraProgreso.Value = barraProgreso.Value + nro
+            grabaSaldoSistema(mAlmacen(I), operacion)
+            barraProgreso.Value = barraProgreso.Value + nro
+        Next
+        '/********************************/
 
 
-            'insertamos el inventario inicial en 0
-            pFechaActivaMax = pFechaActivaMax.AddDays(1)
+        'insertamos el inventario inicial en 0
+        pFechaActivaMax = pFechaActivaMax.AddDays(1)
             Dim mfechadoc As String = pFechaActivaMax.ToString("yy-MM-dd")
             Dim mfechasys As String = pFechaHoraSystem.ToString("yy-MM-dd HH:mm:ss")
             cad1 = "insert into ingreso(select operacion,'" & mfechasys & "' as fecha,cod_doc,nro_orden,ser_doc,nro_doc,ser_guia,nro_guia,'" & mfechadoc & "' as fec_doc ,"
@@ -307,7 +307,7 @@ Public Class u_Cierreinventario
         'almacenes y areas para los inventarios
         dsAlmacenF.Tables.Add("almacen")
         Dim daAlmacenF As New MySqlDataAdapter
-        Dim comAlmacenF As New MySqlCommand("select cod_alma,nom_alma from almacen where activo=1" _
+        Dim comAlmacenF As New MySqlCommand("select cod_alma,nom_alma from almacen where activo and es_invMensual" _
                         & " and (es_invMensual) order by nom_alma", dbConex)
         daAlmacenF.SelectCommand = comAlmacenF
         daAlmacenF.Fill(dsAlmacenF, "almacen")
@@ -424,6 +424,30 @@ Public Class u_Cierreinventario
     End Sub
 
     Sub grabaSaldoSistema(ByVal cod_alma As String, ByVal nroOperacion As Integer)
+        Dim mCatalogo As New Catalogo, mInventario As New Inventario
+        Dim I As Integer = 0, X As Integer = 0, codigo As String = ""
+        mCatalogo.IngresaSaldos(nroOperacion, False, "", True, True, cod_alma, False, "", False, False, "", pDecimales, pCuentaUser)
+        dsInventario.Clear()
+        'cargamos articulos del inventario
+        'Dim cod_art As String, cant_sis, cant_fis, precio As Decimal
+        'If dsArticulos.Tables("saldo").Rows.Count > 0 Then
+        'cargamos saldo final del sistema
+        ' I = 0
+        'For I = 0 To dsArticulos.Tables("saldo").Rows.Count - 1
+        'cod_art = dsArticulos.Tables("saldo").Rows(I).Item("cod_art").ToString
+        'precio = dsArticulos.Tables("saldo").Rows(I).Item("precio").ToString
+        'cant_sis = dsArticulos.Tables("saldo").Rows(I).Item("saldo").ToString
+        'If saldoProvisional Then
+        'cant_fis = dsArticulos.Tables("saldo").Rows(I).Item("saldo").ToString
+        'Else
+        'cant_fis = 0
+        'End If
+        'Dim nInventario As Integer = mInventario.maxInventarioMensual
+        'mInventario.insertar_detInvMensual(nroOperacion, nInventario, cod_art, cant_sis, cant_fis, precio, pCuentaUser)
+        'Next
+        'End If
+    End Sub
+    Sub grabaSaldoSistema_00(ByVal cod_alma As String, ByVal nroOperacion As Integer)
         Dim mCatalogo As New Catalogo, mInventario As New Inventario
         Dim I As Integer = 0, X As Integer = 0, codigo As String = ""
         dsArticulos = mCatalogo.recuperaSaldos(False, "", True, True, cod_alma, False, "", False, False, "", pDecimales)

@@ -511,13 +511,15 @@ Public Class Catalogo
                         ByVal ag As Boolean, ByVal xAlmacen As Boolean,
                         ByVal cod_alma As String, ByVal xsg As Boolean, ByVal csg As String,
                         ByVal imp As Boolean, ByVal xa As Boolean, ByVal ca As String,
-                        Optional ByVal nd As Integer = 0, Optional ByVal xsaldo As Boolean = True) As DataSet
+                          Optional ByVal nd As Integer = 0, Optional ByVal xsaldo As Boolean = True) As DataSet
 
         Dim clConex As MySqlConnection = Conexion.obtenerConexion
+
         Dim da As New MySqlDataAdapter
         Dim dsSaldo As New DataSet
+
         Dim cad, cad1, cad1a, cad1b, cad1c, cad2, cad3, cad4, cad5, cad6, cad7, cad8 As String
-        cad1 = "select ingreso,hd.cod_art,nom_art,nom_uni,cant_uni,es_divisible,pre_ult," & IIf(ag, "sum(hd.saldo) as saldo, 0 as cant_fis, ", "hd.saldo,")
+        cad1 = " select ingreso,hd.cod_art,nom_art,nom_uni,cant_uni,es_divisible,pre_ult," & IIf(ag, "sum(hd.saldo) as saldo, 0 as cant_fis, ", "hd.saldo,")
         If h Then
             cad1a = " hd.precio_prom as precio,"
             cad1b = IIf(imp, " round(if(hd.afecto_igv,round(hd.precio_prom+hd.precio_prom*hd.igv,3),hd.precio_prom)*" _
@@ -542,14 +544,51 @@ Public Class Catalogo
         cad7 = IIf(xsg, " and articulo.cod_sgrupo='" & csg & "'", "") _
                 & IIf(xa, " and hd.cod_art='" & ca & "'", "")
         cad8 = IIf(ag, " group by hd.cod_art having" & IIf(xsaldo, " sum(hd.saldo)>=0 or sum(hd.saldo)=0", " sum(hd.saldo)<=0"), "") & " order by nom_art,fec_doc"
-
         cad = cad1 + cad1a + cad1b + cad1c + cad2 + cad3 + cad4 + cad5 + cad6 + cad7 + cad8
         Dim comSaldo As New MySqlCommand(cad)
         comSaldo.Connection = clConex
         da.SelectCommand = comSaldo
         da.Fill(dsSaldo, "saldo")
-        clConex.Close()
+
         Return dsSaldo
+    End Function
+    Public Function IngresaSaldos(ByVal ope As Integer, ByVal h As Boolean, ByVal np As String,
+                        ByVal ag As Boolean, ByVal xAlmacen As Boolean,
+                        ByVal cod_alma As String, ByVal xsg As Boolean, ByVal csg As String,
+                        ByVal imp As Boolean, ByVal xa As Boolean, ByVal ca As String,
+                          Optional ByVal nd As Integer = 0, Optional ByVal usu As String = "", Optional ByVal xsaldo As Boolean = True) As Boolean
+
+        Dim clConex As MySqlConnection = Conexion.obtenerConexion
+
+        Dim com As New MySqlCommand
+        Dim result As Integer
+        com.Connection = clConex
+        Dim cad, cad1, cad1a, cad1b, cad1c, cad2, cad3, cad4, cad5, cad6, cad7, cad8 As String
+        cad1 = "insert into inventario_mdet select " & ope & ",ingreso,hd.cod_art," & IIf(ag, "sum(hd.saldo) as cant_fis,sum(hd.saldo) as cant_sis, ", "sum(hd.saldo) as cant_fis,sum(hd.saldo) as cant_sis,")
+        If h Then
+            cad1a = " pre_ult as precio,'" & usu & "' as cuenta"
+
+            cad2 = " from h_ingreso as h inner join h_ingreso_det as hd on h.operacion=hd.operacion and h.proceso=hd.proceso "
+        Else
+            cad1a = " pre_ult as precio,'" & usu & "' as cuenta"
+
+            cad2 = " from h_ingreso as h inner join h_ingreso_det as hd on h.operacion=hd.operacion "
+        End If
+        cad3 = " inner join articulo on articulo.cod_art=hd.cod_art inner join almacen on h.cod_alma=almacen.cod_alma "
+        cad4 = " inner join unidad on articulo.cod_uni=unidad.cod_uni inner join subgrupo on articulo.cod_sgrupo=subgrupo.cod_sgrupo"
+        cad5 = " where articulo.activo" & IIf(h, " and h.proceso='" & np & "'", "")
+        cad6 = IIf(xAlmacen, " and h.cod_alma='" & cod_alma & "'", "")
+        cad7 = IIf(xsg, " and articulo.cod_sgrupo='" & csg & "'", "") _
+                & IIf(xa, " and hd.cod_art='" & ca & "'", "")
+        cad8 = IIf(ag, " group by hd.cod_art having" & IIf(xsaldo, " sum(hd.saldo)>=0 or sum(hd.saldo)=0", " sum(hd.saldo)<=0"), "") & " order by nom_art,fec_doc"
+
+
+        cad = cad1 + cad1a + cad2 + cad3 + cad4 + cad5 + cad6 + cad7 + cad8
+        com.CommandText = cad
+        result = com.ExecuteNonQuery
+        clConex.Close()
+        Return True
+
     End Function
     Public Function recuperaSaldos_Integrado(ByVal h As Boolean, ByVal np As String,
                     ByVal ag As Boolean, ByVal xAlmacen As Boolean, ByVal cod_alma As String,
