@@ -495,7 +495,7 @@ Public Class ePrecio
         Dim com As New MySqlCommand, nPrecio As Decimal
         com.Connection = clConex
         Dim cad, cad1, cad2 As String
-        cad1 = " select pre_costo from articulo"
+        cad1 = " select pre_ult from articulo"
         cad2 = " where cod_art ='" & cod_art & "'"
         cad = cad1 + cad2
         com.CommandText = cad

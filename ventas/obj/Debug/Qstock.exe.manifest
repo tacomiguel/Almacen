@@ -365,7 +365,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>fm85vOZpj0FG4bTGUVENYsiwUSk=</dsig:DigestValue>
+        <dsig:DigestValue>Cl/Eb18QCoGKpB2QpIb8mXPy26k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -394,14 +394,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14175232">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14175744">
       <assemblyIdentity name="Qstock" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>GlmiKPeHKiQrrbzZC11XWVhC1PU=</dsig:DigestValue>
+        <dsig:DigestValue>069HSEnJT2FABtY/QkReDTK3ZCg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

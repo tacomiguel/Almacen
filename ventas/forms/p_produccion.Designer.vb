@@ -431,7 +431,7 @@ Partial Class p_produccion
         Me.dataProducionesS.SelectAllSignVisible = False
         Me.dataProducionesS.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dataProducionesS.ShowEditingIcon = False
-        Me.dataProducionesS.Size = New System.Drawing.Size(491, 202)
+        Me.dataProducionesS.Size = New System.Drawing.Size(531, 202)
         Me.dataProducionesS.TabIndex = 146
         '
         'dataProducciones
@@ -662,7 +662,6 @@ Partial Class p_produccion
         Me.dataReceta.Location = New System.Drawing.Point(530, 75)
         Me.dataReceta.MultiSelect = False
         Me.dataReceta.Name = "dataReceta"
-        Me.dataReceta.ReadOnly = True
         DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control
         DataGridViewCellStyle11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -676,7 +675,7 @@ Partial Class p_produccion
         Me.dataReceta.SelectAllSignVisible = False
         Me.dataReceta.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
         Me.dataReceta.ShowEditingIcon = False
-        Me.dataReceta.Size = New System.Drawing.Size(491, 258)
+        Me.dataReceta.Size = New System.Drawing.Size(531, 258)
         Me.dataReceta.StandardTab = True
         Me.dataReceta.TabIndex = 8
         Me.dataReceta.TabStop = False
@@ -684,7 +683,7 @@ Partial Class p_produccion
         'p_produccion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.ClientSize = New System.Drawing.Size(956, 557)
+        Me.ClientSize = New System.Drawing.Size(1063, 557)
         Me.Controls.Add(Me.txtObservacion)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.chkprocesar)
@@ -695,7 +694,7 @@ Partial Class p_produccion
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.dataReceta)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "p_produccion"
         Me.Text = "Proceso: GENERACION DE PRODUCCIONES"
         Me.GroupBox3.ResumeLayout(False)

@@ -33,7 +33,7 @@ Public Class u_Cierreinventario
     Private fechaInventario As Date
     Private saldoProvisional As Boolean
     'para capturar el numero de almacenes
-    Private mAlmacen(40) As String
+    Private mAlmacen(10) As String
     Private nroAlmacenes As Integer
 
     Private Sub cmdCerrarInventario_Click(sender As Object, e As EventArgs) Handles cmdCerrarInventario.Click

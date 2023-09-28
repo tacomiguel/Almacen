@@ -246,7 +246,7 @@ Public Class p_produccion
         Dim da As New MySqlDataAdapter
         Dim cad, cad1, cad2, cad3, cad4 As String
         dsComponentes.Clear()
-        cad1 = " select cod_rec,receta.cod_art,nom_art,nom_uni,cant,costo,cod_area"
+        cad1 = " select cod_rec,receta.cod_art,nom_art,nom_uni,factor_prod,cant,cant*articulo.pre_ult as costo,cod_area"
         cad2 = " from receta inner join articulo on receta.cod_art=articulo.cod_art"
         cad3 = " inner join unidad on articulo.cod_uni=unidad.cod_uni"
         cad4 = " where cod_rec='" & cod_rec & "' order by nom_art"
@@ -265,17 +265,28 @@ Public Class p_produccion
             .Columns("cod_art").HeaderText = "Codigo"
             .Columns("cod_art").Width = 50
             .Columns("cod_art").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
+            .Columns("cod_art").ReadOnly = True
             .Columns("nom_art").HeaderText = "Descripcion"
             .Columns("nom_art").Width = 250
+            .Columns("nom_art").ReadOnly = True
             .Columns("nom_uni").HeaderText = "Unidad"
             .Columns("nom_uni").Width = 65
+            .Columns("nom_uni").ReadOnly = True
+            .Columns("factor_prod").HeaderText = "Factor."
+            .Columns("factor_prod").Width = 45
+            .Columns("factor_prod").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
+            .Columns("factor_prod").DefaultCellStyle.Format = "N" & ldecimales
+            .Columns("factor_prod").ReadOnly = False
+            .Columns("factor_prod").DefaultCellStyle.BackColor = Color.AliceBlue
             .Columns("cant").HeaderText = "Cant."
             .Columns("cant").Width = 45
             .Columns("cant").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
             .Columns("cant").DefaultCellStyle.Format = "N" & ldecimales
+            .Columns("cant").ReadOnly = True
             .Columns("costo").HeaderText = "Costo"
             .Columns("costo").Width = 70
             .Columns("costo").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
+            .Columns("costo").ReadOnly = True
             .Columns("cod_rec").Visible = False
             .Columns("cod_area").Visible = False
         End With
@@ -471,7 +482,7 @@ Public Class p_produccion
     End Sub
     Sub registraProduccion()
         inicializaVariables()
-        Dim codigo, cAlma, cod_Area, cod_usu, cdocumento, descripcion As String, nOperacionS, nOperacionI As Integer, factor_prod, cantProducir, costoProduccion As Decimal
+        Dim codigo, cAlma, cod_Area, cod_usu, cdocumento, descripcion As String, nOperacionS, nOperacionI As Integer, factor_prod, factor_prod_r, cantProducir, cantProducir_det, costoProduccion As Decimal
         Dim mSalida As New Salida, mIngreso As New Ingreso, mReceta As New Receta, mcatalogo As New Catalogo
         Dim nIngreso As Integer
         Dim continuar As Boolean = True
@@ -492,15 +503,24 @@ Public Class p_produccion
             cdocumento = Microsoft.VisualBasic.Right("00000000" & mReceta.maxProduccion, 8)
             Dim procesar As Boolean = IIf(chkprocesar.Checked, True, False)
             dsReceta.Clear()
+
+
             muestraReceta(codigo, 0)
             Try
                 If validarstock(procesar) Then
+                    Dim _R As Integer
                     ' If dsReceta.Tables("receta").Rows.Count > 0 Then ten
                     'mSalida.insertar(OperacionS, 0, "93", "001", cDocumento, mFecha, "00000000", "00000000000", "01", 1, 0, LDecimales, cAlma, "S", descripcion, pEmpresa, pCuentaUser)
-                    mSalida.insertar_aux(nOperacionS, 0, "93", "R01", cDocumento, mFecha, mFecha, "00000000", "00000000000", "01", 1, 0, ldecimales, cAlma, IIf(cod_Area = "", "0000", cod_Area), descripcion, "00", cod_usu, pCuentaUser, 0, "", "")
-                    For _I = 0 To dsReceta.Tables("receta").Rows.Count - 1
-                            almacenaDatos(cantProducir)
-                            dsReceta1.Clear()
+                    mSalida.insertar_aux(nOperacionS, 0, "93", "R01", cdocumento, mFecha, mFecha, "00000000", "00000000000", "01", 1, 0, ldecimales, cAlma, IIf(cod_Area = "", "0000", cod_Area), descripcion, "00", cod_usu, pCuentaUser, 0, "", "")
+
+                    'For _I = 0 To dsReceta.Tables("receta").Rows.Count - 1
+                    For _R = 0 To dataReceta.Rows.Count - 1
+                        cantProducir_det = dataReceta("cant", _R).Value
+                        factor_prod_r = dataReceta("factor_prod", _R).Value
+                        codR = dataReceta("cod_art", _R).Value
+
+                        almacenaDatos(cantProducir * (cantProducir_det * factor_prod_r), codR)
+                        dsReceta1.Clear()
                             muestraReceta(codR, 1)
                             procesar = mcatalogo.devuelveTipoArt(codR)
                             If dsReceta1.Tables("receta").Rows.Count > 0 And procesar Then
@@ -549,9 +569,10 @@ Public Class p_produccion
                                     End If
                                 Next
                             Else
-                                insertaInsumo(codR, cantRD, nOperacionS, nIngreso)
-                            End If
+                            insertaInsumo(codR, cantRD, nOperacionS, nIngreso)
+                        End If
                         Next
+                    'Next
                     mIngreso.insertar(nOperacionI, "93", "R01", cdocumento, "000", "00000000", 0, mFecha, "00000000000", "01", cAlma, IIf(cod_Area = "", "0000", cod_Area), 1, False, ldecimales, IIf(txtObservacion.Text = "", "Produccion", txtObservacion.Text), "S", pTC, cod_usu, pmaquina)
                     mIngreso.insertar_det(nOperacionI, nIngreso, codigo, cantProducir * factor_prod, costoProduccion, pCuentaUser, pIGV)
                     MessageBox.Show("Produccion Terminada..." + Chr(13) + "Verifique su stock...", "SGA", MessageBoxButtons.OK, MessageBoxIcon.Information)
@@ -631,10 +652,12 @@ Public Class p_produccion
             dsReceta5 = mReceta.recuperaReceta(cod_rec)
         End If
     End Sub
-    Sub almacenaDatos(ByVal cantProducir As Decimal)
-        codR = dsReceta.Tables("receta").Rows(_I).Item("cod_art").ToString
-        cantR = dsReceta.Tables("receta").Rows(_I).Item("cant").ToString
-        cantRD = cantProducir * cantR
+    Sub almacenaDatos(ByVal cantProducir As Decimal, ByVal codigo As String)
+        'codR = dsReceta.Tables("receta").Rows(_I).Item("cod_art").ToString
+        codR = codigo
+        'cantR = dsReceta.Tables("receta").Rows(_I).Item("cant").ToString
+        'cantRD = cantProducir * cantR
+        cantRD = cantProducir
     End Sub
     Sub almacenaDatos1()
         codR1 = dsReceta1.Tables("receta").Rows(_W).Item("cod_art").ToString
@@ -674,6 +697,7 @@ Public Class p_produccion
         cantR3 = 0.0
         cantR4 = 0.0
         cantR5 = 0.0
+
         cantRD = 0.0
         cantR1D = 0.0
         cantR2D = 0.0
