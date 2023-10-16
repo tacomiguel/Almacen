@@ -34,7 +34,7 @@ Public Class Almacen
         cad3 = " inner join tipo_articulo t on t.cod_tart=a.cod_tart "
         cad4 = " where " _
                 & IIf(xProd, "(t.esProduccion)", "!(t.esProduccion)") _
-                & IIf(xalma, " and s.cod_alma='" & cAlma & "'", "") _
+                & IIf(xalma, " and a.cod_alma='" & cAlma & "'", "") _
                 & " and a.activo=1 order by nom_art"
         cad = cad1 + cad2 + cad3 + cad4
         Dim comSaldo As New MySqlCommand(cad)

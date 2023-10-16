@@ -37,7 +37,7 @@ Public Class repTransferencias
         Dim daAlmacenD As New MySqlDataAdapter
         Dim comAlmacenD As New MySqlCommand("select distinct almacen.cod_alma,nom_alma" _
                                 & " from almacen left join area on almacen.cod_alma = area.cod_alma" _
-                                & " where almacen.activo=1 and((almacen.destinoTrans) or (area.destinoTrans)) order by nom_alma", dbConex)
+                                & " where ((almacen.destinoTrans) or (area.destinoTrans)) order by nom_alma", dbConex)
         daAlmacenD.SelectCommand = comAlmacenD
         daAlmacenD.Fill(dsAlmacenD, "almacen")
         'dataset usuario

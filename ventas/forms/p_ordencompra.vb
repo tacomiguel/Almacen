@@ -53,7 +53,7 @@ Public Class p_ordencompra
         End If
         'dataset ESTADOS
         Dim daEstados As New MySqlDataAdapter
-        Dim comEst As New MySqlCommand("SELECT cod_recurso,dsc_recurso FROM tipo_recurso where cod_tabla='tip_epedido'and activo=1", dbConex)
+        Dim comEst As New MySqlCommand("SELECT cod_recurso,dsc_recurso FROM tipo_recurso where cod_tabla='tip_pedido'and activo=1", dbConex)
         daEstados.SelectCommand = comEst
         daEstados.Fill(dsEstados, "Estados")
         With CboEstado

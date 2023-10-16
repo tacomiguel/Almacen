@@ -261,7 +261,7 @@ Public Class m_planCuentas
         End If
         cad1 = "select subgrupo.cod_sgrupo," & general.convierte_enTitulo(cCampo) & " as nom_sgrupo"
         cad2 = " from articulo inner join subgrupo on articulo.cod_sgrupo=subgrupo.cod_sgrupo"
-        cad3 = " where cod_alma ='" & cAlma & "'"
+        cad3 = " where articulo.cod_alma ='" & cAlma & "'"
         cad4 = " group by articulo.cod_sgrupo order by nom_sgrupo"
         cad = cad1 + cad2 + cad3 + cad4
         Dim comGrupo As New MySqlCommand(cad, dbConex)

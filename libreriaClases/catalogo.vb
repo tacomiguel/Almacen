@@ -526,7 +526,7 @@ Public Class Catalogo
                     & IIf(ag, " sum(hd.saldo)," & nd & ") as monto,", " hd.saldo," & nd & ") as monto,"),
                     " round(hd.precio_prom*" & IIf(ag, "sum(hd.saldo)," & nd & ") as monto,", "hd.saldo," & nd & ") as monto,"))
             cad1c = " hd.afecto_igv,articulo.cod_sgrupo,nom_sgrupo,h.cod_alma,nom_alma,maximo,minimo,tm,tc,h.pre_inc_igv,hd.igv"
-            cad2 = " from h_ingreso as h inner join h_ingreso_det as hd on h.operacion=hd.operacion and h.proceso=hd.proceso "
+            cad2 = " from ingreso as h inner join ingreso_det as hd on h.operacion=hd.operacion and h.proceso=hd.proceso "
         Else
             cad1a = " articulo.pre_costo as precio,"
             cad1b = IIf(imp, " round(if(articulo.afecto_igv,round(articulo.pre_costo+articulo.pre_costo*hd.igv," _
@@ -535,7 +535,7 @@ Public Class Catalogo
                     " round(articulo.pre_costo*" & IIf(ag, " sum(hd.saldo)," & nd & ") as monto,", " hd.saldo," _
                     & nd & ") as monto,"))
             cad1c = " articulo.afecto_igv,articulo.cod_sgrupo,nom_sgrupo,h.cod_alma,nom_alma,maximo,minimo,tm,tc,h.pre_inc_igv,hd.igv"
-            cad2 = " from h_ingreso as h inner join h_ingreso_det as hd on h.operacion=hd.operacion "
+            cad2 = " from ingreso as h inner join ingreso_det as hd on h.operacion=hd.operacion "
         End If
         cad3 = " inner join articulo on articulo.cod_art=hd.cod_art inner join almacen on h.cod_alma=almacen.cod_alma "
         cad4 = " inner join unidad on articulo.cod_uni=unidad.cod_uni inner join subgrupo on articulo.cod_sgrupo=subgrupo.cod_sgrupo"

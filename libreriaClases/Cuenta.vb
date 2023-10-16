@@ -140,7 +140,7 @@ Public Class Cuenta
                 & "plan_cuentas.cuenta_c,plan_cuentas.cuenta_c_a1,plan_cuentas.cuenta_c_a2,plan_cuentas.cuenta_c_p "
         cad2 = " from subgrupo left join plan_cuentas on plan_cuentas.cod_sgrupo=subgrupo.cod_sgrupo"
         cad3 = " left join articulo on subgrupo.cod_sgrupo=articulo.cod_sgrupo"
-        cad4 = IIf(xAlmacen, " where cod_alma='" & cod_alma & "'", "") & " group by articulo.cod_sgrupo order by nom_sgrupo"
+        cad4 = IIf(xAlmacen, " where articulo.cod_alma='" & cod_alma & "'", "") & " group by articulo.cod_sgrupo order by nom_sgrupo"
         cad = cad1 + cad2 + cad3 + cad4
         Dim com As New MySqlCommand
         com.CommandText = cad

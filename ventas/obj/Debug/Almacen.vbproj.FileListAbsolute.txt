@@ -1685,7 +1685,6 @@ D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\DevExpress.DXCore.Controls.XtraBars
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\DevExpress.DXCore.Controls.XtraEditors.v6.3.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\libreriaClases.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\mControles.dll
-D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\MySql.Data.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\dotnetCHARTING.WinForms.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
 D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
@@ -1791,3 +1790,4 @@ D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.exe.manifest
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.application
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.exe
 D:\MTACO\desarrollo\Almacen\ventas\obj\Debug\Qstock.pdb
+D:\MTACO\desarrollo\Almacen\ventas\bin\Debug\MySql.Data.dll

@@ -23,7 +23,7 @@ Public Class m_vendedor
         'cargamos el datatable
         dtVendedor = dsVendedor.Tables("vendedor")
         'creamos y trabajamos con el comando a ejecutar
-        Dim com As New MySqlCommand("Select cod_vend,nom_vend,activo,perfil from vendedor where cod_vend <>'" & cod & "'" & " order by nom_vend", dbConex)
+        Dim com As New MySqlCommand("Select cod_vend,nom_vend,activo from vendedor where cod_vend <>'" & cod & "'" & " order by nom_vend", dbConex)
         daVendedor.SelectCommand = com
         'cargamos los registros en la tabla sub grupo
         daVendedor.Fill(dsVendedor, "vendedor")

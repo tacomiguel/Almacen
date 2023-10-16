@@ -125,7 +125,7 @@ Public Class m_catalogo
         cad3 = " from articulo inner join unidad on articulo.cod_uni=unidad.cod_uni"
         cad4 = " inner join tipo_articulo t on articulo.cod_tart=t.cod_tart"
         cad5 = " inner join subgrupo on articulo.cod_sgrupo=subgrupo.cod_sgrupo WHERE t.esProduccion=" & esProduccion
-        cad6 = IIf(pCatalogoXalmacen, " and cod_alma='" & cAlmaPrincipal & "'", "") & " order by nom_art"
+        cad6 = IIf(pCatalogoXalmacen, " and articulo.cod_alma='" & cAlmaPrincipal & "'", "") & " order by nom_art"
         cad = cad1 + cad2 + cad3 + cad4 + cad5 + cad6
         Dim com As New MySqlCommand(cad, dbConex)
         daArticulo.SelectCommand = com
