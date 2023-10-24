@@ -236,27 +236,27 @@ Public Class p_pedido
         'dataset almacen origen/destino
         Dim daAlmacen_o As New MySqlDataAdapter
         Dim daAlmacen_d As New MySqlDataAdapter
-        Dim cadena, cadena_dest As String
+        Dim cadena_origen, cadena_dest As String
         If pAlmaUser = "0000" Then
-            cadena = "select cod_alma,nom_alma from almacen where activo=1" _
+            cadena_origen = "select cod_alma,nom_alma from almacen where activo=1" _
                                   & " and (origenTrans) order by nom_alma"
             cadena_dest = "select distinct almacen.cod_alma,nom_alma" _
                                 & " from almacen left join area on almacen.cod_alma=area.cod_alma" _
-                                & " where almacen.activo=1 and ((almacen.destinoTrans) or (area.destinoTrans))" _
+                                & " where almacen.activo=1 and almacen.destinoTrans" _
                                 & " order by nom_alma"
         Else
-            cadena = "select distinct almacen.cod_alma,nom_alma" _
+            cadena_origen = "select distinct almacen.cod_alma,nom_alma" _
                                              & " from almacen left join area on almacen.cod_alma=area.cod_alma" _
-                                             & " where almacen.activo=1 and ((almacen.destinoTrans) or (area.destinoTrans))" _
+                                             & " where almacen.activo=1 and almacen.origenTrans " _
                                              & " order by nom_alma"
             cadena_dest = "select distinct almacen.cod_alma,nom_alma" _
                                 & " from almacen left join area on almacen.cod_alma=area.cod_alma" _
                                 & " left join usuario_almacen u on u.cod_alma=almacen.cod_alma " _
-                                & " where almacen.activo=1 and ((almacen.destinoTrans) or (area.destinoTrans))" _
+                                & " where almacen.activo=1 and almacen.destinoTrans" _
                                 & " and u.cuenta= '" & pCuentaUser & "'" _
                                 & " order by nom_alma"
         End If
-        Dim comAlmacen_o As New MySqlCommand(cadena, dbConex)
+        Dim comAlmacen_o As New MySqlCommand(cadena_origen, dbConex)
         Dim comAlmacen_d As New MySqlCommand(cadena_dest, dbConex)
         daAlmacen_o.SelectCommand = comAlmacen_o
         daAlmacen_d.SelectCommand = comAlmacen_d

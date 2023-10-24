@@ -358,14 +358,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="387072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libreriaClases.dll" size="387584">
       <assemblyIdentity name="libreriaClases" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>pQmkx7UeAvHx/tTplF2IZb7t+DU=</dsig:DigestValue>
+        <dsig:DigestValue>0+VtIWJGMFT/2w3cjp3lErMJEZ8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -394,14 +394,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14175744">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qstock.exe" size="14176768">
       <assemblyIdentity name="Qstock" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JOpZyQiW2vVzr1yuz1unF9rw6Lc=</dsig:DigestValue>
+        <dsig:DigestValue>rfmbw9qQrv+SIgviG20UILGl+Tg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -438,13 +438,13 @@
       <dsig:DigestValue>0bwhmT1kcTbp3wl5mbpYz5Wmh4Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Qstock.exe.config" size="1853">
+  <file name="Qstock.exe.config" size="1852">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>WLEdz34GOcYiDyZ3mKhNiZI6HHw=</dsig:DigestValue>
+      <dsig:DigestValue>Ps4dx1caV7EqK9R1zVxC8MXjSrs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\Fondo1024-Empanaderia.jpg" size="163166">
