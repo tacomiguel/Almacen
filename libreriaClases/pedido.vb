@@ -365,7 +365,7 @@ Public Class pedido
         Dim cad, cad1, cad2, cad3, cad4, cad5, cad6 As String
         cad1 = " update pedido set fec_ped='" & mfecha1 & "'," & "fec_ent='" & mfecha2 & "'," & "hor_ent='" & mfecha3 & "',"
         cad2 = " cod_vend='" & cod_vend & "'," & "cod_pedido='" & cod_pedido & "'," & "cod_clie='" & cod_clie & "',"
-        cad3 = " cod_fpago='" & cod_fpago & "'," & "dir_ent='" & dir_ent & "',"
+        cad3 = " cod_fpago='" & cod_fpago & "'," & "dir_ent='" & dir_ent & "'," & " cuenta='" & usuario & "',"
         cad4 = " cod_alma='" & cod_alma & "'," & "cod_area='" & cod_area & "'," & " usu_mod='" & usuario & "',"
         cad5 = " obs='" & obs & "'," & " tm='" & tm & "'," & "pre_inc_igv=" & inc_igv
         cad6 = " where operacion=" & nro_ope

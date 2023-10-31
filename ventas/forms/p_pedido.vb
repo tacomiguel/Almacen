@@ -82,7 +82,7 @@ Public Class p_pedido
 
         'dataset ESTADOS
         Dim daEstados As New MySqlDataAdapter
-        Dim comEst As New MySqlCommand("SELECT cod_recurso,dsc_recurso FROM tipo_recurso where cod_tabla='tip_pedido'and activo=1", dbConex)
+        Dim comEst As New MySqlCommand("SELECT cod_recurso,dsc_recurso FROM tipo_recurso where cod_tabla='tip_epedido'and activo=1", dbConex)
         daEstados.SelectCommand = comEst
         daEstados.Fill(dsEstados, "Estados")
         With CboEstado
@@ -484,39 +484,44 @@ Public Class p_pedido
                     tipoProceso = "E"
                     esCopia = False
                 Else 'edicion
-                    'mPedido.insertar(nroOperacion, serPedido, nroPedido, fec_ped, fec_ent, hor_ent, cod_estado, cod_pedido, cod_vend, cod_clie, cod_fpago, cod_alma, cod_area, dir_ent, obs, inc_igv, tm, pCuentaUser)
-                    mPedido.actualizaCabecera(nroOperacion, fec_ped, fec_ent, hor_ent, cod_pedido, cod_vend, cod_clie, cod_fpago, cod_alma, cod_area, dir_ent, obs, tm, inc_igv, cod_usu)
-                    Dim cod_art, observ As String, cant, precio, igv, comi_v, comi_jv As Decimal, I As Integer
-                    cReg = dataDetalle.RowCount
-                    For I = 0 To cReg - 1
-                        cod_art = dataDetalle("cod_art", I).Value
-                        cant = dataDetalle("cantidad", I).Value
-                        precio = dataDetalle("precio", I).Value
-                        If dataDetalle("afecto_igv", I).Value = False Then
-                            igv = 0
-                        Else
-                            igv = pIGV
-                        End If
-                        comi_v = dataDetalle("comi_v", I).Value
-                        comi_jv = dataDetalle("comi_jv", I).Value
-                        observ = dataDetalle("obs", I).Value
-                        If dataDetalle("estado", I).Value = "New" Then
-                            nroOrden = mPedido.maxOrden(nroOperacion)
-                            mPedido.insertar_det(nroOperacion, nroOrden, cod_art, cant, precio, igv, comi_v, comi_jv, pCuentaUser, observ)
-                        Else
-                            nroOrden = dataDetalle("orden", I).Value
-                            mPedido.actualizaDetalle(nroOperacion, nroOrden, cant, precio, igv, comi_v, comi_jv, observ)
-                        End If
-                    Next
+                    If cod_estado = "0001" Then
+                        'mPedido.insertar(nroOperacion, serPedido, nroPedido, fec_ped, fec_ent, hor_ent, cod_estado, cod_pedido, cod_vend, cod_clie, cod_fpago, cod_alma, cod_area, dir_ent, obs, inc_igv, tm, pCuentaUser)
+                        mPedido.actualizaCabecera(nroOperacion, fec_ped, fec_ent, hor_ent, cod_pedido, cod_vend, cod_clie, cod_fpago, cod_alma, cod_area, dir_ent, obs, tm, inc_igv, cod_usu)
+                        Dim cod_art, observ As String, cant, precio, igv, comi_v, comi_jv As Decimal, I As Integer
+                        cReg = dataDetalle.RowCount
+                        For I = 0 To cReg - 1
+                            cod_art = dataDetalle("cod_art", I).Value
+                            cant = dataDetalle("cantidad", I).Value
+                            precio = dataDetalle("precio", I).Value
+                            If dataDetalle("afecto_igv", I).Value = False Then
+                                igv = 0
+                            Else
+                                igv = pIGV
+                            End If
+                            comi_v = dataDetalle("comi_v", I).Value
+                            comi_jv = dataDetalle("comi_jv", I).Value
+                            observ = dataDetalle("obs", I).Value
+                            If dataDetalle("estado", I).Value = "New" Then
+                                nroOrden = mPedido.maxOrden(nroOperacion)
+                                mPedido.insertar_det(nroOperacion, nroOrden, cod_art, cant, precio, igv, comi_v, comi_jv, pCuentaUser, observ)
+                            Else
+                                nroOrden = dataDetalle("orden", I).Value
+                                mPedido.actualizaDetalle(nroOperacion, nroOrden, cant, precio, igv, comi_v, comi_jv, observ)
+                            End If
+                        Next
+
+                        'reiniciaControles(True)
+                        ' reiniciaDatos()
+                        modoEdicion()
+                        'txtSerPedido.Focus()
+                        MessageBox.Show("Documento Registrado Correctamente!!...", "SGA", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    Else
+                        MessageBox.Show("Documento No puede ser actualizado!!...", "SGA", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    End If
                     cargarpedidos()
-                    'reiniciaControles(True)
-                    ' reiniciaDatos()
-                    modoEdicion()
-                    'txtSerPedido.Focus()
+                End If
 
                 End If
-                MessageBox.Show("Documento Registrado Correctamente!!...", "SGA", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            End If
         Catch ex As Exception
             ' Show the exception's message.
             MessageBox.Show(ex.Message)

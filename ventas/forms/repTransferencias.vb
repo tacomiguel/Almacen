@@ -223,11 +223,7 @@ Public Class repTransferencias
     Sub estructuraTransferencia()
         With dataDetalle
             .ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
-            .Columns("fec_doc").HeaderText = "Fecha"
-            .Columns("fec_doc").Width = 70
-            .Columns("fec_doc").DisplayIndex = 0
-            .Columns("fec_doc").ReadOnly = True
-            .Columns("fec_doc").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
+
             .Columns("origen").HeaderText = "Almacén Origen"
             .Columns("origen").Width = 90
             .Columns("origen").DisplayIndex = 0
@@ -238,61 +234,66 @@ Public Class repTransferencias
             .Columns("doc").DisplayIndex = 1
             .Columns("doc").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
             .Columns("doc").ReadOnly = True
+            .Columns("fec_doc").HeaderText = "Fecha documento"
+            .Columns("fec_doc").Width = 70
+            .Columns("fec_doc").DisplayIndex = 2
+            .Columns("fec_doc").ReadOnly = True
+            .Columns("fec_doc").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
             .Columns("cod_art").HeaderText = "Código"
             .Columns("cod_art").Width = 48
-            .Columns("cod_art").DisplayIndex = 2
+            .Columns("cod_art").DisplayIndex = 3
             .Columns("cod_art").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
             .Columns("cod_art").ReadOnly = True
             .Columns("nom_art").HeaderText = "Descripción"
             .Columns("nom_art").Width = 210
-            .Columns("nom_art").DisplayIndex = 3
+            .Columns("nom_art").DisplayIndex = 4
             .Columns("nom_art").ReadOnly = True
             .Columns("nom_uni").HeaderText = "Unidad"
             .Columns("nom_uni").Width = 52
-            .Columns("nom_uni").DisplayIndex = 4
+            .Columns("nom_uni").DisplayIndex = 5
             .Columns("nom_uni").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
             .Columns("nom_uni").ReadOnly = True
             .Columns("cant").HeaderText = "Cantidad"
             .Columns("cant").Width = 65
-            .Columns("cant").DisplayIndex = 5
+            .Columns("cant").DisplayIndex = 6
             .Columns("cant").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
             .Columns("cant").DefaultCellStyle.BackColor = Color.AliceBlue
             .Columns("cant").ReadOnly = True
             .Columns("precio").HeaderText = "Precio Costo"
             .Columns("precio").Width = 55
-            .Columns("precio").DisplayIndex = 6
+            .Columns("precio").DisplayIndex = 7
             .Columns("precio").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
             .Columns("precio").ReadOnly = True
 
             .Columns("total").HeaderText = "Total Costo"
             .Columns("total").Width = 55
-            .Columns("total").DisplayIndex = 7
+            .Columns("total").DisplayIndex = 8
             .Columns("total").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
             .Columns("total").ReadOnly = True
 
             .Columns("destino").HeaderText = "Almacén Destino"
             .Columns("destino").Width = 80
-            .Columns("destino").DisplayIndex = 8
+            .Columns("destino").DisplayIndex = 9
             .Columns("destino").DefaultCellStyle.BackColor = Color.AliceBlue
             .Columns("destino").ReadOnly = True
             .Columns("area").HeaderText = "Area"
             .Columns("area").Width = 75
-            .Columns("area").DisplayIndex = 9
+            .Columns("area").DisplayIndex = 10
             .Columns("area").DefaultCellStyle.BackColor = Color.AliceBlue
             .Columns("area").ReadOnly = True
             .Columns("fec_prod").HeaderText = "Fecha Prod"
             .Columns("fec_prod").Width = 70
-            .Columns("fec_prod").DisplayIndex = 10
+            .Columns("fec_prod").DisplayIndex = 11
             .Columns("fec_prod").ReadOnly = True
 
             .Columns("fec_ent").HeaderText = "Fecha Entrega"
             .Columns("fec_ent").Width = 70
-            .Columns("fec_ent").DisplayIndex = 11
+            .Columns("fec_ent").DisplayIndex = 12
             .Columns("fec_ent").ReadOnly = True
 
             .Columns("obs").HeaderText = "Observacion"
             .Columns("obs").Width = 80
-            .Columns("obs").DisplayIndex = 12
+            .Columns("obs").DisplayIndex = 13
             .Columns("obs").ReadOnly = True
             .Columns("cant1").Visible = False
             .Columns("ser_doc").Visible = False
