@@ -702,7 +702,24 @@ Public Class c_recetas
         End If
     End Sub
 
-  
+    Sub cambiarCantidades()
+        If datos.RowCount > 0 Then
+            Dim cad As String
+            Dim cod_art = datos.Item("cod_art", datos.CurrentRow.Index).Value
+            ' Dim cod_artnew As String = txtcodinsumo.Text
+            For Each row As DataGridViewRow In dataRecetas.Rows
+                'If row.Selected = True Then
+                Dim codrec As String = row.Cells("cod_rec").Value
+                Dim cantidad As Decimal = row.Cells("cant").Value
+                cad = "update receta set cant=" & cantidad & " where cod_rec='" & codrec & "' and  cod_art='" & cod_art & "'"
+                Dim com As New MySqlCommand(cad, dbConex)
+                    com.ExecuteNonQuery()
+                'End If
+            Next
+        End If
+    End Sub
+
+
     Private Sub datos_CellContentClick(sender As System.Object, e As System.Windows.Forms.DataGridViewCellEventArgs) Handles datos.CellContentClick
 
     End Sub
@@ -729,6 +746,16 @@ Public Class c_recetas
             If DatosMaestro.RowCount > 0 Then
                 EnviaraExcel(DatosMaestro)
             End If
+        End If
+    End Sub
+
+    Private Sub SimpleButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
+        Dim rpta As Integer
+        rpta = MessageBox.Show("Esta seguro de cambiar las Cantidades..." + Chr(13) + "Este proceso es Irreversible...", "Cefe", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2)
+        If rpta = 6 Then
+            cambiarCantidades()
+            dsRecetas.Clear()
+            buscarRecetas()
         End If
     End Sub
 End Class

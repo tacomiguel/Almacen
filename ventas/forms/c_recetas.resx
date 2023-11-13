@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="cmdImprimirLista.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="cmdImprimir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAr2AAAK9gHCr3ADAAAEHElE
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAryAAAK8gE9UvcRAAAEHElE
         QVQ4T3WTa0ybVRjH3yyZM+6DJvvg5cs2dQjeFs2cW1LIZHMIjItxM4gQzBSMymyxDcVBWzagFNe5sXEJ
         CAMGzSC0DFhBGVALDnovo8DaCoxxE2hpB5VSaOn+Hq6RRE/yz3PO877nd57zPOehAGzpUJrcJ6ZAZ0qp
         eQCO2ITUWuOa0jZsXJF+/n1ex2f/3rOp7YtIyYEc6ZDxsdNNltuH1+vFtbsj8BfoJyKu94VTryfuIO7/
@@ -142,10 +142,10 @@
         cSXzlXWxXj2uZB8g1jdQydoboua/5FdE2nwdBOofl62qB/KmQswAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="cmdImprimir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="cmdImprimirLista.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAryAAAK8gE9UvcRAAAEHElE
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAr2AAAK9gHCr3ADAAAEHElE
         QVQ4T3WTa0ybVRjH3yyZM+6DJvvg5cs2dQjeFs2cW1LIZHMIjItxM4gQzBSMymyxDcVBWzagFNe5sXEJ
         CAMGzSC0DFhBGVALDnovo8DaCoxxE2hpB5VSaOn+Hq6RRE/yz3PO877nd57zPOehAGzpUJrcJ6ZAZ0qp
         eQCO2ITUWuOa0jZsXJF+/n1ex2f/3rOp7YtIyYEc6ZDxsdNNltuH1+vFtbsj8BfoJyKu94VTryfuIO7/
