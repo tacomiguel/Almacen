@@ -6,7 +6,7 @@ Public Class Conexion
     Public Shared Function obtenerConexion() As MySqlConnection
         Try
 
-            Dim conex As String = "User Id=custom;password=P4nt3r4--;server=" & ConfigurationManager.AppSettings("Servidor").ToString & ";database=" & ConfigurationManager.AppSettings("BaseDatos").ToString &
+            Dim conex As String = "User Id=custom;password=;server=" & ConfigurationManager.AppSettings("Servidor").ToString & ";database=" & ConfigurationManager.AppSettings("BaseDatos").ToString &
                 ";Convert Zero Datetime=True;persist security info=True;use procedure bodies=False;Connection Timeout=300 ; pooling=true; Max Pool Size=300"
             'Convert Zero Datetime=True
             '; Allow Zero Datetime=True
@@ -74,7 +74,7 @@ End Class
 
 ''Dim Encontro As Boolean = False
 'Dim DireccionRelativa, DireccionCompleta As String
-'' obtiene el path relativo de la aplicación. 
+'' obtiene el path relativo de la aplicaciÃ³n. 
 'DireccionRelativa = System.IO.Directory.GetCurrentDirectory()
 'DireccionCompleta = DireccionRelativa + "\configuracion.ini"
 'Dim objReader As New IO.StreamReader(DireccionCompleta)
